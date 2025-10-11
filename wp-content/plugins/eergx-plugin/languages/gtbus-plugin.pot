@@ -1,0 +1,1956 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: eergx Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-06 11:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.3\n"
+"X-Domain: eergx-plugin"
+
+#: elementor/widgets/cta.php:130
+msgid " Cta Image"
+msgstr ""
+
+#: elementor/widgets/pricing-tab.php:131
+#: elementor/widgets/pricing-table.php:123
+msgid "$"
+msgstr ""
+
+#: elementor/widgets/counter.php:169
+msgid "%"
+msgstr ""
+
+#: elementor/widgets/header.php:150
+msgid "(+21)-839-93-9839"
+msgstr ""
+
+#: elementor/widgets/cta.php:164
+msgid "+125 6952 558"
+msgstr ""
+
+#: elementor/widgets/pricing-tab.php:139
+#: elementor/widgets/pricing-table.php:131
+msgid "/mo"
+msgstr ""
+
+#: elementor/widgets/info-box.php:176
+msgid "01"
+msgstr ""
+
+#: elementor/widgets/service.php:203 elementor/widgets/info-box.php:204
+#: elementor/widgets/pricing-table.php:171
+#: elementor/widgets/project-grid.php:132 elementor/widgets/list.php:175
+#: elementor/widgets/list.php:186 elementor/widgets/contact-info.php:180
+msgid "1s"
+msgstr ""
+
+#: elementor/widgets/image-box.php:156
+msgid "20"
+msgstr ""
+
+#: elementor/widgets/pricing-tab.php:123
+#: elementor/widgets/pricing-table.php:115
+msgid "9"
+msgstr ""
+
+#: elementor/widgets/counter.php:161
+msgid "90"
+msgstr ""
+
+#: elementor/widgets/faq.php:272
+msgid "Accordion BG Color"
+msgstr ""
+
+#: elementor/widgets/faq.php:282
+msgid "Accordion Border Color"
+msgstr ""
+
+#: elementor/widgets/faq.php:264
+msgid "Accordion Box Style"
+msgstr ""
+
+#: elementor/widgets/faq.php:239
+msgid "Accordion Desc Style"
+msgstr ""
+
+#: elementor/widgets/faq.php:292
+msgid "Accordion Play BG Color"
+msgstr ""
+
+#: elementor/widgets/faq.php:247
+msgid "Accordion Text Color"
+msgstr ""
+
+#: elementor/widgets/faq.php:220
+msgid "Accordion Title Color"
+msgstr ""
+
+#: elementor/widgets/faq.php:212
+msgid "Accordion Title Style"
+msgstr ""
+
+#: elementor/widgets/service.php:111
+msgid "Active"
+msgstr ""
+
+#: elementor/widgets/sponshor-slider.php:104
+msgid "Active Item"
+msgstr ""
+
+#: elementor/widgets/sponshor-slider.php:175
+msgid "Active Line BG Color"
+msgstr ""
+
+#: elementor/widgets/service-tab.php:222 elementor/widgets/faq.php:141
+msgid "Add Accordion Item"
+msgstr ""
+
+#: elementor/widgets/feature-area.php:167
+msgid "Add Feature Item"
+msgstr ""
+
+#: elementor/widgets/gallery.php:111
+msgid "Add Gallery Item"
+msgstr ""
+
+#: elementor/widgets/header.php:449
+msgid "Add Images"
+msgstr ""
+
+#: elementor/widgets/project-info.php:110 elementor/widgets/header.php:140
+#: elementor/widgets/contact-info.php:189
+msgid "Add Info Item"
+msgstr ""
+
+#: elementor/widgets/info-box.php:237
+msgid "Add Item"
+msgstr ""
+
+#: elementor/widgets/team-info.php:102 elementor/widgets/video-list.php:155
+#: elementor/widgets/pricing-table.php:180 elementor/widgets/list.php:207
+msgid "Add List Item"
+msgstr ""
+
+#: inc/post-type/portfolio.php:75
+msgid "Add New Category"
+msgstr ""
+
+#: inc/post-type/portfolio.php:16 inc/post-type/portfolio.php:17
+msgid "Add New Portfolios"
+msgstr ""
+
+#: inc/post-type/portfolio.php:38
+msgid "Add Portfolios Here"
+msgstr ""
+
+#: elementor/widgets/project-carousel.php:173
+msgid "Add Project"
+msgstr ""
+
+#: elementor/widgets/service-carousel.php:194
+msgid "Add Services"
+msgstr ""
+
+#: elementor/widgets/team.php:179
+msgid "Add Social Icon"
+msgstr ""
+
+#: elementor/widgets/header.php:246 elementor/widgets/header.php:406
+msgid "Add Social Item"
+msgstr ""
+
+#: elementor/widgets/sponsor.php:129 elementor/widgets/sponshor-slider.php:137
+msgid "Add Sponsor Item"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:189
+msgid "Add Team"
+msgstr ""
+
+#: elementor/widgets/testimonial.php:168
+msgid "Add Testimonial"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"After install the eergx WordPress Theme, you must need to install this "
+"\"eergx-plugin\" first to get all functions of eergx WP Theme."
+msgstr ""
+
+#: elementor/widgets/button.php:134 elementor/widgets/heading.php:175
+msgid "Alignment"
+msgstr ""
+
+#: inc/post-type/portfolio.php:73
+msgid "All Category"
+msgstr ""
+
+#: inc/post-type/portfolio.php:15
+msgid "All Portfolios"
+msgstr ""
+
+#: elementor/widgets/image.php:40
+msgid "Animated Image"
+msgstr ""
+
+#: elementor/widgets/team.php:155 elementor/widgets/feature.php:167
+msgid "Animation Class"
+msgstr ""
+
+#: elementor/widgets/service.php:202 elementor/widgets/info-box.php:203
+#: elementor/widgets/pricing-table.php:170
+#: elementor/widgets/project-grid.php:131 elementor/widgets/list.php:185
+#: elementor/widgets/contact-info.php:179
+msgid "Animation Delay"
+msgstr ""
+
+#: elementor/widgets/list.php:174
+msgid "Animation Duration"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:336
+#: elementor/widgets/project-carousel.php:303
+#: elementor/widgets/service-carousel.php:400
+msgid "Arrow Hover BG Color"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:326
+#: elementor/widgets/testimonial.php:286
+#: elementor/widgets/project-carousel.php:290
+#: elementor/widgets/service-carousel.php:390
+msgid "Arrow Hover Color"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:318
+#: elementor/widgets/testimonial.php:278
+#: elementor/widgets/project-carousel.php:282
+#: elementor/widgets/service-carousel.php:382
+msgid "Arrow Style"
+msgstr ""
+
+#: elementor/widgets/blog.php:121
+msgid "Ascending"
+msgstr ""
+
+#: elementor/widgets/authore.php:40
+msgid "Authore"
+msgstr ""
+
+#: elementor/widgets/cta.php:213 elementor/widgets/authore.php:84
+msgid "Authore Image"
+msgstr ""
+
+#: elementor/widgets/feature-area.php:202
+msgid "Background BG Color "
+msgstr ""
+
+#: elementor/widgets/cta.php:358 elementor/widgets/counter.php:319
+msgid "Bar BG Style Color"
+msgstr ""
+
+#: elementor/widgets/cta.php:349 elementor/widgets/counter.php:310
+msgid "Bar Style"
+msgstr ""
+
+#: elementor/widgets/cta.php:117 elementor/widgets/faq.php:93
+#: elementor/widgets/solution-area.php:423
+#: elementor/widgets/view/hero/hero-2.php:15
+#: elementor/widgets/view/hero/hero-3.php:6
+#: elementor/widgets/view/hero/hero-3.php:9
+#: elementor/widgets/view/hero/hero-3.php:12
+#: elementor/widgets/view/hero/hero-3.php:15
+#: elementor/widgets/view/hero/hero-3.php:51
+msgid "BG Image"
+msgstr ""
+
+#: elementor/widgets/contact-section.php:86 elementor/widgets/blog.php:87
+msgid "Blog Layout Option"
+msgstr ""
+
+#: elementor/widgets/blog.php:177
+msgid "Blog Style"
+msgstr ""
+
+#: elementor/elementor-init.php:218
+msgid "Body Custom BG Image "
+msgstr ""
+
+#: elementor/widgets/sponsor.php:118
+msgid "Border Color"
+msgstr ""
+
+#: elementor/widgets/button.php:191 elementor/widgets/cta.php:418
+#: elementor/widgets/header.php:624 elementor/widgets/pricing-table.php:398
+#: elementor/widgets/solution-area.php:374
+msgid "Border Radius"
+msgstr ""
+
+#: elementor/widgets/bounch-title.php:40
+msgid "Bounch Heading"
+msgstr ""
+
+#: elementor/widgets/service-carousel.php:241
+msgid "Box Active BG Color"
+msgstr ""
+
+#: elementor/widgets/video-list.php:195 elementor/widgets/solution-area.php:207
+#: elementor/widgets/list.php:247
+msgid "Box BG Color"
+msgstr ""
+
+#: elementor/widgets/contact-info.php:220
+msgid "Box Border Color"
+msgstr ""
+
+#: elementor/widgets/video-list.php:183 elementor/widgets/list.php:235
+msgid "Box Padding"
+msgstr ""
+
+#: elementor/widgets/service.php:231 elementor/widgets/project-grid.php:160
+#: elementor/widgets/service-carousel.php:222
+msgid "Box Round"
+msgstr ""
+
+#: elementor/widgets/solution-area.php:217
+msgid "Box Shape BG Color"
+msgstr ""
+
+#: elementor/widgets/service.php:252 elementor/widgets/project-grid.php:181
+msgid "Box Shape BG Color "
+msgstr ""
+
+#: elementor/widgets/service.php:222 elementor/widgets/video-list.php:174
+#: elementor/widgets/feature-area.php:187
+#: elementor/widgets/solution-area.php:198
+#: elementor/widgets/project-grid.php:151 elementor/widgets/list.php:226
+#: elementor/widgets/service-carousel.php:213
+#: elementor/widgets/contact-info.php:208
+msgid "Box Style"
+msgstr ""
+
+#: elementor/widgets/team-info.php:77 elementor/widgets/project-info.php:86
+#: elementor/widgets/faq.php:86
+msgid "Brand Option"
+msgstr ""
+
+#: elementor/widgets/blog.php:343
+msgid "Btn Color"
+msgstr ""
+
+#: elementor/widgets/blog.php:353
+msgid "Btn Hover Color"
+msgstr ""
+
+#: elementor/widgets/hero.php:296
+msgid "Business Consulting Theme"
+msgstr ""
+
+#: elementor/widgets/project-grid.php:336
+msgid "Button BG Color"
+msgstr ""
+
+#: elementor/widgets/button.php:224 elementor/widgets/cta.php:450
+#: elementor/widgets/hero.php:421 elementor/widgets/header.php:652
+#: elementor/widgets/pricing-table.php:426
+#: elementor/widgets/solution-area.php:402
+msgid "Button BG Color "
+msgstr ""
+
+#: elementor/widgets/hero.php:443
+msgid "Button Border Color"
+msgstr ""
+
+#: elementor/widgets/hero.php:431 elementor/widgets/project-grid.php:326
+msgid "Button Color"
+msgstr ""
+
+#: elementor/widgets/service.php:395
+msgid "Button Color "
+msgstr ""
+
+#: elementor/widgets/button.php:107 elementor/widgets/cta.php:223
+#: elementor/widgets/hero.php:261 elementor/widgets/pricing-tab.php:146
+#: elementor/widgets/pricing-table.php:188
+#: elementor/widgets/solution-area.php:162
+msgid "Button Label"
+msgstr ""
+
+#: elementor/widgets/hero.php:268 elementor/widgets/pricing-tab.php:153
+#: elementor/widgets/pricing-table.php:195
+msgid "Button Link"
+msgstr ""
+
+#: elementor/widgets/button.php:100
+msgid "Button Option"
+msgstr ""
+
+#: elementor/widgets/button.php:162 elementor/widgets/service.php:378
+#: elementor/widgets/cta.php:390 elementor/widgets/header.php:596
+#: elementor/widgets/pricing-table.php:370
+#: elementor/widgets/solution-area.php:346
+#: elementor/widgets/project-grid.php:317
+msgid "Button Style"
+msgstr ""
+
+#: elementor/widgets/button.php:88
+msgid "Button Style 1"
+msgstr ""
+
+#: elementor/widgets/button.php:89
+msgid "Button Style 2"
+msgstr ""
+
+#: elementor/widgets/button.php:90
+msgid "Button Style 3"
+msgstr ""
+
+#: elementor/widgets/hero.php:401
+msgid "Button Style Style"
+msgstr ""
+
+#: elementor/widgets/contact-section.php:158
+msgid "Call Icon"
+msgstr ""
+
+#: elementor/widgets/contact-section.php:168
+#: elementor/widgets/contact-section.php:169
+msgid "Call Title"
+msgstr ""
+
+#: elementor/widgets/project-grid.php:296
+msgid "Cate BG Color"
+msgstr ""
+
+#: elementor/widgets/project-grid.php:286
+msgid "Cate Color"
+msgstr ""
+
+#: inc/post-type/portfolio.php:69 inc/post-type/portfolio.php:70
+msgid "Categories"
+msgstr ""
+
+#: inc/post-type/portfolio.php:71 elementor/widgets/project-carousel.php:141
+#: elementor/widgets/project-grid.php:99 elementor/widgets/project-grid.php:100
+msgid "Category"
+msgstr ""
+
+#: elementor/widgets/project-carousel.php:257
+msgid "Category BG Color"
+msgstr ""
+
+#: elementor/widgets/project-carousel.php:244
+msgid "Category Color"
+msgstr ""
+
+#: elementor/widgets/project-carousel.php:236
+#: elementor/widgets/feature-area.php:273
+#: elementor/widgets/project-grid.php:278
+msgid "Category Style"
+msgstr ""
+
+#: elementor/widgets/button.php:142 elementor/widgets/heading.php:183
+msgid "Center"
+msgstr ""
+
+#: elementor/elementor-init.php:219 elementor/widgets/button.php:225
+#: elementor/widgets/heading.php:258 elementor/widgets/service.php:253
+#: elementor/widgets/service.php:396 elementor/widgets/cta.php:379
+#: elementor/widgets/cta.php:451 elementor/widgets/info-box.php:227
+#: elementor/widgets/hero.php:422 elementor/widgets/hero.php:481
+#: elementor/widgets/header.php:653 elementor/widgets/pricing-table.php:427
+#: elementor/widgets/skill.php:166 elementor/widgets/feature-area.php:203
+#: elementor/widgets/solution-area.php:403
+#: elementor/widgets/bounch-title.php:158
+#: elementor/widgets/project-grid.php:182
+msgid "Choose background type and style."
+msgstr ""
+
+#: elementor/widgets/image.php:107
+msgid "Choose Image"
+msgstr ""
+
+#: elementor/widgets/header.php:341
+msgid "Choose menu"
+msgstr ""
+
+#: elementor/widgets/project-carousel.php:142
+msgid "completed projects"
+msgstr ""
+
+#: elementor/widgets/contact-section.php:198
+msgid "Contact Form Shortcode"
+msgstr ""
+
+#: elementor/widgets/contact-section.php:116
+msgid "Contact Image"
+msgstr ""
+
+#: elementor/widgets/contact-info.php:40
+msgid "Contact Info"
+msgstr ""
+
+#: elementor/widgets/header.php:497
+msgid "Contact Info Style"
+msgstr ""
+
+#: elementor/widgets/contact-section.php:49
+msgid "Contact Section"
+msgstr ""
+
+#: elementor/widgets/contact-section.php:127
+msgid "Contact Shape"
+msgstr ""
+
+#: elementor/widgets/contact-section.php:151
+msgid "Contact Title"
+msgstr ""
+
+#: elementor/widgets/header.php:165
+msgid "Contact Us"
+msgstr ""
+
+#: elementor/widgets/team.php:207
+msgid "Content Box BG Color"
+msgstr ""
+
+#: elementor/widgets/team.php:198
+msgid "Content Box Style"
+msgstr ""
+
+#: elementor/widgets/heading.php:100 elementor/widgets/bounch-title.php:77
+msgid "Content Option"
+msgstr ""
+
+#: elementor/widgets/service-tab.php:199 elementor/widgets/info-box.php:175
+#: elementor/widgets/skill.php:103
+msgid "Count"
+msgstr ""
+
+#: elementor/widgets/info-box.php:379
+msgid "Count Border Color"
+msgstr ""
+
+#: elementor/widgets/info-box.php:363
+msgid "Count Color"
+msgstr ""
+
+#: elementor/widgets/info-box.php:352
+msgid "Count Style"
+msgstr ""
+
+#: elementor/widgets/counter.php:44 elementor/widgets/counter.php:160
+msgid "Counter"
+msgstr ""
+
+#: elementor/widgets/cta.php:329 elementor/widgets/counter.php:288
+msgid "Counter Color"
+msgstr ""
+
+#: elementor/widgets/counter.php:196
+msgid "Counter Icon Style"
+msgstr ""
+
+#: elementor/widgets/cta.php:320 elementor/widgets/counter.php:279
+msgid "Counter Style"
+msgstr ""
+
+#: elementor/widgets/cta.php:186 elementor/widgets/authore.php:93
+#: elementor/widgets/counter.php:177
+msgid "Counter Title"
+msgstr ""
+
+#: elementor/widgets/project-carousel.php:150
+msgid "creative company"
+msgstr ""
+
+#: elementor/widgets/view/cta/cta-1.php:2
+msgid "ct_bg_image"
+msgstr ""
+
+#: elementor/widgets/cta.php:49
+msgid "CTA"
+msgstr ""
+
+#: elementor/widgets/cta.php:378
+msgid "CTA BG Color "
+msgstr ""
+
+#: elementor/widgets/pricing-tab.php:130
+#: elementor/widgets/pricing-table.php:122
+msgid "Currency"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:280
+msgid "Currency Color"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:271
+msgid "Currency Style"
+msgstr ""
+
+#: elementor/widgets/feature-area.php:143
+msgid "Dedicated Team"
+msgstr ""
+
+#: inc/class-template.php:24 inc/eergx-plugin-helper.php:24
+#: inc/eergx-plugin-helper.php:52
+msgid "Default"
+msgstr ""
+
+#: elementor/widgets/contact-section.php:190
+msgid "Desc"
+msgstr ""
+
+#: elementor/widgets/service-carousel.php:361
+msgid "Desc Active Color"
+msgstr ""
+
+#: elementor/widgets/heading.php:296 elementor/widgets/service.php:357
+#: elementor/widgets/contact-section.php:284
+#: elementor/widgets/pricing-table.php:309 elementor/widgets/faq.php:195
+#: elementor/widgets/feature-area.php:281
+#: elementor/widgets/bounch-title.php:196
+#: elementor/widgets/service-carousel.php:351
+#: elementor/widgets/sponshor-slider.php:204
+msgid "Desc Color"
+msgstr ""
+
+#: elementor/widgets/heading.php:288 elementor/widgets/contact-section.php:275
+#: elementor/widgets/hero.php:374 elementor/widgets/pricing-table.php:300
+#: elementor/widgets/faq.php:187 elementor/widgets/bounch-title.php:188
+#: elementor/widgets/sponshor-slider.php:195
+msgid "Desc Style"
+msgstr ""
+
+#: elementor/widgets/blog.php:122
+msgid "Descending"
+msgstr ""
+
+#: elementor/widgets/info-box.php:330 elementor/widgets/feature.php:269
+msgid "Descriotion Color"
+msgstr ""
+
+#: elementor/widgets/heading.php:167 elementor/widgets/service.php:172
+#: elementor/widgets/service-tab.php:183 elementor/widgets/service-tab.php:213
+#: elementor/widgets/info-box.php:194 elementor/widgets/hero.php:254
+#: elementor/widgets/pricing-table.php:145 elementor/widgets/faq.php:116
+#: elementor/widgets/faq.php:132 elementor/widgets/feature-area.php:150
+#: elementor/widgets/feature.php:158 elementor/widgets/solution-area.php:148
+#: elementor/widgets/service-carousel.php:171
+msgid "Description"
+msgstr ""
+
+#: elementor/widgets/hero.php:382
+msgid "Description Color"
+msgstr ""
+
+#: elementor/widgets/service.php:349 elementor/widgets/service-carousel.php:343
+msgid "Description Style"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:137
+#: elementor/widgets/testimonial.php:148 elementor/widgets/team.php:132
+msgid "Designation"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:257
+#: elementor/widgets/testimonial.php:255 elementor/widgets/team.php:276
+msgid "Designation Color"
+msgstr ""
+
+#: elementor/widgets/team.php:286
+msgid "Designation Hover Color"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:249
+#: elementor/widgets/testimonial.php:247 elementor/widgets/team.php:268
+msgid "Designation Style"
+msgstr ""
+
+#: inc/options/theme-metabox.php:176
+msgid "DIsable This page Footer?"
+msgstr ""
+
+#: inc/options/theme-metabox.php:53
+msgid "DIsable This page Header?"
+msgstr ""
+
+#: elementor/widgets/header.php:584
+msgid "Dropdown Border Color"
+msgstr ""
+
+#: inc/post-type/portfolio.php:76
+msgid "Edit New Category"
+msgstr ""
+
+#: inc/post-type/portfolio.php:19
+msgid "Edit Portfolios"
+msgstr ""
+
+#: elementor/widgets/header.php:105
+msgid "Enable Header Top"
+msgstr ""
+
+#: inc/options/theme-metabox.php:94
+msgid "Enable Page Custom Title"
+msgstr ""
+
+#: elementor/widgets/header.php:145
+msgid "example@gmail.com"
+msgstr ""
+
+#: elementor/widgets/header.php:414
+msgid "Facebook"
+msgstr ""
+
+#: elementor/widgets/faq.php:49
+msgid "Faq"
+msgstr ""
+
+#: elementor/widgets/header.php:144
+msgid "fas fa-envelope"
+msgstr ""
+
+#: elementor/widgets/header.php:149
+msgid "fas fa-phone-volume"
+msgstr ""
+
+#: elementor/widgets/feature.php:40
+msgid "Feature"
+msgstr ""
+
+#: elementor/widgets/feature-area.php:47
+msgid "Feature Area"
+msgstr ""
+
+#: inc/post-type/portfolio.php:26
+msgid "Featured Image"
+msgstr ""
+
+#: elementor/widgets/testimonial.php:141
+msgid "Feedback"
+msgstr ""
+
+#: elementor/widgets/testimonial.php:226
+msgid "Feedback Color"
+msgstr ""
+
+#: elementor/widgets/testimonial.php:217
+msgid "Feedback Style"
+msgstr ""
+
+#: inc/post-type/portfolio.php:34
+msgid "Filter items list"
+msgstr ""
+
+#: elementor/widgets/header.php:198
+msgid "Find What You Need"
+msgstr ""
+
+#: inc/options/theme-metabox.php:161
+msgid "Footer Style"
+msgstr ""
+
+#: elementor/widgets/gallery.php:40
+msgid "Gallery"
+msgstr ""
+
+#: elementor/elementor-init.php:50
+msgid "eergx Addons"
+msgstr ""
+
+#: elementor/widgets/blog.php:50
+msgid "eergx Blog Post"
+msgstr ""
+
+#: elementor/widgets/button.php:40
+msgid "eergx Button"
+msgstr ""
+
+#: elementor/widgets/button.php:108 elementor/widgets/cta.php:224
+#: elementor/widgets/solution-area.php:163
+msgid "eergx Button"
+msgstr ""
+
+#: elementor/elementor-init.php:167
+msgid "eergx Custom Body Style"
+msgstr ""
+
+#: elementor/widgets/header.php:40
+msgid "eergx Header"
+msgstr ""
+
+#. Name of the plugin
+msgid "eergx Plugin"
+msgstr ""
+
+#: elementor/widgets/skill.php:40
+msgid "eergx Progress Bar"
+msgstr ""
+
+#: elementor/widgets/heading.php:137 elementor/widgets/service-tab.php:153
+#: elementor/widgets/hero.php:224 elementor/widgets/solution-area.php:118
+msgid "H1"
+msgstr ""
+
+#: elementor/widgets/heading.php:141 elementor/widgets/service-tab.php:157
+#: elementor/widgets/hero.php:228 elementor/widgets/solution-area.php:122
+msgid "H2"
+msgstr ""
+
+#: elementor/widgets/heading.php:145 elementor/widgets/service-tab.php:161
+#: elementor/widgets/hero.php:232 elementor/widgets/solution-area.php:126
+msgid "H3"
+msgstr ""
+
+#: elementor/widgets/heading.php:149 elementor/widgets/service-tab.php:165
+#: elementor/widgets/hero.php:236 elementor/widgets/solution-area.php:130
+msgid "H4"
+msgstr ""
+
+#: elementor/widgets/heading.php:153 elementor/widgets/service-tab.php:169
+#: elementor/widgets/hero.php:240 elementor/widgets/solution-area.php:134
+msgid "H5"
+msgstr ""
+
+#: elementor/widgets/heading.php:157 elementor/widgets/service-tab.php:173
+#: elementor/widgets/hero.php:244 elementor/widgets/solution-area.php:138
+msgid "H6"
+msgstr ""
+
+#: elementor/widgets/cta.php:153
+msgid "have question:"
+msgstr ""
+
+#: elementor/widgets/header.php:88
+msgid "Header 1"
+msgstr ""
+
+#: elementor/widgets/header.php:89
+msgid "Header 2"
+msgstr ""
+
+#: elementor/widgets/header.php:90
+msgid "Header 3"
+msgstr ""
+
+#: elementor/widgets/header.php:164
+msgid "Header Button Label"
+msgstr ""
+
+#: elementor/widgets/header.php:175
+msgid "Header Button Link"
+msgstr ""
+
+#: elementor/widgets/header.php:77
+msgid "Header Layout"
+msgstr ""
+
+#: inc/options/theme-metabox.php:38
+msgid "Header Style"
+msgstr ""
+
+#: elementor/widgets/header.php:98
+msgid "Header Top Option"
+msgstr ""
+
+#: elementor/widgets/hero.php:49
+msgid "Hero"
+msgstr ""
+
+#: elementor/widgets/hero.php:122
+msgid "Hero BG Image"
+msgstr ""
+
+#: elementor/widgets/hero.php:148
+msgid "Hero Hape Image"
+msgstr ""
+
+#: elementor/widgets/hero.php:161
+msgid "Hero Hape Image 2"
+msgstr ""
+
+#: elementor/widgets/hero.php:171
+msgid "Hero Hape Image 3"
+msgstr ""
+
+#: elementor/widgets/hero.php:181
+msgid "Hero Hape Image 4"
+msgstr ""
+
+#: elementor/widgets/hero.php:135 elementor/widgets/view/hero/hero-1.php:52
+msgid "Hero Image"
+msgstr ""
+
+#: elementor/widgets/hero.php:463
+msgid "Hero Shape Style"
+msgstr ""
+
+#: elementor/widgets/hero.php:111 elementor/widgets/header.php:108
+#: elementor/widgets/header.php:190
+msgid "Hide"
+msgstr ""
+
+#: inc/options/theme-metabox.php:79
+msgid "Hide Breadcrumb Page Image"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://themexriver.com/"
+msgstr ""
+
+#: elementor/widgets/header.php:254 elementor/widgets/header.php:415
+msgid "https://facebook.com"
+msgstr ""
+
+#: elementor/widgets/header.php:261 elementor/widgets/header.php:423
+msgid "https://instagram.com"
+msgstr ""
+
+#: elementor/widgets/header.php:439
+msgid "https://linkedin.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://themeforest.net/user/themexriver"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:163 elementor/widgets/button.php:118
+#: elementor/widgets/cta.php:234 elementor/widgets/solution-area.php:173
+msgid "https://your-link.com"
+msgstr ""
+
+#: elementor/widgets/header.php:268 elementor/widgets/header.php:431
+msgid "https://youtube.com"
+msgstr ""
+
+#: elementor/widgets/service-tab.php:192 elementor/widgets/header.php:117
+#: elementor/widgets/header.php:229 elementor/widgets/header.php:389
+#: elementor/widgets/team.php:163
+msgid "Icon"
+msgstr ""
+
+#: elementor/widgets/service-carousel.php:292
+msgid "Icon Active Color"
+msgstr ""
+
+#: elementor/widgets/info-box.php:265 elementor/widgets/video-list.php:225
+#: elementor/widgets/feature.php:195 elementor/widgets/solution-area.php:303
+#: elementor/widgets/list.php:277 elementor/widgets/contact-info.php:254
+#: elementor/widgets/counter.php:207
+msgid "Icon BG Color"
+msgstr ""
+
+#: elementor/widgets/service.php:272 elementor/widgets/info-box.php:275
+#: elementor/widgets/video-list.php:215 elementor/widgets/feature-area.php:221
+#: elementor/widgets/feature.php:205 elementor/widgets/solution-area.php:293
+#: elementor/widgets/project-grid.php:201 elementor/widgets/list.php:267
+#: elementor/widgets/service-carousel.php:275
+#: elementor/widgets/contact-info.php:243 elementor/widgets/counter.php:220
+msgid "Icon Color"
+msgstr ""
+
+#: elementor/widgets/feature-area.php:231
+msgid "Icon Hover Color"
+msgstr ""
+
+#: elementor/widgets/service.php:295 elementor/widgets/project-grid.php:224
+msgid "Icon Large Size"
+msgstr ""
+
+#: elementor/widgets/service.php:283 elementor/widgets/info-box.php:287
+#: elementor/widgets/feature.php:217 elementor/widgets/project-grid.php:212
+#: elementor/widgets/counter.php:233
+msgid "Icon Size"
+msgstr ""
+
+#: elementor/widgets/service.php:263 elementor/widgets/info-box.php:256
+#: elementor/widgets/video-list.php:206 elementor/widgets/feature-area.php:212
+#: elementor/widgets/feature.php:186 elementor/widgets/solution-area.php:284
+#: elementor/widgets/project-grid.php:192 elementor/widgets/list.php:258
+#: elementor/widgets/service-carousel.php:260
+#: elementor/widgets/contact-info.php:234
+msgid "Icon Style"
+msgstr ""
+
+#: elementor/widgets/image-box.php:109 elementor/widgets/solution-area.php:83
+#: elementor/widgets/view/testimonial/testimonial-1.php:7
+msgid "Image"
+msgstr ""
+
+#: elementor/widgets/view/contact/contact-1.php:4
+#: elementor/widgets/view/contact/contact-1.php:9
+#: elementor/widgets/view/image-box/image-2.php:7
+#: elementor/widgets/view/image-box/image-2.php:10
+#: elementor/widgets/view/image-box/image-1.php:2
+#: elementor/widgets/view/image-box/image-1.php:4
+#: elementor/widgets/view/image-box/image-1.php:9
+#: elementor/widgets/view/image-box/image-4.php:3
+#: elementor/widgets/view/image-box/image-3.php:4
+#: elementor/widgets/view/image-box/image-3.php:9
+#: elementor/widgets/view/image-box/image-3.php:14
+#: elementor/widgets/view/image/image-1.php:1
+msgid "image"
+msgstr ""
+
+#: elementor/widgets/image-box.php:119
+msgid "Image 2"
+msgstr ""
+
+#: elementor/widgets/image-box.php:132
+msgid "Image 3"
+msgstr ""
+
+#: elementor/widgets/image-box.php:40
+msgid "Image Box"
+msgstr ""
+
+#: elementor/widgets/team.php:218
+msgid "Image Box BOrder Color"
+msgstr ""
+
+#: elementor/widgets/team-info.php:93 elementor/widgets/header.php:124
+msgid "Info"
+msgstr ""
+
+#: elementor/widgets/info-box.php:49
+msgid "Info Box"
+msgstr ""
+
+#: elementor/widgets/header.php:506
+msgid "Info Color"
+msgstr ""
+
+#: elementor/widgets/header.php:516
+msgid "Info Hover Color"
+msgstr ""
+
+#: inc/post-type/portfolio.php:30
+msgid "Insert into item"
+msgstr ""
+
+#: elementor/widgets/header.php:422
+msgid "Instagram"
+msgstr ""
+
+#: inc/post-type/portfolio.php:12
+msgid "Item Archives"
+msgstr ""
+
+#: inc/post-type/portfolio.php:13
+msgid "Item Attributes"
+msgstr ""
+
+#: inc/post-type/portfolio.php:32
+msgid "Items list"
+msgstr ""
+
+#: inc/post-type/portfolio.php:33
+msgid "Items list navigation"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:109
+#: elementor/widgets/testimonial.php:113
+#: elementor/widgets/project-carousel.php:122
+#: elementor/widgets/info-box.php:119 elementor/widgets/list.php:110
+#: elementor/widgets/service-carousel.php:109
+#: elementor/widgets/contact-info.php:109
+msgid "layout"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:78 elementor/widgets/button.php:77
+#: elementor/widgets/testimonial.php:82 elementor/widgets/heading.php:77
+#: elementor/widgets/service.php:82 elementor/widgets/project-carousel.php:81
+#: elementor/widgets/cta.php:87 elementor/widgets/info-box.php:87
+#: elementor/widgets/pricing-table.php:78 elementor/widgets/team.php:87
+#: elementor/widgets/image-box.php:78 elementor/widgets/feature.php:78
+#: elementor/widgets/image.php:78 elementor/widgets/list.php:78
+#: elementor/widgets/service-carousel.php:78
+#: elementor/widgets/contact-info.php:78 elementor/widgets/counter.php:82
+msgid "Layout Option"
+msgstr ""
+
+#: elementor/widgets/button.php:138 elementor/widgets/heading.php:179
+msgid "Left"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:174 elementor/widgets/button.php:116
+#: elementor/widgets/service.php:188 elementor/widgets/project-carousel.php:158
+#: elementor/widgets/cta.php:232 elementor/widgets/header.php:131
+#: elementor/widgets/header.php:237 elementor/widgets/header.php:397
+#: elementor/widgets/team.php:141 elementor/widgets/feature-area.php:159
+#: elementor/widgets/solution-area.php:171
+#: elementor/widgets/project-grid.php:117 elementor/widgets/list.php:196
+#: elementor/widgets/service-carousel.php:179
+#: elementor/widgets/contact-info.php:172
+msgid "Link"
+msgstr ""
+
+#: elementor/widgets/bounch-title.php:92
+msgid "link"
+msgstr ""
+
+#: elementor/widgets/service.php:180
+msgid "Link Text"
+msgstr ""
+
+#: elementor/widgets/header.php:438
+msgid "Linkedin"
+msgstr ""
+
+#: elementor/widgets/video-list.php:280 elementor/widgets/feature-area.php:309
+#: elementor/widgets/feature-area.php:320
+#: elementor/widgets/view/counter/counter-2.php:4
+#: elementor/widgets/view/list/list-1.php:5
+#: elementor/widgets/view/list/list-3.php:6
+#: elementor/widgets/view/list/list-2.php:5
+#: elementor/widgets/view/info-box/box-1.php:6
+#: elementor/widgets/view/info-box/box-2.php:6
+#: elementor/widgets/view/feature/feature-1.php:6
+#: elementor/widgets/view/contact-info/info-1.php:6
+#: elementor/widgets/view/contact-info/info-2.php:5
+msgid "List"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:348
+msgid "List Arrwo BG Color"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:338
+msgid "List Color"
+msgstr ""
+
+#: elementor/widgets/solution-area.php:155
+msgid "List Description"
+msgstr ""
+
+#: elementor/widgets/team-info.php:140
+msgid "List Hover Color"
+msgstr ""
+
+#: elementor/widgets/list.php:40
+msgid "List Info"
+msgstr ""
+
+#: elementor/widgets/pricing-tab.php:161
+msgid "List Item"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:329
+msgid "List Style"
+msgstr ""
+
+#: elementor/widgets/info-box.php:187 elementor/widgets/info-box.php:195
+#: elementor/widgets/video-list.php:146 elementor/widgets/pricing-table.php:163
+#: elementor/widgets/feature.php:151 elementor/widgets/feature.php:159
+#: elementor/widgets/list.php:167 elementor/widgets/contact-info.php:165
+msgid "List Title Type here"
+msgstr ""
+
+#: elementor/widgets/header.php:288
+msgid "Logo"
+msgstr ""
+
+#: elementor/widgets/header.php:281
+msgid "Logo Option"
+msgstr ""
+
+#: elementor/widgets/feature-area.php:151
+msgid ""
+"Lorem Ipsum texted the printing and typesetting industry. Lorem hasn’t been "
+"the industrys standard."
+msgstr ""
+
+#: elementor/widgets/faq.php:109
+msgid "making your business"
+msgstr ""
+
+#: elementor/widgets/header.php:312 elementor/widgets/header.php:370
+msgid "Max Width"
+msgstr ""
+
+#: elementor/widgets/header.php:460
+msgid "Menu  Style"
+msgstr ""
+
+#: elementor/widgets/header.php:545
+msgid "Menu Color"
+msgstr ""
+
+#: elementor/widgets/header.php:575
+msgid "Menu Dropdown Style"
+msgstr ""
+
+#: elementor/widgets/header.php:555
+msgid "Menu Hover Color"
+msgstr ""
+
+#: elementor/widgets/header.php:334
+msgid "Menu Option"
+msgstr ""
+
+#: elementor/widgets/header.php:536
+msgid "Menu Style"
+msgstr ""
+
+#: elementor/widgets/header.php:359
+msgid "Mobile Logo"
+msgstr ""
+
+#: elementor/widgets/header.php:352
+msgid "Mobile Option"
+msgstr ""
+
+#: elementor/widgets/hero.php:295
+msgid "Moving Text"
+msgstr ""
+
+#: inc/post-type/portfolio.php:74
+msgid "New Category"
+msgstr ""
+
+#: inc/post-type/portfolio.php:18
+msgid "New Portfolios"
+msgstr ""
+
+#: elementor/widgets/service.php:114 elementor/widgets/sponshor-slider.php:107
+msgid "NO"
+msgstr ""
+
+#: inc/options/theme-metabox.php:40 inc/options/theme-metabox.php:55
+#: inc/options/theme-metabox.php:73 inc/options/theme-metabox.php:81
+#: inc/options/theme-metabox.php:96 inc/options/theme-metabox.php:163
+#: inc/options/theme-metabox.php:178 inc/options/theme-option.php:160
+#: inc/options/theme-option.php:180
+msgid "No"
+msgstr ""
+
+#: inc/post-type/portfolio.php:24
+msgid "Not found"
+msgstr ""
+
+#: inc/post-type/portfolio.php:25
+msgid "Not found in Trash"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:113
+#: elementor/widgets/testimonial.php:117
+#: elementor/widgets/project-carousel.php:126
+#: elementor/widgets/info-box.php:123 elementor/widgets/list.php:114
+#: elementor/widgets/service-carousel.php:113
+#: elementor/widgets/contact-info.php:113
+msgid "One"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:100
+#: elementor/widgets/testimonial.php:104 elementor/widgets/gallery.php:79
+#: elementor/widgets/service.php:104 elementor/widgets/contact-section.php:109
+#: elementor/widgets/project-carousel.php:104 elementor/widgets/cta.php:110
+#: elementor/widgets/sponsor.php:88 elementor/widgets/info-box.php:110
+#: elementor/widgets/video-list.php:78 elementor/widgets/hero.php:88
+#: elementor/widgets/pricing-table.php:100 elementor/widgets/team.php:108
+#: elementor/widgets/authore.php:77 elementor/widgets/image-box.php:102
+#: elementor/widgets/feature-area.php:85 elementor/widgets/feature.php:100
+#: elementor/widgets/image.php:100 elementor/widgets/project-grid.php:82
+#: elementor/widgets/list.php:101 elementor/widgets/service-carousel.php:100
+#: elementor/widgets/sponshor-slider.php:88
+#: elementor/widgets/contact-info.php:100 elementor/widgets/counter.php:104
+msgid "Option"
+msgstr ""
+
+#: elementor/widgets/button.php:179 elementor/widgets/cta.php:407
+#: elementor/widgets/sponsor.php:137 elementor/widgets/header.php:613
+#: elementor/widgets/pricing-table.php:387
+#: elementor/widgets/solution-area.php:363
+msgid "Padding"
+msgstr ""
+
+#: inc/options/theme-metabox.php:71 inc/options/theme-option.php:158
+msgid "Page Breadcrumb"
+msgstr ""
+
+#: inc/post-type/portfolio.php:14
+msgid "Parent Item:"
+msgstr ""
+
+#: elementor/widgets/pricing-tab.php:138
+#: elementor/widgets/pricing-table.php:130
+msgid "Period"
+msgstr ""
+
+#: elementor/widgets/contact-section.php:179
+msgid "Phone"
+msgstr ""
+
+#: elementor/widgets/contact-section.php:313
+msgid "Phone Box BG Color"
+msgstr ""
+
+#: elementor/widgets/contact-section.php:304
+msgid "Phone Box Style"
+msgstr ""
+
+#: elementor/widgets/cta.php:142
+msgid "Phone Icon"
+msgstr ""
+
+#: elementor/widgets/cta.php:163
+msgid "Phone No"
+msgstr ""
+
+#: elementor/widgets/contact-section.php:343
+msgid "Phone No Color"
+msgstr ""
+
+#: elementor/widgets/cta.php:152
+msgid "Phone Title"
+msgstr ""
+
+#: elementor/widgets/contact-section.php:323
+msgid "Phone Title Color"
+msgstr ""
+
+#: inc/post-type/portfolio.php:10 inc/post-type/portfolio.php:11
+#: inc/post-type/portfolio.php:37
+msgid "Portfolios"
+msgstr ""
+
+#: elementor/widgets/blog.php:288
+msgid "Post Category BG Color"
+msgstr ""
+
+#: elementor/widgets/blog.php:278
+msgid "Post Category Color"
+msgstr ""
+
+#: elementor/widgets/blog.php:249
+msgid "Post Date BG Color"
+msgstr ""
+
+#: elementor/widgets/blog.php:237
+msgid "Post Date Color"
+msgstr ""
+
+#: elementor/widgets/blog.php:313
+msgid "Post Description Color"
+msgstr ""
+
+#: elementor/widgets/blog.php:193
+msgid "Post List Title Color"
+msgstr ""
+
+#: elementor/widgets/blog.php:205
+msgid "Post List Title Hover Color"
+msgstr ""
+
+#: elementor/widgets/blog.php:110
+msgid "Post Option"
+msgstr ""
+
+#: elementor/widgets/blog.php:117
+msgid "Post Order"
+msgstr ""
+
+#: inc/post-type/portfolio.php:8
+msgctxt "Post Type General Name"
+msgid "Portfolios"
+msgstr ""
+
+#: inc/post-type/portfolio.php:9
+msgctxt "Post Type Singular Name"
+msgid "Portfolios"
+msgstr ""
+
+#: elementor/widgets/blog.php:130
+msgid "Posts Per Page"
+msgstr ""
+
+#: elementor/widgets/counter.php:168
+msgid "Prefix"
+msgstr ""
+
+#: elementor/widgets/pricing-tab.php:122
+#: elementor/widgets/pricing-table.php:114
+msgid "Price"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:251
+msgid "Price Color"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:242
+msgid "Price Style"
+msgstr ""
+
+#: elementor/widgets/pricing-tab.php:355
+#: elementor/widgets/pricing-table.php:138
+#: elementor/widgets/view/pricing-table/pricing-1.php:9
+msgid "Pricing Image"
+msgstr ""
+
+#: elementor/widgets/pricing-tab.php:353
+msgid "Pricing Shape"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:40
+msgid "Pricing Table"
+msgstr ""
+
+#: elementor/widgets/project-grid.php:44
+msgid "Progect Grid"
+msgstr ""
+
+#: elementor/widgets/skill.php:165
+msgid "Progress Bar Color "
+msgstr ""
+
+#: elementor/widgets/skill.php:77
+msgid "Progress Option"
+msgstr ""
+
+#: elementor/widgets/skill.php:148
+msgid "Progress Style"
+msgstr ""
+
+#: elementor/widgets/project-tab.php:327
+#: elementor/widgets/view/project-carousel/project-1.php:17
+#: elementor/widgets/view/project-carousel/project-2.php:9
+msgid "Project"
+msgstr ""
+
+#: elementor/widgets/project-carousel.php:44
+msgid "Project Carousel"
+msgstr ""
+
+#: elementor/widgets/project-info.php:49 elementor/widgets/project-info.php:101
+msgid "Project Info"
+msgstr ""
+
+#: elementor/widgets/view/project-carousel/project-1.php:3
+msgid "Project Shape"
+msgstr ""
+
+#: elementor/widgets/project-grid.php:357
+msgid "project_img"
+msgstr ""
+
+#: elementor/widgets/testimonial.php:156
+msgid "Rating"
+msgstr ""
+
+#. Author of the plugin
+msgid "Raziul Islam"
+msgstr ""
+
+#: elementor/widgets/blog.php:167
+msgid "Read more"
+msgstr ""
+
+#: elementor/widgets/blog.php:166
+msgid "Readmore Button"
+msgstr ""
+
+#: inc/post-type/portfolio.php:28
+msgid "Remove featured image"
+msgstr ""
+
+#: elementor/widgets/hero.php:108
+msgid "Remove Hero Shape"
+msgstr ""
+
+#: elementor/widgets/button.php:146 elementor/widgets/heading.php:187
+msgid "Right"
+msgstr ""
+
+#: inc/post-type/portfolio.php:72
+msgid "Search Category"
+msgstr ""
+
+#: elementor/widgets/header.php:187
+msgid "Search Enable"
+msgstr ""
+
+#: elementor/widgets/header.php:693 elementor/widgets/header.php:729
+msgid "Search Keywords.."
+msgstr ""
+
+#: inc/post-type/portfolio.php:23
+msgid "Search Portfolios"
+msgstr ""
+
+#: elementor/widgets/header.php:197
+msgid "Search Title"
+msgstr ""
+
+#: elementor/widgets/heading.php:40
+msgid "Section Heading"
+msgstr ""
+
+#: elementor/widgets/blog.php:140
+msgid "Select Categories"
+msgstr ""
+
+#: inc/options/theme-metabox.php:169
+msgid "Select Footer Style"
+msgstr ""
+
+#: inc/options/theme-metabox.php:46
+msgid "Select Header Style"
+msgstr ""
+
+#: elementor/widgets/service.php:44
+msgid "Service"
+msgstr ""
+
+#: elementor/widgets/service-carousel.php:40
+msgid "Service Carousel"
+msgstr ""
+
+#: elementor/widgets/service.php:173
+msgid "Service Description"
+msgstr ""
+
+#: elementor/widgets/service.php:165 elementor/widgets/project-grid.php:108
+msgid "Service Title"
+msgstr ""
+
+#: inc/post-type/portfolio.php:27
+msgid "Set featured image"
+msgstr ""
+
+#: elementor/widgets/gallery.php:137 elementor/widgets/project-tab.php:292
+#: elementor/widgets/header.php:723 elementor/widgets/solution-area.php:433
+#: elementor/widgets/view/cta/cta-3.php:4
+#: elementor/widgets/view/cta/cta-2.php:7
+#: elementor/widgets/view/accordion/accordion-1.php:26
+#: elementor/widgets/view/accordion/accordion-1.php:31
+#: elementor/widgets/view/header/header-3.php:5
+#: elementor/widgets/view/header/header-2.php:6
+#: elementor/widgets/view/header/header-1.php:35
+#: elementor/widgets/view/heading/heading-1.php:8
+#: elementor/widgets/view/hero/hero-1.php:7
+#: elementor/widgets/view/hero/hero-1.php:28
+msgid "Shape"
+msgstr ""
+
+#: elementor/widgets/hero.php:480
+msgid "Shape BG Color "
+msgstr ""
+
+#: elementor/widgets/info-box.php:226
+msgid "Shape Image"
+msgstr ""
+
+#: inc/options/theme-option.php:178
+msgid "Shop Enable Breadcrumb"
+msgstr ""
+
+#: elementor/widgets/cta.php:203
+msgid "Short Info"
+msgstr ""
+
+#: elementor/widgets/hero.php:110 elementor/widgets/header.php:107
+#: elementor/widgets/header.php:189
+msgid "Show"
+msgstr ""
+
+#: elementor/widgets/team-info.php:113 elementor/widgets/project-info.php:121
+#: elementor/widgets/skill.php:114 elementor/widgets/faq.php:154
+msgid "Slider Style"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:296 elementor/widgets/team.php:326
+msgid "Social Hover Icon Color"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:151
+#: elementor/widgets/pricing-tab.php:167
+msgid "Social Icon"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:286 elementor/widgets/header.php:477
+#: elementor/widgets/team.php:315
+msgid "Social Icon Color"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:306 elementor/widgets/team.php:336
+msgid "Social Icon Hover BG Color"
+msgstr ""
+
+#: elementor/widgets/header.php:487
+msgid "Social Icon Hover Color"
+msgstr ""
+
+#: elementor/widgets/header.php:468
+msgid "Social Icon Style"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:161 elementor/widgets/team.php:171
+msgid "Social Link"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:145
+msgid "Social Links"
+msgstr ""
+
+#: elementor/widgets/header.php:211
+msgid "Social Option"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:278 elementor/widgets/team.php:307
+msgid "Social Style"
+msgstr ""
+
+#: elementor/widgets/header.php:217
+msgid "Social Title"
+msgstr ""
+
+#: elementor/widgets/solution-area.php:40
+msgid "Solution Area"
+msgstr ""
+
+#: elementor/widgets/solution-area.php:77
+msgid "Solution Option"
+msgstr ""
+
+#: elementor/widgets/sponsor.php:49 elementor/widgets/sponshor-slider.php:257
+#: elementor/widgets/sponshor-slider.php:269
+#: elementor/widgets/view/sponsor/sponsor-3.php:7
+#: elementor/widgets/view/sponsor/sponsor-3.php:8
+#: elementor/widgets/view/sponsor/sponsor-3.php:23
+#: elementor/widgets/view/sponsor/sponsor-3.php:24
+#: elementor/widgets/view/sponsor/sponsor-2.php:7
+#: elementor/widgets/view/sponsor/sponsor-2.php:8
+#: elementor/widgets/view/sponsor/sponsor-1.php:4
+msgid "Sponsor"
+msgstr ""
+
+#: elementor/widgets/sponshor-slider.php:49
+msgid "Sponsor Slider"
+msgstr ""
+
+#: elementor/widgets/pricing-tab.php:115
+#: elementor/widgets/pricing-table.php:107
+msgid "Starter"
+msgstr ""
+
+#: elementor/widgets/header.php:298
+msgid "Sticky Logo"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:85
+#: elementor/widgets/team-carousel.php:200 elementor/widgets/button.php:84
+#: elementor/widgets/testimonial.php:89 elementor/widgets/testimonial.php:179
+#: elementor/widgets/heading.php:84 elementor/widgets/heading.php:204
+#: elementor/widgets/service.php:89 elementor/widgets/service.php:214
+#: elementor/widgets/contact-section.php:93
+#: elementor/widgets/contact-section.php:209
+#: elementor/widgets/project-carousel.php:88
+#: elementor/widgets/project-carousel.php:184 elementor/widgets/cta.php:94
+#: elementor/widgets/cta.php:252 elementor/widgets/sponsor.php:95
+#: elementor/widgets/info-box.php:94 elementor/widgets/info-box.php:248
+#: elementor/widgets/video-list.php:166 elementor/widgets/hero.php:95
+#: elementor/widgets/hero.php:310 elementor/widgets/header.php:84
+#: elementor/widgets/blog.php:94 elementor/widgets/pricing-table.php:85
+#: elementor/widgets/pricing-table.php:205 elementor/widgets/skill.php:84
+#: elementor/widgets/team.php:94 elementor/widgets/team.php:189
+#: elementor/widgets/authore.php:104 elementor/widgets/image-box.php:85
+#: elementor/widgets/feature-area.php:178 elementor/widgets/feature.php:85
+#: elementor/widgets/feature.php:178 elementor/widgets/image.php:85
+#: elementor/widgets/solution-area.php:191
+#: elementor/widgets/bounch-title.php:104
+#: elementor/widgets/project-grid.php:143 elementor/widgets/list.php:85
+#: elementor/widgets/list.php:218 elementor/widgets/service-carousel.php:85
+#: elementor/widgets/service-carousel.php:205
+#: elementor/widgets/sponshor-slider.php:147
+#: elementor/widgets/contact-info.php:85 elementor/widgets/contact-info.php:200
+#: elementor/widgets/counter.php:89 elementor/widgets/counter.php:188
+msgid "Style"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:89 elementor/widgets/testimonial.php:93
+#: elementor/widgets/heading.php:88 elementor/widgets/service.php:93
+#: elementor/widgets/contact-section.php:97
+#: elementor/widgets/project-carousel.php:92 elementor/widgets/cta.php:98
+#: elementor/widgets/sponsor.php:99 elementor/widgets/info-box.php:98
+#: elementor/widgets/hero.php:99 elementor/widgets/blog.php:98
+#: elementor/widgets/pricing-table.php:89 elementor/widgets/skill.php:88
+#: elementor/widgets/team.php:98 elementor/widgets/image-box.php:89
+#: elementor/widgets/feature.php:89 elementor/widgets/image.php:89
+#: elementor/widgets/list.php:89 elementor/widgets/service-carousel.php:89
+#: elementor/widgets/contact-info.php:89 elementor/widgets/counter.php:93
+msgid "Style 1"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:90 elementor/widgets/testimonial.php:94
+#: elementor/widgets/heading.php:89 elementor/widgets/service.php:94
+#: elementor/widgets/contact-section.php:98
+#: elementor/widgets/project-carousel.php:93 elementor/widgets/cta.php:99
+#: elementor/widgets/sponsor.php:100 elementor/widgets/info-box.php:99
+#: elementor/widgets/hero.php:100 elementor/widgets/blog.php:99
+#: elementor/widgets/pricing-table.php:90 elementor/widgets/skill.php:89
+#: elementor/widgets/image-box.php:90 elementor/widgets/feature.php:90
+#: elementor/widgets/image.php:90 elementor/widgets/list.php:90
+#: elementor/widgets/service-carousel.php:90
+#: elementor/widgets/contact-info.php:90 elementor/widgets/counter.php:94
+msgid "Style 2"
+msgstr ""
+
+#: elementor/widgets/heading.php:90 elementor/widgets/cta.php:100
+#: elementor/widgets/sponsor.php:101 elementor/widgets/info-box.php:100
+#: elementor/widgets/hero.php:101 elementor/widgets/blog.php:100
+#: elementor/widgets/image-box.php:91 elementor/widgets/list.php:91
+msgid "Style 3"
+msgstr ""
+
+#: elementor/widgets/image-box.php:92
+msgid "Style 4"
+msgstr ""
+
+#: elementor/widgets/cta.php:175
+msgid "Sub TItle"
+msgstr ""
+
+#: elementor/widgets/heading.php:116 elementor/widgets/contact-section.php:139
+#: elementor/widgets/contact-section.php:140 elementor/widgets/cta.php:174
+#: elementor/widgets/service-tab.php:132 elementor/widgets/hero.php:204
+#: elementor/widgets/solution-area.php:97
+msgid "Sub Title"
+msgstr ""
+
+#: elementor/widgets/heading.php:267 elementor/widgets/contact-section.php:226
+#: elementor/widgets/cta.php:269 elementor/widgets/hero.php:353
+#: elementor/widgets/solution-area.php:264
+#: elementor/widgets/bounch-title.php:167
+msgid "Sub Title Color"
+msgstr ""
+
+#: elementor/widgets/heading.php:240 elementor/widgets/contact-section.php:217
+#: elementor/widgets/cta.php:260 elementor/widgets/hero.php:345
+#: elementor/widgets/solution-area.php:256
+#: elementor/widgets/bounch-title.php:140
+msgid "Sub Title Style"
+msgstr ""
+
+#: elementor/widgets/heading.php:257 elementor/widgets/bounch-title.php:157
+msgid "Subtitle Color "
+msgstr ""
+
+#: elementor/widgets/team.php:49
+msgid "Team"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:40
+msgid "Team Carousel"
+msgstr ""
+
+#: elementor/widgets/team-info.php:40
+msgid "Team Info"
+msgstr ""
+
+#: elementor/widgets/view/team/team-1.php:4
+#: elementor/widgets/view/team-carousel/team-1.php:8
+msgid "team_img"
+msgstr ""
+
+#: inc/post-type/template.php:7 inc/post-type/template.php:8
+msgid "Template"
+msgstr ""
+
+#: elementor/widgets/testimonial.php:44
+msgid "Testimonial Carousel"
+msgstr ""
+
+#: elementor/widgets/cta.php:193
+msgid "Text"
+msgstr ""
+
+#: elementor/widgets/button.php:203 elementor/widgets/cta.php:429
+#: elementor/widgets/header.php:635 elementor/widgets/pricing-table.php:409
+#: elementor/widgets/solution-area.php:385
+msgid "Text Color"
+msgstr ""
+
+#: elementor/widgets/info-box.php:125 elementor/widgets/list.php:116
+msgid "Three"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:130
+#: elementor/widgets/testimonial.php:134 elementor/widgets/heading.php:124
+#: elementor/widgets/service.php:164 elementor/widgets/contact-section.php:150
+#: elementor/widgets/project-carousel.php:149 elementor/widgets/cta.php:185
+#: elementor/widgets/team-info.php:86 elementor/widgets/service-tab.php:140
+#: elementor/widgets/service-tab.php:206 elementor/widgets/project-info.php:94
+#: elementor/widgets/info-box.php:186 elementor/widgets/video-list.php:145
+#: elementor/widgets/hero.php:212 elementor/widgets/pricing-tab.php:114
+#: elementor/widgets/pricing-tab.php:176
+#: elementor/widgets/pricing-table.php:106
+#: elementor/widgets/pricing-table.php:162 elementor/widgets/skill.php:96
+#: elementor/widgets/team.php:125 elementor/widgets/authore.php:92
+#: elementor/widgets/faq.php:108 elementor/widgets/faq.php:125
+#: elementor/widgets/image-box.php:144 elementor/widgets/image-box.php:155
+#: elementor/widgets/feature-area.php:142 elementor/widgets/feature.php:150
+#: elementor/widgets/solution-area.php:105
+#: elementor/widgets/bounch-title.php:84 elementor/widgets/project-grid.php:107
+#: elementor/widgets/list.php:166 elementor/widgets/service-carousel.php:164
+#: elementor/widgets/contact-info.php:164 elementor/widgets/counter.php:176
+msgid "Title"
+msgstr ""
+
+#: elementor/widgets/service-carousel.php:322
+msgid "Title Active Color"
+msgstr ""
+
+#: elementor/widgets/feature.php:238
+msgid "Title Border Color"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:218
+#: elementor/widgets/testimonial.php:197 elementor/widgets/heading.php:221
+#: elementor/widgets/service.php:318 elementor/widgets/contact-section.php:255
+#: elementor/widgets/project-carousel.php:202 elementor/widgets/cta.php:298
+#: elementor/widgets/team-info.php:129 elementor/widgets/project-info.php:137
+#: elementor/widgets/info-box.php:308 elementor/widgets/video-list.php:246
+#: elementor/widgets/hero.php:327 elementor/widgets/pricing-table.php:222
+#: elementor/widgets/skill.php:130 elementor/widgets/team.php:237
+#: elementor/widgets/authore.php:121 elementor/widgets/faq.php:170
+#: elementor/widgets/feature-area.php:252 elementor/widgets/feature.php:249
+#: elementor/widgets/solution-area.php:237
+#: elementor/widgets/solution-area.php:324
+#: elementor/widgets/bounch-title.php:121
+#: elementor/widgets/project-grid.php:247 elementor/widgets/list.php:298
+#: elementor/widgets/service-carousel.php:312
+#: elementor/widgets/sponshor-slider.php:165
+#: elementor/widgets/contact-info.php:276 elementor/widgets/counter.php:257
+msgid "Title Color"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:228 elementor/widgets/service.php:328
+#: elementor/widgets/project-carousel.php:213
+#: elementor/widgets/project-info.php:147 elementor/widgets/team.php:247
+#: elementor/widgets/project-grid.php:257
+msgid "Title Hover Color"
+msgstr ""
+
+#: elementor/widgets/heading.php:133 elementor/widgets/service-tab.php:149
+#: elementor/widgets/hero.php:220 elementor/widgets/solution-area.php:114
+msgid "Title HTML Tag"
+msgstr ""
+
+#: elementor/widgets/heading.php:106 elementor/widgets/solution-area.php:90
+msgid "Title Shape"
+msgstr ""
+
+#: elementor/widgets/hero.php:191
+msgid "Title Shape Image"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:209
+#: elementor/widgets/testimonial.php:188 elementor/widgets/heading.php:212
+#: elementor/widgets/service.php:309 elementor/widgets/contact-section.php:246
+#: elementor/widgets/project-carousel.php:193 elementor/widgets/cta.php:289
+#: elementor/widgets/team-info.php:121 elementor/widgets/project-info.php:129
+#: elementor/widgets/info-box.php:299 elementor/widgets/video-list.php:237
+#: elementor/widgets/hero.php:318 elementor/widgets/pricing-table.php:213
+#: elementor/widgets/skill.php:122 elementor/widgets/team.php:228
+#: elementor/widgets/authore.php:112 elementor/widgets/faq.php:162
+#: elementor/widgets/feature-area.php:243 elementor/widgets/feature.php:229
+#: elementor/widgets/solution-area.php:228
+#: elementor/widgets/solution-area.php:315
+#: elementor/widgets/bounch-title.php:112
+#: elementor/widgets/project-grid.php:238 elementor/widgets/list.php:289
+#: elementor/widgets/service-carousel.php:303
+#: elementor/widgets/sponshor-slider.php:156
+#: elementor/widgets/contact-info.php:267 elementor/widgets/counter.php:248
+msgid "Title Style"
+msgstr ""
+
+#: elementor/widgets/team-carousel.php:114
+#: elementor/widgets/testimonial.php:118
+#: elementor/widgets/project-carousel.php:127
+#: elementor/widgets/info-box.php:124 elementor/widgets/list.php:115
+#: elementor/widgets/service-carousel.php:114
+#: elementor/widgets/contact-info.php:114
+msgid "Two"
+msgstr ""
+
+#: elementor/widgets/contact-section.php:191
+msgid "Type Description Here"
+msgstr ""
+
+#: elementor/widgets/heading.php:125 elementor/widgets/service-tab.php:141
+#: elementor/widgets/solution-area.php:106
+#: elementor/widgets/bounch-title.php:85
+msgid "Type Section Title"
+msgstr ""
+
+#: elementor/widgets/heading.php:117 elementor/widgets/service-tab.php:133
+#: elementor/widgets/solution-area.php:98
+msgid "Type Sub Title"
+msgstr ""
+
+#: inc/post-type/portfolio.php:77
+msgid "Update New Category"
+msgstr ""
+
+#: inc/post-type/portfolio.php:20
+msgid "Update Portfolios"
+msgstr ""
+
+#: inc/post-type/portfolio.php:31
+msgid "Uploaded to this item"
+msgstr ""
+
+#: inc/post-type/portfolio.php:29
+msgid "Use as featured image"
+msgstr ""
+
+#: elementor/widgets/video-list.php:84
+msgid "Video BG"
+msgstr ""
+
+#: elementor/widgets/hero.php:275
+msgid "Video Label"
+msgstr ""
+
+#: elementor/widgets/video-list.php:91 elementor/widgets/hero.php:285
+#: elementor/widgets/faq.php:100
+msgid "Video Link"
+msgstr ""
+
+#: elementor/widgets/video-list.php:40
+msgid "Video List"
+msgstr ""
+
+#: inc/post-type/portfolio.php:21 inc/post-type/portfolio.php:22
+msgid "View Portfolios"
+msgstr ""
+
+#: elementor/widgets/image-box.php:145
+msgid "Year Of Working Experiance"
+msgstr ""
+
+#: elementor/widgets/service.php:113 elementor/widgets/sponshor-slider.php:106
+msgid "YES"
+msgstr ""
+
+#: inc/options/theme-metabox.php:39 inc/options/theme-metabox.php:54
+#: inc/options/theme-metabox.php:72 inc/options/theme-metabox.php:80
+#: inc/options/theme-metabox.php:95 inc/options/theme-metabox.php:162
+#: inc/options/theme-metabox.php:177 inc/options/theme-option.php:159
+#: inc/options/theme-option.php:179
+msgid "Yes"
+msgstr ""
+
+#: elementor/widgets/header.php:430
+msgid "Youtube"
+msgstr ""

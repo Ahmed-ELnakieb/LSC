@@ -1,0 +1,44 @@
+@media (min-width: 1120px){
+    .ocdi__gl-item {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(25% - 30px) !important;
+        flex: 0 0 calc(25% - 30px)!important;
+    }
+}
+.ocdi__gl-item{
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.07) !important;
+    border: none !important;
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+
+
+.ta-inactive, mark.error {
+    background-color: rgba(230, 30, 31, 0.1);
+    color: #e61e1f;
+}
+mark.green {
+    background-color: rgba(0, 230, 64, 0.1);
+    color: #000;
+}
+
+table.system-status-table {
+    border: 1px solid #d5d5d5;
+    border-collapse: collapse;
+}
+
+table.system-status-table tr, table.system-status-table td, table.system-status-table th {
+    border: 1px solid #d5d5d5;
+    padding: 15px;
+}
+.demo__ip-notice {
+    box-shadow: 0px 0px 68px 0px rgba(19, 19, 19, 0.11);
+    padding: 30px;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+.demo__ip-notice h1 {
+    font-size: 24px;
+    line-height: 35px;
+}

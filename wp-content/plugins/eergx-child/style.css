@@ -1,0 +1,23 @@
+/*
+Theme Name: Eergx Child
+Description: Child theme for Eergx - Solar Energy WordPress Theme. This theme inherits all the functionality and styling of the parent theme while allowing safe customizations.
+Author: Your Name
+Template: eergx
+Version: 1.0.0
+*/
+
+/* Your custom styles go here */
+
+/* Example customizations */
+/*
+.header-custom {
+    background-color: #your-color !important;
+}
+
+.footer-custom {
+    padding: 20px 0;
+}
+*/
+
+/* Import parent theme styles */
+@import url("../eergx/style.css");
