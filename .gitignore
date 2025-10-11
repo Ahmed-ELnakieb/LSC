@@ -1,0 +1,90 @@
+# WordPress .gitignore file
+
+# Ignore configuration files that may contain sensitive information
+wp-config.php
+
+# Ignore .htaccess files if they are created by WordPress
+.htaccess
+
+# Ignore log files
+*.log
+
+# Ignore backup directories and files
+wp-content/backups/
+wp-content/backup-db/
+wp-content/upgrade/
+wp-content/uploads/backups/
+wp-content/uploads/*backup*/
+wp-content/backups-dup-pro/
+
+# Ignore cache directories
+wp-content/cache/
+wp-content/w3tc-config/
+
+# Ignore temporary files
+~*
+.*~
+.tmp
+*.tmp
+*.TMP
+
+# Ignore OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Ignore editor files
+*.sublime-project
+*.sublime-workspace
+*.idea
+.vscode/
+*.swp
+*.swo
+
+# Ignore node and npm related files
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore composer files
+vendor/
+composer.phar
+composer.lock
+
+# Ignore WordPress core files (optional - uncomment if using WordPress as submodule)
+# wp-admin/
+# wp-includes/
+# wp-content/plugins/
+# wp-content/themes/
+
+# Ignore specific plugin files that might contain sensitive data
+wp-content/plugins/hello.php
+
+# Ignore any files that might contain environment-specific information
+.env
+.env.local
+.env.*.local
+
+# Ignore WordPress specific files
+sitemap.xml
+sitemap.xml.gz
+robots.txt
+
+# Ignore compiled files
+*.min.js
+*.min.css
+
+# Ignore WordPress upgrade files
+wp-content/upgrade/
+wp-content/upgrades/
+
+# Ignore WordPress debug files
+debug.log
+
+# Ignore user content that should not be version controlled
+wp-content/uploads/
