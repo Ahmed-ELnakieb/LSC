@@ -1,0 +1,603 @@
+/*
+--- Experience_1 Start ---
+*/
+
+
+.egx-experience-1 {
+    &-area {
+        padding: 103px 0 134px 0;
+    }
+    &-wrap {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px 0;
+
+        @media #{$sm, $xs} {
+            grid-template-columns: 1fr;
+        }
+    }
+    &-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+        position: relative;
+
+        &:nth-child(1) {
+            &::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                right: -0.5px;
+                height: 100%;
+                width: 1px;
+                background: var(--egx-gd-1);
+                @media #{$sm, $xs} {
+                    display: none;
+                }
+            }
+        }
+        &:nth-child(2) {
+            &::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                right: -0.5px;
+                height: 100%;
+                width: 1px;
+                background: var(--egx-gd-1);
+                @media #{$sm, $xs} {
+                    display: none;
+                }
+            }
+        }
+
+        .icon {
+            font-size: 48px;
+            color: rgb(33,151,83);
+        }
+        .number {
+            font-size: 50px;
+            font-family: var(--urbanist);
+            font-weight: 900;
+            color: rgb(0, 0, 0);
+            line-height: 1;
+            margin: 36px 0 22px 0;
+
+            @media #{$sm} {
+                font-size: 45px;
+            }
+            @media #{$xs} {
+                font-size: 40px;
+            }
+        }
+        .title {
+            font-size: 16px;
+            font-family: var(--urbanist);
+            color: rgb(255, 255, 255);
+            line-height: 1.375;
+            font-weight: 500;
+            background: var(--egx-gd-1);
+            padding: 4px 15px;
+            border-radius: 100px;
+        }
+
+
+        &:hover {
+            .icon {
+                animation: scale_up_down 0.6s ease;
+            }
+        }
+    }
+}
+
+@keyframes scale_up_down {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.3);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+/*
+--- Experience_1 End ---
+*/
+
+
+
+
+
+
+
+
+/*
+--- Experience_2 Start ---
+*/
+
+
+.egx-experience-2 {
+    &-area {
+        padding: 92px 0;
+
+        &:is(.experience-area-inner) {
+            padding: 92px 0 0 0;
+        }
+    }
+    &-wrap {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 55px;
+
+        @media #{$xl} {
+            gap: 42px;
+        }
+        @media #{$lg} {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px 50px;
+        }
+        @media #{$md} {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px 50px;
+        }
+        @media #{$sm} {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+        }
+        @media #{$xs} {
+            grid-template-columns: 1fr;
+            gap: 40px;
+        }
+
+        @media #{$xs} {
+            max-width: 285px;
+            margin: 0 auto;
+        }
+    }
+    &-item {
+        display: grid;
+        grid-template-columns: 80px auto;
+        gap: 20px;
+        align-items: center;
+
+        .icon {
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--egx-gd-1);
+            border-radius: 50%;
+            font-size: 32px;
+            color: #fff;
+
+            &:hover {
+                i {
+                    animation: bounceIn 0.8s ease;
+                }
+            }
+        }
+
+        .number {
+            font-size: 32px;
+            font-family: var(--urbanist);
+            color: rgb(19, 19, 19);
+            line-height: 1.1;
+            font-weight: 900;
+            margin-bottom: 0;          
+        }
+        .title {
+            font-size: 17px;
+            color: rgb(130, 130, 130);
+            font-weight: 500;
+        }
+    }
+}
+
+
+/*
+--- Experience_2 End ---
+*/
+
+
+
+
+
+
+
+
+/*
+--- Experience_3 Start ---
+*/
+
+
+.egx-experience-3 {
+    &-area {
+        padding: 115px 0 78px 0;
+    }
+    &-wrap {
+        display: grid;
+        grid-template-columns: 1fr 1.31fr;
+        gap: 125px;
+
+        @media #{$lg} {
+            gap: 70px;
+        }
+        @media #{$md, $sm, $xs} {
+            grid-template-columns: 1fr;
+            gap: 60px;
+        }
+    }
+    &-left {
+        .disc {
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+            margin-top: 15px;
+        }
+        ul {
+            margin-top: 20px;
+            li {
+                display: flex;
+                align-items: baseline;
+                gap: 10px;
+
+                .icon {
+                    color: var(--egx-pr-1);
+                    font-size: 30px;
+                    transform: translateY(5px);
+                }
+                .list-text {
+                    font-size: 17px;
+                    font-family: var(--urbanist);
+                    color: rgb(255, 255, 255);
+                    line-height: 1.2;
+                    font-weight: 900;
+                }
+            }
+        }
+        .growth {
+            margin-top: 32px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .item {
+                display: grid;
+                grid-template-columns: 75px 1fr;
+                gap: 22px;
+
+                .number {
+                    font-size: 37px;
+                    color: rgb(255, 255, 255);
+                    line-height: 1.3;
+                }
+
+                .progress-item {
+                    .progress-title {
+                        font-size: 14px;
+                        font-family: var(--urbanist);
+                        color: rgb(255, 255, 255);
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        line-height: 37px;                         
+                    }
+                    .progress {
+                        background-color: rgb(238, 238, 238);
+                        height: 10px;
+                        border-radius: 5px;
+                        position: relative;
+                        z-index: 2;
+                        overflow: visible;
+                          
+                        .progress-bar {
+                            background: var(--egx-gd-1);
+                            height: 10px;
+                            width: 0;
+                            border-radius: 5px;
+                            position: relative;
+                            z-index: -1;
+                            -webkit-transition: 1s all ease-in-out;
+                            transition: 1s all ease-in-out;
+                        }
+                        span {
+                            display: none;
+                        }
+                          
+                    } 
+                }
+            }
+        }
+        .btn-wrap {
+            margin-top: 57px;
+        }
+    }
+    &-right {
+        position: relative;
+        
+        .main-img {
+            position: absolute;
+            right: 0;
+            top: -200px;
+
+            img  {
+                border-radius: 10px;
+            }
+
+            @media #{$md} {
+                top: auto;
+                bottom: 0;
+                max-width: 540px;
+            }
+            @media #{$sm, $xs} {
+                display: none;
+            }
+        }
+        .form-wrap {
+            position: relative;
+            z-index: 2;
+            background: var(--egx-gd-1);
+            padding: 45px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 446px;
+
+            @media #{$sm, $xs} {
+                max-width: 100%;
+            }
+            @media #{$xs} {
+                padding: 35px 20px;
+            }
+
+            .subtitle {
+                font-size: 15px;
+                font-family: var(--urbanist);
+                color: rgb(255, 255, 255);
+                font-weight: 700;
+                line-height: 28px;
+            }
+            .title {
+                font-size: 30px;
+                color: rgb(255, 255, 255);
+                font-weight: 800;
+                line-height: 1.2;
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                margin-top: 20px;
+
+                input {
+                    border: none;
+                    outline: none;
+                    height: 62px;
+                    background-color: #fff;
+                    border-radius: 10px;
+                    padding: 8px 20px 8px 30px;
+                    font-family: var(--urbanist);
+                    font-size: 14px;
+                    line-height: 1.2;
+                    color: #000;
+
+                    &::placeholder {
+                        color: rgb(100, 124, 158);                        
+                    }
+
+                    @media #{$xs} {
+                        padding: 8px 20px 8px 20px;
+                        height: 55px;
+                    }
+                }
+                textarea {
+                    border: none;
+                    outline: none;
+                    min-height: 70px;
+                    height: 118px;
+                    background-color: #fff;
+                    border-radius: 10px;
+                    padding: 20px 20px 8px 30px;
+                    font-family: var(--urbanist);
+                    font-size: 14px;
+                    color: #000;
+                    line-height: 1.2;
+
+                    &::placeholder {
+                        color: rgb(100, 124, 158);                        
+                    }
+
+                    @media #{$xs} {
+                        padding: 15px 20px 8px 20px;
+                        height: 90px;
+                    }
+                }
+                button {
+                    width: 100%;
+                    background-color: #fff;
+                    font-size: 16px;
+                    font-family: "Urbanist";
+                    color: rgb(1, 1, 1);
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    line-height: 1.5;
+                    padding: 18px 20px;
+                    border-radius: 100px;
+                    margin-top: 22px;
+                    position: relative;
+                    overflow: hidden;
+                    transition: all 0.3s ease;
+
+                    span {
+                        position: relative;
+                        z-index: 2;
+                    }
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        width: 0%;
+                        height: 100%;
+                        background: #000;
+                        border-radius: 100px;
+                        transition: all 0.5s ease;
+                    }
+
+                    &:hover {
+                        color: #fff;
+                        &::after {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*
+--- Experience_3 End ---
+*/
+
+
+
+
+
+
+
+
+
+/*
+--- Experience_4 Start ---
+*/
+
+
+.egx-experience-4 {
+    &-area {
+        position: relative;
+
+        .bg-img {
+            position: absolute;
+            width: 100%;
+            z-index: -1;
+            left: 0;
+            top: 512px;
+
+            @media #{$xxl, $xl, $lg, $md, $sm, $xs} {
+                display: none;
+            }
+        }
+
+        .content-wrap {
+            max-width: 1920px;
+            margin: 0 auto;
+        }
+    }
+    &-wrap {
+        max-width: 1600px;
+        margin-left: auto;
+        border-radius: 16px 0 0 0;
+        padding-top: 172px;
+
+        .bottom-items {
+            display: flex;
+            @media #{$xs} {
+                flex-direction: column;
+            }
+        }
+    }
+    &-item {
+        width: 340px;
+        height: 340px;
+        padding: 52px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        @media #{$xl, $lg, $md} {
+            width: 300px;
+            height: 300px;
+            padding: 40px 35px;
+        }
+        @media #{$sm, $xs} {
+            width: 270px;
+            height: 270px;
+            padding: 40px 30px;
+        }
+        @media #{$xs} {
+            width: 250px;
+            height: 250px;
+            padding: 40px 25px;
+        }
+
+        &:is(.active) {
+            .number {
+                font-weight: 600;
+                color: #fff;
+
+                .last {
+                    color: var(--egx-pr-2);
+                }
+            }
+            .title {
+                color: rgba(255, 255, 255, 0.8);
+            }
+        }
+
+        .number {
+            font-family: var(--urbanist);
+            font-weight: 500;
+            font-size: 120px;
+            line-height: 144px;
+            letter-spacing: -4px;
+            text-transform: uppercase;
+            color: #0D0D0D;
+            margin-bottom: 0;
+
+            @media #{$xl, $lg, $md,} {
+                font-size: 100px;
+                line-height: 120px;
+            }
+
+            @media #{$sm, $xs} {
+                font-size: 80px;
+                line-height: 100px;
+            }
+
+            .last {
+                font-size: 60px;
+                line-height: 72px;
+                letter-spacing: -3px;
+                color: #209753;
+                transform: translate(2px, -42px);
+                display: inline-block;
+
+                @media #{$xl, $lg, $md, $sm, $xs} {
+                    transform: translate(2px, -28px);
+                }
+                @media #{$sm, $xs} {
+                    font-size: 40px;
+                    line-height: 55px;
+                }
+            }
+        }
+        .title {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: #717171;
+        }
+    }
+}
+
+
+/*
+--- Experience_4 End ---
+*/

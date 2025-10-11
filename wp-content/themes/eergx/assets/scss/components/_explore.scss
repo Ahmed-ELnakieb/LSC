@@ -1,0 +1,180 @@
+/*
+--- Explore_3 Start ---
+*/
+
+.egx-explore-3 {
+    &-area {
+        padding: 230px 0 140px 0;
+
+        @media #{$sm, $xs} {
+            padding: 120px 0;
+        }
+    }
+    &-wrap {
+        display: grid;
+        grid-template-columns: 1.1fr 1fr;
+        gap: 60px 0;
+        align-items: end;
+
+        @media #{$md, $sm, $xs} {
+            grid-template-columns: 1fr;
+        }
+    }
+    &-left {
+        position: relative;
+
+        .left-img {
+            position: absolute;
+            bottom: -20px;
+            right: 30px;
+
+            @media #{$sm} {
+                right: 0;
+            }
+            @media #{$xs} {
+                display: none;
+            }
+        }
+
+        .disc {
+            color: rgb(113, 113, 113);
+            margin-top: 15px;
+            max-width: 605px;
+        }
+        .message {
+            margin-top: 28px;
+            padding-left: 35px;
+            position: relative;
+            max-width: 340px;
+
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 5px;
+                height: 100%;
+                background: var(--egx-gd-1);
+            }
+
+            .subtitle {
+                font-size: 18px;
+                font-family: "Urbanist";
+                line-height: 1.2;
+                background: var(--egx-gd-1);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            .title {
+                font-size: 32px;
+                color: rgb(0, 0, 0);
+                line-height: 1.25;
+                font-weight: 900;
+                margin-top: 5px;
+            }
+        }
+        ul {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+
+            li {
+                display: flex;
+                align-items: baseline;
+                gap: 8px;
+
+                .icon {
+                    font-size: 20px;
+                    color: var(--egx-pr-1);
+                    transform: translateY(1.2px);
+                }
+                .list-text {
+                    font-size: 20px;
+                    font-family: var(--urbanist);
+                    color: rgb(0, 0, 0);
+                    font-weight: 700;
+                    line-height: 1.2;
+                }
+            }
+        }
+        .btn-wrap {
+            margin-top: 35px;
+        }
+    }
+    &-right {
+        position: relative;
+
+        .right-img {
+            @media #{$xs} {
+                display: none;
+            }
+        }
+        .goal {
+            position: absolute;
+            bottom: -10px;
+            left: -20px;
+            max-width: 310px;
+            border-radius: 30px;
+            box-shadow: 0px 0px 59px 0px rgba(0, 0, 0, 0.13);
+            background-color: #fff;
+            padding: 20px 30px 20px 40px;
+
+            @media #{$xs} {
+                position: static;
+                padding: 25px 20px;
+            }
+
+            .title {
+                font-size: 27px;
+                color: rgb(20, 21, 21);
+                line-height: 1.2;
+                font-weight: 900;
+            }
+
+            .goal-wrap {
+                margin-top: 26px;
+                display: flex;
+                flex-direction: column;
+                gap: 45px;
+
+                .item {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 20px;
+
+                    .icon {
+                        width: 65px;
+                        height: 65px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 50%;
+                        background: var(--egx-gd-1);
+                        color: #fff;
+                        font-size: 30px;
+                    }
+
+                    .number {
+                        font-size: 30px;
+                        color: rgb(20, 21, 21);
+                        line-height: 1;
+                        font-weight: 900;
+                    }
+                    .item-title {
+                        font-size: 20px;
+                        color: rgb(82, 82, 82);
+                        font-weight: bold;
+                        line-height: 1.2;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*
+--- Explore_3 End ---
+*/

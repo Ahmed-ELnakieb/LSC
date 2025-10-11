@@ -1,0 +1,893 @@
+/*
+--- Faq_1 Start ---
+*/
+
+
+.egx-faq-1 {
+    &-area {
+        padding: 155px 0 128px 0;
+
+        @media #{$sm, $xs} {
+            overflow: hidden;
+        }
+
+        .section-title-wrap {
+            max-width: 830px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+    &-wrap {
+        margin-top: 63px;
+        display: grid;
+        grid-template-columns: 1fr 1.36fr;
+        gap: 100px;
+
+        @media #{$lg} {
+            gap: 60px;
+        }
+        @media #{$md, $sm, $xs} {
+            grid-template-columns: 1fr;
+            gap: 60px;
+        }
+
+        &:is(.faq-1-wrap-inner) {
+            display: grid;
+            grid-template-columns: 1fr 1.65fr;
+            gap: 108px;
+
+            @media #{$xl} {
+                gap: 80px;
+            }
+            @media #{$lg, $md, $sm, $xs} {
+                grid-template-columns: 1fr;
+                gap: 60px;
+            }
+        }
+    }
+    &-title-wrap {
+        .faq-btn {
+            padding: 13px 20px;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: #EEEEEE;
+            border-radius: 4px;
+            margin-top: 60px;
+
+            @media #{$md, $sm, $xs} {
+                margin-top: 40px;
+            }
+
+            .btn-text {
+                font-family: var(--urbanist);
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 28px;
+                letter-spacing: -0.01em;
+                text-transform: uppercase;
+                color: #0D0D0D;
+            }
+        }
+    }
+    &-left {
+        .faq-tab-btn-wrap {
+            height: 208px;
+            display: flex;
+            align-items: end;
+            gap: 10px;
+            justify-content: center;
+            padding-bottom: 20px;
+            border-radius: 20px;
+            margin-bottom: 25px;
+
+            @media #{$xs, $lg} {
+                flex-direction: column;
+                align-items: center;
+                padding: 20px;
+                height: auto;
+            }
+
+            .faq-btn {
+                font-size: 16px;
+                line-height: 1;
+                font-weight: 700;
+                font-family: var(--urbanist);
+                color: rgb(30, 34, 43);
+                padding: 15px 18px;
+                background: #fff;
+                border-radius: 100px;
+
+                &:is(.active) {
+                    background: var(--egx-gd-1);
+                    color: #fff;
+                }
+            }                
+        }
+        .disc {
+            color: rgb(113, 113, 113);
+        }
+        .award {
+            margin-top: 30px;
+            position: relative;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0px 0px 49px 0px rgba(0, 0, 0, 0.08);
+            max-width: 235px;
+            padding: 20px 0 20px 50px;
+            margin-left: 40px;
+
+            &::after {
+                content: "";
+                position: absolute;
+                width: 3px;
+                height: 100%;
+                background-color: rgb(33,151,83);
+                left: 0;
+                top: 0;
+            }
+            &::before {
+                content: "";
+                position: absolute;
+                width: 3px;
+                height: 100%;
+                background-color: rgb(124,187,59) ;
+                right: 0;
+                top: 0;
+            }
+             
+            .icon {
+                border-radius: 50%;
+                background: var(--egx-gd-1);
+                width: 66px;
+                height: 66px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 30px;
+                color: #fff;
+                position: absolute;
+                left: -40px;
+                z-index: 2;
+            }
+            .number {
+                font-size: 40px;
+                font-family: var(--urbanist);
+                color: rgb(40, 40, 40);
+                line-height: 1;
+                font-weight: 900;
+                margin-bottom: 0;
+            }
+            .title {
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 28px;
+            }
+
+            &:hover {
+                .icon {
+                    i {
+                        animation: egx_zigzag 0.4s ease;
+                    }
+                }
+            }
+        }
+    }
+    &-right {
+        overflow: hidden;
+        .fade:not(.show) {
+            transform: translateY(400px)
+        }
+        .fade:is(.show) {
+            transform: translateY(0px);
+            transition: .5s ease;
+        }
+
+        .accordion {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            --bs-accordion-bg: transparent;
+            --bs-accordion-border-width: 0px;
+            
+            .accordion-item {
+                background: var(--egx-gd-1);
+                position: relative;
+                border-radius: 10px !important;
+                overflow: hidden;
+                
+                .accordion-header {
+                    .accordion-button {
+                        border-radius: 10px;
+                        background: rgb(248, 248, 248);
+                        font-size: 20px;
+                        font-family: var(--urbanist);
+                        color: rgb(30, 34, 43);
+                        line-height: 1.4;
+                        font-weight: 900;
+                        border-radius: 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        gap: 10px;
+                        padding: 21px 21px 21px 110px;
+                        position: static;
+                        transition: all 0.3s ease;
+
+                        @media #{$xs} {
+                            padding: 15px 15px 15px 65px;
+                            font-size: 18px;
+                            font-weight: 700;
+                            gap: 5px;
+                        }
+
+                        .text {
+                            transition: all 0.1s ease;
+                        }
+                        .number {
+                            font-size: 20px;
+                            font-family: var(--urbanist);
+                            font-weight: 800;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 68px;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background: var(--egx-gd-1);
+                            color: #fff;
+
+                            @media #{$xs} {
+                                width: 50px;
+                            }
+                        }
+
+                        .icon {
+                            width: 33px;
+                            height: 33px;
+                            border-radius: 50%;
+                            background: rgb(228, 225, 225);
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex: 0 0 auto;
+
+                            @media #{$xs} {
+                                width: 25px;
+                                height: 25px;
+                            }
+                            
+                            .plus {
+                                font-size: 24px;
+                                font-weight: 600;
+
+                                @media #{$xs} {
+                                    font-size: 20px;
+                                }
+                            }
+                            .minus {
+                                font-size: 24px;
+                                font-weight: 600;
+                                position: absolute;
+                                opacity: 0;
+                                color: #fff;
+
+                                @media #{$xs} {
+                                    font-size: 20px;
+                                }
+                            }
+                        }
+
+                        &:not(.collapsed) {
+                            background: transparent;
+                            
+                            .text {
+                                color: #fff;
+                            }
+
+                            .icon {
+                                background: var(--egx-gd-1);
+                                .plus {
+                                    opacity: 0;
+                                }
+                                .minus {
+                                    opacity: 1;
+                                }
+                            }
+                        }
+                        &:focus {
+                            outline: none;
+                            box-shadow: none;
+                        }
+                        &::after {
+                            display: none;
+                        }
+                    }
+                }
+                .accordion-body {
+                    padding: 0 25px 35px 110px;
+                    max-width: 550px;
+                    margin-top: -10px;
+
+                    @media #{$xs} {
+                        margin-top: 0;
+                        padding: 0 15px 15px 65px;
+                    }
+                    .disc {
+                        color: #fff;
+
+                        @media #{$xs} {
+                            font-size: 16px;
+                            line-height: 26px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*
+--- Faq_1 End ---
+*/
+
+
+
+
+
+
+
+
+
+/*
+--- Faq_2 Start ---
+*/
+
+
+.egx-faq-2 {
+    &-area {
+        padding: 125px 0 115px 0;
+
+        .faq-area-wrap {
+            max-width: 1920px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        &:is(.active) {
+            .egx-faq-2-wrap {
+                .main-img {
+                    transform: translateY(0);
+                }
+            }
+        }
+    }
+    &-wrap {
+        .content {
+            max-width: 720px;
+            position: relative;
+            z-index: 2;
+
+            @media #{$lg, $md, $sm, $xs} {
+                margin: 0 auto;
+            }
+
+            .accordion {
+                margin-top: 25px;
+                max-width: 635px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                --bs-accordion-bg: transparent;
+                --bs-accordion-border-width: 2px;
+
+                .accordion-item {
+                    background: var(--egx-gd-1);
+                    position: relative;
+                    border-radius: 100px !important;
+                    overflow: hidden;
+                    border: 2px solid rgb(224, 224, 224);
+
+                    @media #{$xs} {
+                        border-radius: 20px !important;
+                    }
+
+                }
+                .accordion-header {
+                    .accordion-button {
+                        background: rgb(255, 255, 255);
+                        font-size: 22px;
+                        font-family: var(--urbanist);
+                        color: rgb(31, 30, 24);
+                        line-height: 1.4;
+                        font-weight: 900;
+                        border-radius: 0px;
+                        padding: 21px 58px 21px 95px;
+                        position: static;
+                        transition: all 0.3s ease;
+
+                        @media #{$xs} {
+                            padding: 20px 35px 20px 60px;
+                            font-size: 18px;
+                            font-weight: 700;
+                        }
+
+                        .number {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 85px;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            @media #{$xs} {
+                                width: 60px;
+                            }
+
+                            span {
+                                font-size: 15px;
+                                font-family: var(--urbanist);
+                                font-weight: 700;
+                                width: 47px;
+                                height: 47px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                background: rgb(243, 243, 243);
+                                color: rgb(16, 16, 16);
+                                border-radius: 50%;
+
+                                @media #{$xs} {
+                                    width: 40px;
+                                    height: 40px;
+                                }
+                            }
+                        }
+
+                        .icon {
+                            position: absolute;
+                            right: 30px;
+                            top: 0;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+
+                            @media #{$xs} {
+                                right: 10px;
+                            }
+                            
+                            .down-icon {
+                                font-size: 20px;
+                                color: var(--egx-pr-1);
+                            }
+                            .up-icon {
+                                font-size: 20px;
+                                color: #fff;
+                                position: absolute;
+                                opacity: 0;
+
+                                @media #{$xs} {
+                                    font-size: 20px;
+                                }
+                            }
+                        }
+
+                        &:not(.collapsed) {
+                            background: transparent;
+                            color: #fff;
+                            box-shadow: none;
+
+                            .icon {
+                                .up-icon {
+                                    opacity: 1;
+                                }
+                                .down-icon {
+                                    opacity: 0;
+                                }
+                            }
+                        }
+                        &:focus {
+                            outline: none;
+                            box-shadow: none;
+                        }
+                        &::after {
+                            display: none;
+                        }
+                    }
+                }
+                .accordion-body {
+                    padding: 0 50px 35px 95px;
+                    max-width: 550px;
+                    margin-top: -10px;
+
+                    @media #{$xs} {
+                        margin-top: -5px;
+                        padding: 0 30px 15px 60px;
+                    }
+                    .disc {
+                        color: #fff;
+                        line-height: 28px;
+
+                        @media #{$xs} {
+                            font-size: 16px;
+                            line-height: 26px;
+                        }
+                    }
+                }
+            }
+        }
+        .main-img {
+            position: absolute;
+            right: 0;
+            top: -450px;
+            transform: translateY(200px);
+            transition: 1s var(--cube-1);
+
+            @media #{$xxxl} {
+                max-width: 900px;
+            }
+            @media #{$xxl} {
+                max-width: 780px;
+                top: -300px;
+            }
+            @media #{$xl} {
+                max-width: 600px;
+                top: -180px;
+            }
+            @media #{$lg, $md, $sm, $xs} {
+                position: static;
+            }
+        }
+    }
+}
+
+
+/*
+--- Faq_2 End ---
+*/
+
+
+
+
+
+
+/*
+--- Faq_3 Start ---
+*/
+
+
+.egx-faq-3 {
+    &-area {
+        padding: 240px 0 0 0;
+
+        @media #{$md, $sm, $xs} {
+            padding-top: 100px;
+        }
+
+        .section-title-wrap {
+            max-width: 700px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+    &-wrap {
+        margin-top: 45px;
+        .accordion {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            --bs-accordion-bg: transparent;
+            --bs-accordion-border-width: 0px;
+
+            .accordion-item {
+                background: var(--egx-gd-1);
+                border-radius: 50px;
+
+                @media #{$xs} {
+                    border-radius: 20px;
+                }
+                .accordion-header {
+                    background-color: rgb(243, 243, 243);
+                    border-radius: 50px;
+
+                    @media #{$xs} {
+                        border-radius: 20px;
+                    }
+
+                    .accordion-button {
+                        padding: 30px 60px;
+                        font-size: 30px;
+                        font-family: var(--urbanist);
+                        color: rgb(20, 21, 21);
+                        font-weight: 800;
+                        line-height: 1.2;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        @media #{$md} {
+                            padding: 25px 30px;
+                            font-size: 25px;
+                        }
+                        @media #{$sm, $xs} {
+                            padding: 25px 30px;
+                            font-size: 20px;
+                        }
+
+                        .icon {
+                            .up-icon {
+                                transition: all 0.3s ease;
+
+                                i {
+                                    transform: rotate(180deg);
+                                    transition: all 0.3s ease;
+                                }
+                            }
+                        }
+
+                        &:not(.collapsed) {
+                            background: transparent;
+
+                            .icon {
+                                .up-icon {
+                                    color: var(--egx-pr-1);
+
+                                    i {
+                                        transform: rotate(0);
+                                    }
+                                }
+                            }
+                        }
+                        &:focus {
+                            outline: none;
+                            box-shadow: none;
+                        }
+                        &::after {
+                            display: none;
+                        }
+                    }
+                }
+                .accordion-body {
+                    display: grid;
+                    grid-template-columns: 1fr 1.4fr;
+                    gap: 60px;
+                    align-items: center;
+                    padding: 50px 70px 40px 100px;
+
+                    @media #{$lg} {
+                        padding: 50px 60px 40px 60px;
+                    }
+                    @media #{$md} {
+                        padding: 50px 50px 40px 50px;
+                    }
+                    @media #{$sm, $xs} {
+                        padding: 30px 20px 20px 20px;
+                        grid-template-columns: 1fr;
+                        gap: 35px;
+                    }
+
+                    .main-img {
+                        img {
+                            border-radius: 90px;
+                        }
+                    }
+                    .content {
+                        .cont-top {
+                            display: grid;
+                            grid-template-columns: auto 1fr;
+                            gap: 20px;
+
+                            .icon {
+                                font-size: 45px;
+                                color: #fff;
+                                transform: translateY(10px);
+                                @media #{$sm, $xs} {
+                                    transform: translateY(5px);
+                                    font-size: 40px;
+                                }
+                            }
+                            .title {
+                                font-size: 32px;
+                                font-family: var(--urbanist);
+                                color: rgb(255, 255, 255);
+                                font-weight: 800;
+                                line-height: 1.25;
+
+                                @media #{$md} {
+                                    font-size: 25px;
+                                }
+                                @media #{$sm, $xs} {
+                                    font-size: 20px;
+                                }
+                            }
+                        }
+                        .disc {
+                            font-size: 18px;
+                            font-family: var(--urbanist);
+                            color: rgb(255, 255, 255);
+                            line-height: 28px;
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*
+--- Faq_3 End ---
+*/
+
+
+
+
+
+
+
+
+/*
+--- Faq_4 Start ---
+*/
+
+
+
+.egx-faq-4 {
+    &-area {
+        padding: 120px 0;
+
+        .section-title-wrap {
+            max-width: 620px;
+            margin: 0 auto;
+            text-align: center;
+
+            .disc {
+                margin-top: 25px;
+            }
+        }
+    }
+    &-wrap {
+        max-width: 1058px;
+        margin: 55px auto 0;
+
+        .accordion {
+            --bs-accordion-border-radius: 0px;
+
+            .accordion-item {
+                border-width: 1px 0px;
+                border-style: solid;
+                border-color: #DBDBDB;
+
+                &:not(:last-child) {
+                    border-bottom: 0;
+                }
+
+                .accordion-header {
+                    .accordion-button {
+                        padding: 30px 0px;
+                        font-family: var(--urbanist);
+                        font-weight: 500;
+                        font-size: 32px;
+                        line-height: 30px;
+                        color: #0D0D0D;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        @media #{$md} {
+                            font-size: 25px;
+                        }
+                        @media #{$sm} {
+                            font-size: 24px;
+                        }
+                        @media #{$xs} {
+                            font-size: 22px;
+                        }
+
+                        .icon {
+                            font-size: 32px;
+                            color: #313030;
+                            transition: all 0.4s ease;
+                        }
+
+                        &:not(.collapsed) {
+                            background: transparent;
+                            box-shadow: none;
+                            font-weight: 600;
+                            
+                            .icon {
+                                color: var(--egx-pr-1);
+                            }
+                        }
+                        &:focus {
+                            outline: none;
+                            box-shadow: none;
+                        }
+                        &::after {
+                            display: none;
+                        }
+                    }
+                }
+
+                .accordion-body {
+                    padding-bottom: 30px;
+                    .job-type {
+                        display: flex;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        gap: 20px 120px;
+
+                        .item {
+                            .name {
+                                font-weight: 500;
+                                font-size: 22px;
+                                line-height: 30px;
+                                color: #0D0D0D;
+                            }
+                            .cont {
+                                font-family: var(--urbanist);
+                                font-weight: 400;
+                                font-size: 18px;
+                                line-height: 30px;
+                                color: #717171;
+                            }
+                        }
+                    }
+                    .disc {
+                        margin-top: 30px;
+                        color: #717171;
+                    }
+                    .faq-btn {
+                        margin-top: 35px;
+                        font-family: var(--urbanist);
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 30px;
+                        letter-spacing: -0.01em;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                        background: var(--egx-gd-2);
+                        display: inline-flex;
+                        padding: 13px 32px;
+                        border-radius: 100px;
+                        overflow: hidden;
+                        position: relative;
+
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            width: 100%;
+                            height: 100%;
+                            background: linear-gradient(90deg, #B9D32A 0%, #209753 100%);
+                            transition: all 0.4s ease;
+                            opacity: 0;
+                        }
+
+                        .btn-text {
+                            position: relative;
+                            z-index: 2;
+                        }
+
+                        &:hover {
+                            &::after {
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*
+--- Faq_4 End ---
+*/

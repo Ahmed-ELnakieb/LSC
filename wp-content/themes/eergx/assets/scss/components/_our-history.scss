@@ -1,0 +1,115 @@
+/*
+--- Our_History Start ---
+*/
+
+.egx-our_history-1 {
+    &-area {
+        padding: 120px 0;
+        overflow: hidden;
+
+        .section-title-wrap {
+            max-width: 944px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+    &-wrap {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 41px;
+        margin-top: 55px;
+        position: relative;
+        align-items: center;
+        justify-items: center;
+
+        @media #{$lg} {
+            grid-template-columns: repeat(3, 1fr);
+            align-items: start;
+        }
+        @media #{$md} {
+            grid-template-columns: repeat(2, 1fr);
+            align-items: start;
+        }
+        @media #{$sm} {
+            grid-template-columns: repeat(2, 1fr);
+            align-items: start;
+        }
+        @media #{$xs} {
+            grid-template-columns: 1fr;
+            align-items: start;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 1920px;
+            height: 1px;
+            background: var(--egx-gd-2);
+            opacity: 0.72;
+            z-index: -1;
+
+            @media #{$lg, $md, $sm, $xs} {
+                display: none;
+            }
+        }
+    }
+    &-card {
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: var(--egx-gd-2);
+            border: 3px solid #FFFFFF;
+            left: 0;
+            top: 44.9%;
+            transform: translateY(50%);
+
+            @media #{$xl} {
+                top: 44.5%;
+            }
+            @media #{$lg, $md, $sm, $xs} {
+                display: none;
+            }
+        }
+        .main-img {
+            filter: grayscale(3);
+            --webkit-filter: grayscale(3);
+            transition: all 0.4s ease;
+        }
+        .content {
+            margin-top: 95px;
+
+            @media #{$xl} {
+                margin-top: 80px;
+            }
+            @media #{$lg, $md, $sm, $xs} {
+                margin-top: 30px;
+            }
+
+            .title {
+                font-size: 26px;
+                line-height: 38px;
+                color: #0D0D0D;
+            }
+            .disc {
+                margin-top: 15px;
+                color: #717171;
+            }
+        }
+
+        &:hover {
+            .main-img {
+                filter: grayscale(0);
+                --webkit-filter: grayscale(0);
+            }
+        }
+    }
+}
+
+/*
+--- Our_History End ---
+*/

@@ -1,0 +1,40 @@
+/*
+--- Marque_2 Start ---
+*/
+
+
+.egx-marque-2 {
+    &-area {
+        background: var(--egx-gd-1);
+        padding: 40px 0 35px 0;
+        overflow: hidden;
+
+        .marque-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 45px;
+
+            .item {
+                display: flex;
+                align-items: center;
+                gap: 45px;
+                flex: 0 0 auto;
+
+                .title {
+                    font-size: 40px;
+                    color: #fff;
+                    font-weight: 800;
+
+                    @media #{$xs} {
+                        font-size: 26px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*
+--- Marque_2 End ---
+*/

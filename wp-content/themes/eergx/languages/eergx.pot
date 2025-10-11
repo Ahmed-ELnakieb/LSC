@@ -1,0 +1,403 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Eergx\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-23 09:26+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6.2\n"
+"X-Domain: eergx"
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:48 inc/template-tags.php:85
+msgid " "
+msgstr ""
+
+#: inc/admin/demo-import/functions.php:215
+#, php-format
+msgid "%s - We recommend setting memory to at least 96MB. %s."
+msgstr ""
+
+#: inc/admin/demo-import/functions.php:233
+#, php-format
+msgid ""
+"%s - We recommend setting PHP max_input_vars to at least 3000. See:\n"
+"\t\t\t\t<a href=\"%s\" target=\"_blank\">Increasing the PHP max vars "
+"limit</a>"
+msgstr ""
+
+#. 1: title.
+#: comments.php:36
+msgid "1 Comment"
+msgstr ""
+
+#: 404.php:25
+msgid "404"
+msgstr ""
+
+#: inc/breadcrumb-init.php:205
+msgid "404 - Not Found"
+msgstr ""
+
+#: 404.php:38
+msgid "404 Error!"
+msgstr ""
+
+#: inc/class-wp-eergx-navwalker.php:363
+msgid "Add a menu"
+msgstr ""
+
+#: functions.php:141 functions.php:152
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/breadcrumb-init.php:195 inc/breadcrumb-init.php:197
+#: inc/breadcrumb-init.php:199 inc/breadcrumb-init.php:201
+msgid "Archive for "
+msgstr ""
+
+#: single.php:19
+msgid "Back to Blog Page"
+msgstr ""
+
+#: inc/breadcrumb-init.php:103
+msgid "Blog"
+msgstr ""
+
+#: template-parts/content-search.php:23 template-parts/content.php:20
+msgid "By"
+msgstr ""
+
+#: inc/template-functions.php:137
+msgid "Comment"
+msgstr ""
+
+#: single.php:33 template-parts/content-search.php:24
+#: template-parts/content.php:21
+msgid "comments"
+msgstr ""
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:42
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/plugin-activation.php:30
+msgid "Contact Form 7"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-single.php:28
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/template-functions.php:153
+msgid "e.g. Oliver Spiteri"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:35
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. Name of the theme
+#: inc/admin/class-admin-dashboard.php:41
+#: inc/admin/class-admin-dashboard.php:42
+msgid "Eergx"
+msgstr ""
+
+#. Description of the theme
+msgid "Eergx - Solar Energy WordPress Theme"
+msgstr ""
+
+#: inc/admin/plugin-activation.php:9
+msgid "eergx Plugin"
+msgstr ""
+
+#: inc/template-functions.php:155
+msgid "Email"
+msgstr ""
+
+#: inc/admin/plugin-activation.php:22
+msgid "Envato Market"
+msgstr ""
+
+#: inc/template-functions.php:153
+msgid "first name"
+msgstr ""
+
+#: inc/admin/admin-page.php:17
+msgid ""
+"For comprehensive information on theme settings, please refer to our online "
+"documentation, where you can find all the details you need."
+msgstr ""
+
+#: template-parts/post-formats/gallery.php:22
+msgid "Gallery"
+msgstr ""
+
+#: 404.php:51
+msgid "Go Back Home"
+msgstr ""
+
+#: inc/admin/admin-page.php:20
+msgid "Go to Documentation"
+msgstr ""
+
+#: inc/admin/admin-page.php:39
+msgid "Go to Support Tickets"
+msgstr ""
+
+#: inc/breadcrumb-init.php:156
+msgid "Home"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://themexriver.com/"
+msgstr ""
+
+#. URI of the theme
+msgid "http://themexriver.com/wp/eergx"
+msgstr ""
+
+#: inc/admin/demo-import/functions.php:196
+msgid ""
+"If any of the option is under red mark, please contact your hosting provider "
+"and ask them to change it as recommended."
+msgstr ""
+
+#: inc/admin/class-admin-dashboard.php:92
+msgid "Import Demo Data"
+msgstr ""
+
+#: inc/admin/demo-import/functions.php:20
+#: inc/admin/demo-import/functions.php:35
+#: inc/admin/demo-import/functions.php:50
+#: inc/admin/demo-import/functions.php:65
+#: inc/admin/demo-import/functions.php:80
+#: inc/admin/demo-import/functions.php:95
+msgid ""
+"Import process may take 3-10 minutes. If you facing any issues please "
+"contact our support.After Import Succesfuly go to Appearance->Menu And Set "
+"your Menu"
+msgstr ""
+
+#: inc/admin/demo-import/functions.php:195
+msgid ""
+"Importan Notice: Before demo import please make sure your server meet(green) "
+"all required options for installing the theme"
+msgstr ""
+
+#: inc/template-functions.php:155
+msgid "info@forgexindustry.co.uk"
+msgstr ""
+
+#: functions.php:174
+msgctxt "Inter: on or off"
+msgid "on"
+msgstr ""
+
+#: template-parts/content-none.php:49
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/admin/demo-import/functions.php:205
+msgid "Language"
+msgstr ""
+
+#: inc/template-functions.php:136
+msgid "Leave a comment"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:61 inc/template-tags.php:98
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/cs-framework-functions.php:90
+msgid "Logo"
+msgstr ""
+
+#: inc/admin/plugin-activation.php:36
+msgid "MC4WP: Mailchimp for WordPress"
+msgstr ""
+
+#: inc/admin/demo-import/functions.php:216
+msgid "More info"
+msgstr ""
+
+#: template-parts/content-none.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/admin/class-admin-dashboard.php:91 inc/admin/plugin-activation.php:42
+msgid "One Click Demo Import"
+msgstr ""
+
+#: 404.php:33
+msgid "Oops!"
+msgstr ""
+
+#: inc/breadcrumb-init.php:31
+msgid "Page not Found"
+msgstr ""
+
+#: template-parts/content-single.php:41 template-parts/content-page.php:21
+msgid "Pages:"
+msgstr ""
+
+#: inc/admin/demo-import/functions.php:227
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: inc/admin/demo-import/functions.php:244
+msgid "PHP Version"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:30
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/eergx-functions.php:22
+msgid "Preloader"
+msgstr ""
+
+#: functions.php:63
+msgid "Primary"
+msgstr ""
+
+#: inc/breadcrumb-init.php:35
+msgid "Product Details"
+msgstr ""
+
+#: template-parts/content-search.php:34 template-parts/content.php:31
+msgid "Read More"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:26
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/breadcrumb-init.php:203
+msgid "Search Results for "
+msgstr ""
+
+#: inc/breadcrumb-init.php:217
+msgid "Search results for &ldquo;"
+msgstr ""
+
+#: inc/breadcrumb-init.php:29
+msgid "Search Results for : "
+msgstr ""
+
+#: inc/template-functions.php:262
+msgid "Search..."
+msgstr ""
+
+#: inc/admin/demo-import/functions.php:259
+msgid "Secure Connection(HTTPS)"
+msgstr ""
+
+#: functions.php:150
+msgid "Shop Siderbar"
+msgstr ""
+
+#: inc/admin/admin-page.php:36
+msgid ""
+"Should you require any assistance, please dont hesitate to reach out through "
+"our premium support ticket system. We are here to help and answer any "
+"questions you may have."
+msgstr ""
+
+#: functions.php:139
+msgid "Sidebar"
+msgstr ""
+
+#: template-parts/content-none.php:40
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-single.php:50
+msgid "Tag:"
+msgstr ""
+
+#: inc/admin/class-admin-dashboard.php:61
+#: inc/admin/class-admin-dashboard.php:62
+msgid "Templates"
+msgstr ""
+
+#: inc/admin/admin-page.php:11
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/admin/admin-page.php:30
+msgid "Theme Support"
+msgstr ""
+
+#. Author of the theme
+msgid "themexriver"
+msgstr ""
+
+#: inc/template-functions.php:157
+msgid "themexriver.com"
+msgstr ""
+
+#: functions.php:177
+msgctxt "Urbanist: on or off"
+msgid "on"
+msgstr ""
+
+#: 404.php:44
+msgid ""
+"We cant find the page that youre looking for. Cant find what you need? Take "
+"a moment and search below!"
+msgstr ""
+
+#: inc/template-functions.php:157
+msgid "Website URL"
+msgstr ""
+
+#: inc/admin/plugin-activation.php:47
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/admin/demo-import/functions.php:209
+msgid "WP Memory Limit"
+msgstr ""
+
+#: inc/admin/demo-import/functions.php:199
+msgid "WP Version"
+msgstr ""
+
+#: template-parts/footer/default-footer.php:10
+msgid "© 2023 eergx - IT Services. All rights reserved."
+msgstr ""

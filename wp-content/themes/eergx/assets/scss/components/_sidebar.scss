@@ -1,0 +1,290 @@
+/*
+--- Blog_Sidebar Start ---
+*/
+
+.blog-sidebar {
+    background: #FFFFFF;
+    border: 1px solid rgba(108, 108, 108, 0.2);
+    border-radius: 12px;
+    padding: 40px 32px;
+    overflow: hidden;
+
+    @media #{$lg, $md, $sm, $xs} {
+        margin-top: 60px;
+    }
+    @media #{$xs} {
+        padding: 40px 20px;
+    }
+
+    .sidebar-box {
+        position: relative;
+
+        &:not(:last-child) {
+            padding-bottom: 40px;
+        }
+        &:not(:first-child) {
+            &::after {
+                content: "";
+                position: absolute;
+                left: -32px;
+                top: 0;
+                width: 1000px;
+                height: 1px;
+                background: #DFE1E5;
+            }
+
+            .sidebar-box-title {
+                padding-top: 35px;
+            }
+        }
+
+        // title 
+        .sidebar-box-title {
+            font-size: 22px;
+            line-height: 26px;
+            text-transform: capitalize;
+            color: #0D0D0D;
+        }
+
+
+        // search 
+        .sidebar-search-box {
+            position: relative;
+            display: grid;
+            grid-template-columns: auto 54px;
+            gap: 0;
+            height: 54px;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top: 14px;
+
+            @media #{$xs} {
+                display: flex;
+            }
+
+            .search-input {
+                height: 100%;
+                background: #F4F5F5;
+                border: none;
+                outline: none;
+                padding: 5px 20px;
+                font-family: var(--urbanist);
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                color: #717171;
+
+                @media #{$xs} {
+                    max-width: 200px;
+                }
+
+                &::placeholder {
+                    color: rgba(113, 113, 113, 0.48);
+                }
+            }
+            .search-btn {
+                height: 100%;
+                background: var(--egx-gd-2);
+                border-radius: 0px 5px 5px 0px;
+                position: relative;
+                width: 54px;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(90deg, #B9D32A 0%, #209753 100%);
+                    transition: all 0.4s ease;
+                    opacity: 0;
+                }
+
+                i {
+                    color: #fff;
+                    position: relative;
+                    z-index: 2;
+                    font-size: 20px;
+                }
+
+                &:hover {
+                    &::after {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        // category
+        .sidebar-category {
+            li {
+                a {
+                    font-family: var(--urbanist);
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 28px;
+                    color: #0D0D0D;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 16px 0;
+                    position: relative;
+
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        width: 0%;
+                        height: 1px;
+                        background-color: var(--egx-pr-1);
+                        transition: all 0.8s ease;
+                    }
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        width: 100%;
+                        height: 1px;
+                        background-color: #DFE1E5;
+                    }
+
+                    .text {
+                        transition: all 0.4s ease;
+                    }
+                    .number {
+                        transition: all 0.4s ease;
+                    }
+
+                    &:hover {
+                        &::after {
+                            width: 100%;
+                        }
+                        .text {
+                            transform: translateX(5px);
+                            color: var(--egx-pr-1);
+                        }
+                        .number {
+                            color: var(--egx-pr-1);
+                        }
+                    }
+                }
+            }
+        }
+
+        // recent posts
+        .latest-post-item-wrap {
+            margin-top: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            .latest-post-item {
+                display: grid;
+                grid-template-columns: 112px auto;
+                gap: 14px;
+                align-items: center;
+
+                .img {
+                    max-width: 112px;
+                    border-radius: 4px;
+                    overflow: hidden;
+
+                    .img-cover {
+                        transition: all 0.5s ease;
+                    }
+                    &:hover {
+                        .img-cover {
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+                .content {
+                    .date {
+                        font-weight: 700;
+                        font-size: 10px;
+                        line-height: 20px;
+                        color: #FFFFFF;
+                        background: var(--egx-gd-2);
+                        border-radius: 50px;
+                        padding: 7px 15px;
+                    }
+                    .title {
+                        margin-top: 14px;
+                        font-family: var(--urbanist);
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 28px;
+                        color: #0D0D0D;
+                        transition: all 0.3s ease;
+
+                        @media #{$xs} {
+                            line-height: 25px;
+                        }
+
+                        &:hover {
+                            color: var(--egx-pr-1);
+                        }
+                    }
+                }
+            }
+        }
+
+        // tags
+        .sidebar-tag {
+            margin-top: 24px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+
+            a {
+                padding: 8px 16px;
+                background: #F4F5F5;
+                border-radius: 2px;
+                font-family: var(--urbanist);
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                color: #717171;
+                transition: all 0.4s ease;
+
+                &:hover {
+                    background: var(--egx-pr-1);
+                    color: #fff;
+                }
+            }
+        }
+
+        // social media
+        .sidebar-social {
+            margin-top: 24px;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+
+            .social-link {
+                width: 50px;
+                height: 50px;
+                background: #FFFFFF;
+                border: 1px solid #EEEEEE;
+                border-radius: 8px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 18px;
+                transition: all 0.4s ease;
+
+                &:hover {
+                    color: #209753;
+                }
+            }
+        }
+    }
+}
+
+/*
+--- Blog_Sidebar End ---
+*/

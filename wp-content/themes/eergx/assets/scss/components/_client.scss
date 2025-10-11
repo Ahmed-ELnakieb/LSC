@@ -1,0 +1,382 @@
+/*
+--- Client_1 Start ---
+*/
+
+
+.egx-client-1 {
+    &-area {
+        padding-bottom: 92px;
+
+        &:is(.client-4) {
+            padding-top: 120px;
+        }
+
+        .client-title {
+            font-size: 30px;
+            color: rgb(54, 53, 57);
+            line-height: 42px;
+            text-align: center;
+
+            @media #{$sm} {
+                font-size: 26px;
+                line-height: 38px;
+            }
+            @media #{$xs} {
+                font-size: 24px;
+                line-height: 35px;
+            }
+        }
+    }
+    &-wrap {
+        margin: 25px auto 0;
+        max-width: 1080px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 18px;
+
+        @media #{$sm} {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        @media #{$xs} {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .client-item-wrap {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            padding: 10px 10px;
+            min-height: 90px;
+            overflow: hidden;
+
+            .client-item {
+                &:nth-child(1) {
+                    transform: translatey(50%) scaley(2);
+                    opacity: 0;
+                    filter: blur(10px);
+                }
+                &:nth-child(2) {
+                    position: absolute;
+                }
+                transition: all 0.5s ease;
+            }
+            &:hover {
+                .client-item {
+                    &:nth-child(1) {
+                        transform: translatey(0) scalex(1);
+                        opacity: 1;
+                        filter: blur(0);
+                    }
+                    &:nth-child(2) {
+                        transform: translatey(-50%) scalex(2);
+                        opacity: 0;
+                        filter: blur(10px);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*
+--- Client_1 End ---
+*/
+
+
+
+
+
+
+/*
+--- Client_2 Start ---
+*/
+
+
+
+.egx-client-2 {
+    &-area {
+        padding: 125px 0 135px 0;
+
+        .section-title-wrap {
+            max-width: 785px;
+            margin: 0 auto;
+            text-align: center;
+
+            .disc {
+                margin-top: 20px;
+                color: rgb(113, 113, 113);   
+            }
+        }
+    }
+
+    &-wrap {
+        margin-top: 45px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 16px;
+        align-items: center;
+
+        @media #{$lg, $md} {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        @media #{$sm} {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @media #{$xs} {
+            grid-template-columns: 1fr;
+            max-width: 250px;
+            margin: 45px auto 0;
+        }
+
+        .item {
+            height: 155px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgb(170, 170, 170);
+            border-radius: 78px;
+            padding: 30px 20px;
+
+            @media #{$sm, $xs} {
+                height: 120px;
+            }
+
+            &:hover {
+                img {
+                    animation: bounceIn 1s ease;
+                }
+            }
+        }
+    }
+    &-action {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+
+        @media #{$sm, $xs} {
+            grid-template-columns: 1fr;
+        }
+
+        .action-item {
+            border: 1px solid rgb(170, 170, 170);
+            border-radius: 62px;
+            padding: 38px 10px 34px 10px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 18px;
+
+            @media #{$xs} {
+                padding: 30px 20px;
+                border-radius: 30px;
+            }
+
+            .icon {
+                width: 49px;
+                height: 49px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                background: var(--egx-gd-1);
+                color: #fff;
+                font-size: 18px;
+
+                &:hover {
+                    i {
+                        animation: egx_zigzag 0.4s ease;
+                    }
+                }
+            }
+            .title {
+                font-size: 17px;
+                font-family: var(--urbanist);
+                font-weight: 600;
+                line-height: 22px;
+                color: rgb(14, 14, 14);
+                max-width: 72px;
+            }
+            .link {
+                font-size: 38px;
+                font-family: var(--urbanist);
+                font-weight: 900;
+                color: rgb(14, 14, 14);
+                line-height: 1.2;
+                text-align: center;
+                transition: all 0.4s ease;
+
+                @media #{$md, $sm} {
+                    font-size: 30px;
+                }
+                @media #{$xs} {
+                    font-size: 26px;
+                }
+
+                &:hover {
+                    color: var(--egx-pr-1);
+                }
+            }
+        }
+    }
+}
+
+
+
+/*
+--- Client_2 End ---
+*/
+
+
+
+
+
+
+
+/*
+--- Client_3 Start ---
+*/
+
+
+.egx-client-3 {
+    &-area {
+        padding-bottom: 100px;
+
+        .section-title-wrap {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+
+            .title {
+                font-size: 20px;
+                text-transform: uppercase;
+                line-height: 1.3;
+                font-weight: 900;
+                background: var(--egx-gd-1);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+    &-wrap {
+        margin-top: 28px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 28px;
+
+        @media #{$lg} {
+            grid-template-columns: repeat(4, 1fr);
+        }
+        @media #{$md} {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        @media #{$sm, $xs} {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px 20px;
+        }
+
+        .client-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ddd;
+            border-radius: 53px;
+            padding: 22px 10px;
+            overflow: hidden;
+
+            @media #{$xs} {
+                padding: 18px 8px;
+            }
+            
+            .img {
+                @media #{$xs} {
+                    max-width: 100px;
+                }
+                &:nth-child(1) {
+                    transform: translatey(50%) scaley(2);
+                    opacity: 0;
+                    filter: blur(10px);
+                }
+                &:nth-child(2) {
+                    position: absolute;
+                }
+                transition: all 0.5s ease;
+            }
+            &:hover {
+                .img {
+                    &:nth-child(1) {
+                        transform: translatey(0) scalex(1);
+                        opacity: 1;
+                        filter: blur(0);
+                    }
+                    &:nth-child(2) {
+                        transform: translatey(-50%) scalex(2);
+                        opacity: 0;
+                        filter: blur(10px);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*
+--- Client_3 End ---
+*/
+
+
+
+
+/*
+--- Client_4 Start ---
+*/
+
+
+.egx-client-4 {
+    &-area {
+        padding: 120px 0;
+    }
+    &-wrap {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 32px;
+
+        @media #{$md, $sm, $xs} {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @media #{$xs} {
+            gap: 20px;
+        }
+
+        .client-item {
+            height: 120px;
+            border: 1px solid #F3F3F3;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px 8px;
+
+            @media #{$xs} {
+                height: 100px;
+            }
+
+            &:hover {
+                img {
+                    animation: bounceIn 1.2s ease;
+                }
+            }
+        }
+    }
+}
+
+
+/*
+--- Client_4 End ---
+*/

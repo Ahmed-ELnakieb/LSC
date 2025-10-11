@@ -1,0 +1,116 @@
+/*
+--- Design_2 Start ---
+*/
+
+
+.egx-design-2 {
+    &-area {
+        padding: 135px 0 105px 0;
+    }
+    &-wrap {
+        display: grid;
+        grid-template-columns: 1.202fr 1fr;
+        gap: 80px;
+        align-items: center;
+
+        @media #{$lg, $md, $xs, $sm} {
+            grid-template-columns: 1fr;
+        }
+    }
+    &-left {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+
+        @media #{$xs, $sm} {
+            grid-template-columns: 1fr;
+        }
+    }
+    &-card {
+        border-radius: 30px;
+        background: #fff;
+        padding: 34px 40px 45px 55px;
+        position: relative;
+        z-index: 2;
+
+        @media #{$xl, $lg, $md, $sm, $xs} {
+            padding: 34px 40px 40px 40px;
+        }
+
+        .icon {
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 35px;
+            background: var(--egx-gd-1);
+            border-radius: 50%;
+            color: #fff;
+        }
+
+        .title {
+            font-size: 22px;
+            line-height: 25px;
+            font-weight: 900;
+            color: rgb(35, 34, 28);
+            margin-top: 15px;
+        }
+
+        .disc {
+            font-size: 17px;
+            color: rgb(153, 153, 153);
+            line-height: 24px;
+            margin-top: 10px;
+        }
+
+        .card-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 25px;
+
+            .btn-text{
+                font-size: 18px;
+                font-family: var(--urbanist);
+                color: rgb(35, 34, 28);
+                font-weight: 700;
+                line-height: 1;
+                text-transform: capitalize;
+                transition: all 0.4s ease;
+            }
+            .btn-icon {
+                color: rgb(35, 34, 28);
+                font-size: 15px;
+                transition: all 0.4s ease;
+            }
+
+            &:hover {
+                .btn-text {
+                    color: var(--egx-pr-1);
+                }
+                .btn-icon {
+                    color: var(--egx-pr-1);
+                    transform: rotate(180deg);
+                }
+            }
+        }
+    }
+    &-right {
+        .disc {
+            margin-top: 12px;
+            color: rgb(34, 34, 34);      
+        }
+        .btn-wrap {
+            margin-top: 45px;
+            position: relative;
+            z-index: 2;
+        }
+    }
+}
+
+
+
+/*
+--- Design_2 End ---
+*/

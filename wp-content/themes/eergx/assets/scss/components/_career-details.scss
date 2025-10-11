@@ -1,0 +1,215 @@
+/*
+--- Career-Details Start ---
+*/
+
+.egx-career-details {
+    &-area {
+        padding: 120px 0;
+    }
+    &-wrap {
+        display: grid;
+        grid-template-columns: 1.8fr 1fr;
+        gap: 60px 140px;
+
+        @media #{$lg} {
+            gap: 60px;
+        }
+        @media #{$md, $sm, $xs} {
+            grid-template-columns: 1fr;
+        }
+
+        .career-left-content {
+            h3 {
+                font-family: var(--urbanist);
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 45px;
+                color: #0D0D0D;
+                margin-bottom: 28px;
+
+                @media #{$md} {
+                    font-size: 35px;
+                    line-height: 42px;
+                }
+                @media #{$sm} {
+                    font-size: 32px;
+                    line-height: 40px;
+                }
+                @media #{$xs} {
+                    font-size: 28px;
+                    line-height: 36px;
+                }
+
+                &:not(:first-child) {
+                    margin-top: 55px;
+                }
+            }
+            p {
+                font-family: var(--urbanist);
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+                color: #0D0D0D;
+                margin-bottom: 0;
+            }
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                li {
+                    display: inline-flex;
+                    align-items: baseline;
+                    gap: 8px;
+                    font-family: var(--urbanist);
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 28px;
+                    color: #0D0D0D;
+
+                    img {
+                        transform: translateY(2px);
+                    }
+                }
+            }
+        }
+
+        .career-right-content {
+            display: flex;
+            flex-direction: column;
+            gap: 48px;
+
+            .job-info {
+                background: #F7F7F8;
+                border-radius: 8px;
+                padding: 40px;
+
+                .item {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 10px 15px;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-bottom: 1px solid #E9E9E9;
+                    padding: 20px 0;
+                    
+                    &:nth-child(1) {
+                        padding-top: 0;
+                    }
+
+
+                    .title {
+                        font-family: var(--urbanist);
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 28px;
+                        color: #0D0D0D;
+                        margin-bottom: 0;
+
+                        img {
+                            margin-right: 10px;
+                            transform: translateY(-2px);
+                        }
+                    }
+                }
+            }
+            .job-form {
+                background: linear-gradient(90deg, rgba(32, 151, 83, 0.12) 0%, rgba(185, 211, 42, 0.12) 100%), #FFFFFF;
+                border-radius: 12px;
+                padding: 48px 36px 40px 36px;
+
+                .icon-1 {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 10px;
+                    width: 92px;
+                    height: 92px;
+                    background: linear-gradient(90deg, rgba(32, 151, 83, 0.16) 0%, rgba(185, 211, 42, 0.16) 100%);
+                    border-radius: 46px;
+                    margin: 0 auto;
+
+                    &:hover {
+                        img {
+                            animation: bounceIn 0.8s ease;
+                        }
+                    }
+                }
+                form {
+                    margin-top: 35px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 24px;
+
+                    .item {
+                        position: relative;
+                &:focus-within {
+                    label {
+                        color: #209753;
+                    }
+
+                    &::after {
+                        width: 100%;
+                    }
+                }
+                &::after {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                        bottom: 0;
+                        width: 0%;
+                        height: 1px;
+                        background-color: #000;
+                        z-index: 2;
+                        transition: all 0.5s ease;
+                    }
+                    label {
+                        font-family: var(--urbanist);
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: rgba(13, 13, 13, 0.56);
+                        display: block;
+                        transition: color 0.3s ease;
+                    }
+                    input {
+                        border: none;
+                        background-color: transparent;
+                        position: relative;
+                        outline: none;
+                        border-bottom: 1px solid #CED3CA;
+                        font-family: var(--urbanist);
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #0D0D0D;
+                        width: 100%;
+                        padding-bottom: 6px;
+
+                        &::placeholder {
+                            font-weight: 400;
+                            color: rgba(13, 13, 13, 0.8);
+                        }
+                    }
+                    }
+                    .btn {
+                        margin-top: 12px;
+                        box-shadow: none;
+                        border: none;
+                        outline: none;
+                        justify-content: center;
+                        .btn-text {
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*
+--- Career-Details End ---
+*/

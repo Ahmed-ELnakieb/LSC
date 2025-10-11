@@ -1,0 +1,147 @@
+/*
+--- Work_1 Start ---
+*/
+
+
+.egx-work-1 {
+    &-area {
+        padding: 120px 0;
+        overflow: hidden;
+
+        .thumbnail {
+            margin-top: 55px;
+            overflow: hidden;
+            border-radius: 12px;
+        }
+    }
+    &-wrap {
+        max-width: 1058px;
+        margin: 0 auto;
+    }
+    &-item-wrap {
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+    }
+    &-item {
+        &:nth-child(even) {
+           .point {
+                transform: translateX(-424px);
+                .line {
+                    width: 1645px;
+                    @media #{$xxl, $xl,} {
+                        width: 1420px;
+                    }
+                    @media #{$lg} {
+                        width: 1298px;
+                    }
+                    @media #{$md} {
+                        width: 1060px;
+                    }
+                    @media #{$sm} {
+                        width: 870px;
+                    }
+                    @media #{$xs} {
+                        width: 660px;
+                    }
+                }
+           }
+           .item-content {
+                transform: translateX(220px);
+
+                @media #{$xxl, $xl, $lg, $md, $sm, $xs} {
+                    transform: translateX(0px);
+                }
+
+                &:nth-child(even) {
+                    grid-template-columns: 1.04fr 1fr;
+    
+                    @media #{$sm, $xs} {
+                        flex-direction: column-reverse;
+                    }
+                    .item-right {
+                        margin-left: auto;
+
+                        @media #{$sm, $xs} {
+                            margin-left: 0;
+                        }
+                    }
+                }
+           }
+        }
+        .point {
+            display: flex;
+            align-items: center;
+            gap: 0;
+            
+
+            .number {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 8px;
+                width: 59px;
+                height: 54px;
+                background: #DFE1E5;
+                border-radius: 4px;
+                flex: 0 0 auto;
+            }
+            .line {
+                width: 1598px;
+                height: 1px;
+                background: #DFE1E5;
+                flex: 0 0 auto;
+            }
+        }
+        .item-content {
+            display: grid;
+            grid-template-columns: 1fr 1.04fr;
+            gap: 62px;
+            margin-top: 52px;
+            align-items: center;
+
+            @media #{$sm, $xs} {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            .item-img {
+                overflow: hidden;
+                border-radius: 12px;
+                
+                img {
+                    transition: all 0.6s ease;
+                }
+
+                &:hover {
+                    img {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+            .item-right {
+                max-width: 465px;
+                .title {
+                    font-size: 32px;
+                    line-height: 46px;
+                    color: #0D0D0D;
+                }
+                .disc {
+                    line-height: 28px;
+                    color: #717171;
+                    margin-top: 30px;
+                }
+                .btn-wrap {
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+}
+
+
+/*
+--- Work_1 End ---
+*/

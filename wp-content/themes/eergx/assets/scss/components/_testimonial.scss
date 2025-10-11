@@ -1,0 +1,724 @@
+/*
+--- Testimonial_3 Start ---
+*/
+
+
+.egx-testimonial-3 {
+    &-area {
+        padding: 120px 0 120px 0;
+
+        .egx_testimonial_3_active {
+            overflow: hidden;
+        }
+
+        .navigator {
+            width: 310px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transform: translate(28px, -44px);
+            position: relative;
+            z-index: 2;
+
+            @media #{$lg} {
+                transform: translate(28px, -55px);
+            }
+
+            @media #{$md, $sm} {
+                position: absolute;
+                right: 0;
+                transform: translate(0px, -55px);
+                width: 150px;
+            }
+            @media #{$xs} {
+                position: absolute;
+                right: 0;
+                transform: translate(0px, 0px);
+                width: 150px;
+            }
+
+            .egx-test-3-prev, .egx-test-3-next {
+                width: 55px;
+                height: 55px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 2px solid rgb(36, 36, 36);
+                color: rgb(36, 36, 36);
+                position: relative;
+                transition: all 0.4s ease;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 55px;
+                    height: 55px;
+                    border-radius: 50%;
+                    background: var(--egx-gd-1);
+                    transform: scale(0);
+                    transition: all 0.4s ease;
+                }
+
+                i {
+                    position: relative;
+                    z-index: 2;
+                }
+                &:hover {
+                    border-color: #fff;
+                    color: #fff;
+                    &::after {
+                        transform: scale(1);
+                    }
+                }
+            }
+        }
+
+        .swiper-wrapper {
+            .swiper-slide {
+                &:is(.swiper-slide-active) {
+                    .egx-testimonial-3-item {
+                        .item-left {
+                            .main-img {
+                                img {
+                                    transform: scale(1);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &-item {
+        display: grid;
+        grid-template-columns: 338px auto;
+        gap: 80px;
+        padding-top: 50px;
+        
+        @media #{$md, $sm, $xs} {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .item-left {
+            position: relative;
+            display: flex;
+            justify-content: end;
+
+            .quote {
+                position: absolute;
+                top: -30px;
+                left: 0;
+            }
+
+            .main-img {
+                width: 310px;
+                height: 310px;
+                border-radius: 50%;
+                margin-top: 10px;
+                overflow: hidden;
+
+                @media #{$xs} {
+                    width: 290px;
+                    height: 290px;
+                }
+
+                img {
+                    border-radius: 50%;
+                    transform: scale(0);
+                    transition: all 1s ease;
+                }
+            }
+        }
+        .item-right {
+            .subtitle {
+                font-size: 17px;
+                font-family: var(--urbanist);
+                color: rgb(38, 37, 36);
+                font-weight: 700;
+                text-transform: uppercase;
+                line-height: 1.2;
+            }
+            blockquote {
+                font-size: 43px;
+                color: rgb(38, 37, 36);
+                font-weight: 800;
+                line-height: 1.5;
+
+                @media #{$lg, $md} {
+                    font-size: 34px;
+                }
+                @media #{$sm} {
+                    font-size: 28px;
+                }
+                @media #{$xs} {
+                    font-size: 24px;
+                }
+            }
+            .user {
+                margin-top: 35px;
+                display: flex;
+                align-items: center;
+                gap: 11px;
+                flex-wrap: wrap;
+
+                .user-img {
+                    img {
+                        border-radius: 50%;
+                    }
+                }
+                .name {
+                    font-size: 27px;
+                    font-weight: 800;
+                    color: rgb(13, 13, 13);
+                    line-height: 1.2;
+
+                    @media #{$sm} {
+                        font-size: 24px;
+                    }
+                    @media #{$xs} {
+                        font-size: 22px;
+                    }
+                }
+                .rating {
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    margin-top: 5px;
+                    i {
+                        color: rgb(234, 144, 52);
+                        font-size: 19px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*
+--- Testimonial_3 End ---
+*/
+
+
+
+
+
+
+/*
+--- Testimonial_4 Start ---
+*/
+
+
+.egx-testimonial-4 {
+    &-area {
+        padding: 130px 0 140px 0;
+
+        @media #{$xs} {
+            padding: 100px 0;
+        }
+    }
+    &-wrap {
+        position: relative;
+
+        .testimonial-left {
+            max-width: 474px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 62px;
+        }
+        .testimonial-right {
+            max-width: 778px;
+            position: absolute;
+            right: 0;
+            top: 39px;
+
+            @media #{$xl, $lg, $md, $sm, $xs} {
+                position: static;
+                margin-top: 60px;
+            }
+
+            .egx_testimonial_4_active {
+                .swiper-wrapper {
+                    .swiper-slide {
+                        &:is(.swiper-slide-active) {
+                            .egx-testimonial-4-item {
+                                .main-img-wrap {
+                                    .main-img {
+                                        transform: translateY(0);
+                                    }
+                                }
+                                .content {
+                                    blockquote {
+                                        transform: translateX(0);
+                                    }
+                                    .divider {
+                                        &::after {
+                                            transform: translateX(0);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &-preview {
+        .preview-item {
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .egx-t4-pargination {
+            font-family: var(--urbanist);
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 34px;
+            color: #717171;
+            margin-bottom: 40px;
+
+            .swiper-pagination-current {
+                font-weight: 700;
+                font-size: 40px;
+                color: #209753;
+            }
+        }
+    }
+    &-item {
+        display: grid;
+        grid-template-columns: 1fr 1.3fr;
+        gap: 48px;
+        align-items: center;
+
+        @media #{$sm, $xs} {
+            grid-template-columns: 1fr;
+            gap: 35px;
+        }
+
+        .main-img-wrap {
+            position: relative;
+            border-radius: 12px;
+            max-width: 320px;
+            .main-img {
+                transform: translateY(450px);
+                transition: all 0.8s ease;
+            }
+            .quote {
+                position: absolute;
+                top: 12px;
+                right: 12px;
+            }
+        }
+        .content {
+            overflow: hidden;
+            .rating {
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                font-size: 20px;
+                color: #EFAE06;
+            }
+            blockquote {
+                font-family: var(--urbanist);
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 30px;
+                color: #0D0D0D;
+                margin: 28px 0 36px 0;
+                transform: translateX(200px);
+                transition: all 0.6s ease;
+
+                span {
+                    background: linear-gradient(90deg, #209753 0%, #B9D32A 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    text-fill-color: transparent;
+                }
+            }
+            .divider {
+                width: 100%;
+                height: 1px;
+                background: rgba(0, 57, 54, 0.12);
+                display: flex;
+                align-items: center;
+                position: relative;
+                margin-bottom: 38px;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    width: 40px;
+                    height: 2px;
+                    background: #209753;
+                    transform: translateX(500px);
+                    transition: all 0.7s ease;
+                }
+            }
+            .name {
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 32px;
+                color: #0D0D0D;
+            }
+            .designation {
+                font-family: var(--urbanist);
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #717171;
+            }
+        }
+    }
+}
+
+
+/*
+--- Testimonial_4 End ---
+*/
+
+
+
+
+
+
+
+
+
+/*
+--- Testimonial_5 Start ---
+*/
+
+
+.egx-testimonial-5 {
+    &-area {
+        padding: 120px 0;
+
+        .section-title-wrap {
+            max-width: 620px;
+        }
+
+        .egx_t5_slider_active {
+            margin-top: 60px;
+            padding-bottom: 120px;
+            .egx-t5-pargination {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 40px;
+                padding: 12px 0;
+                position: relative;
+                z-index: 2;
+
+                span {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: all 0.5s ease;
+                }
+
+                .swiper-pagination-bullet-active {
+                    position: relative;
+                    margin: 0 10px;
+                    background-color: #209753;
+
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        width: 24px;
+                        height: 24px;
+                        border: 1px solid #209753;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+        .pagination-wrap {
+            padding-top: 16px;
+        }
+    }
+    &-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border-radius: 12px;
+        overflow: hidden;
+
+        .img-wrap {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+
+            img {
+                transition: transform 500ms;
+                transform: perspective(0px) rotateX(0deg) rotateY(0deg) scaleX(1) scaleY(1);
+                transform-origin: center center;
+            }
+        }
+        .popup-video {
+            position: absolute;
+            width: 72px;
+            height: 72px;
+            background: #FFFFFF;
+            box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2;
+
+            &::before {
+                content: "";
+                width: 100%;
+                height: 100%;
+                top: 50%;
+                left: 50%;
+                position: absolute;
+                transform: translate(-50%, -50%);
+                border-radius: 50%;
+                background: #ffffff;
+                opacity: 0.2;
+                animation: egx-plybtn-1 2s linear infinite;
+            }
+
+            &::after {
+                content: "";
+                width: 100%;
+                height: 100%;
+                top: 50%;
+                left: 50%;
+                position: absolute;
+                transform: translate(-50%, -50%);
+                border-radius: 50%;
+                background: #ffffff;
+                opacity: 0.4;
+                animation: egx-plybtn-1 4s linear infinite;
+            }
+
+            .icon {
+                color: #209753;
+                font-size: 12px;
+                position: relative;
+                z-index: 2;
+                transition: all 0.4s ease;
+            }
+
+            &:hover {
+                .icon {
+                    color: var(--egx-pr-1);
+                }
+            }
+        }
+
+        &:hover {
+            .img-wrap {
+                img {
+                    transform: perspective(600px) rotateX(0.06deg) rotateY(0deg) scaleX(1.1) scaleY(1.1);
+                }
+            }
+        }
+    }
+    &-wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 52px;
+    }
+    &-card {
+        display: grid;
+        grid-template-columns: 320px auto;
+        gap: 64px;
+        align-items: center;
+
+        @media #{$md, $sm, $xs} {
+            grid-template-columns: 1fr;
+            gap: 40px;
+        }
+
+        .card-img {
+            border-radius: 7px;
+            overflow: hidden;
+            max-width: 320px;
+
+            img {
+                -webkit-filter: grayscale(3);
+                filter: grayscale(3);
+                transition: all 0.4s ease;
+            }
+
+            &:hover {
+                img {
+                    -webkit-filter: grayscale(0);
+                    filter: grayscale(0);
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .card-content {
+            blockquote {
+                font-family: var(--urbanist);
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 34px;
+                color: #0D0D0D;
+            }
+            .dot-wrap {
+                margin: 35px 0;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                span {
+                    display: block;
+                    width: 6px;
+                    height: 6px;
+                    background: #209753;
+                    border-radius: 50%;
+                }
+            }
+            .name {
+                font-family: var(--urbanist);
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 26px;
+                color: #0D0D0D;
+            }
+            .designation {
+                font-family: var(--urbanist);
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                color: rgba(13, 13, 13, 0.64);
+                display: inline-block;
+                margin-top: 5px;
+            }
+        }
+    }
+}
+
+@keyframes egx-plybtn-1 {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1.6);
+    }
+}
+
+/*
+--- Testimonial_5 End ---
+*/
+
+
+
+
+
+
+
+/*
+--- Testimonial_6 Start ---
+*/
+
+
+.egx-testimonial-6 {
+    &-area {
+        padding: 120px 0;
+
+        .section-title-wrap {
+            max-width: 875px;
+        }
+    }
+    &-card {
+        max-width: 1167px;
+        margin: 55px auto 0;
+        background: #FFFFFF;
+        border-radius: 12px;
+        display: grid;
+        grid-template-columns: 408px auto;
+        gap: 40px;
+        align-items: center;
+
+        @media #{$md, $sm, $xs} {
+            grid-template-columns: 1fr;
+        }
+        .main-img {
+            @media #{$md, $sm, $xs} {
+                display: flex;
+                justify-content: center;
+            }
+        }
+        .content {
+            padding: 20px 60px 20px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 20px 0;
+
+            @media #{$md, $sm} {
+                padding: 0 40px 40px 40px;
+            }
+            @media #{$xs} {
+                padding: 0 20px 40px 20px;
+            }
+
+            blockquote {
+                font-family: var(--urbanist);
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 40px;
+                color: #0D0D0D;
+                margin-bottom: 5px;
+
+                @media #{$xs} {
+                    font-size: 23px;
+                    line-height: 36px;
+                }
+            }
+            .author {
+                display: flex;
+                align-items: center;
+                gap: 5px 30px;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                position: relative;
+
+                .name {
+                    font-size: 22px;
+                    line-height: 30px;
+                    text-transform: uppercase;
+                    color: #0D0D0D;
+                    position: relative;
+                    z-index: 2;
+                }
+                .designation {
+                    font-family: var(--urbanist);
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    color: #313030;
+                    position: relative;
+                    z-index: 2;
+                }
+                .quote-icon {
+                    position: absolute;
+                    right: 0;
+
+                    @media #{$xs} {
+                        max-width: 80px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*
+--- Testimonial_6 End ---
+*/

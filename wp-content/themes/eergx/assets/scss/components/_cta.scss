@@ -1,0 +1,240 @@
+/*
+--- Cta_1 Start ---
+*/
+
+
+.egx-cta-1 {
+    &-area {
+        margin-bottom: -272px;
+        position: relative;
+    }
+    &-wrap {
+        background: -moz-linear-gradient( 90deg, rgba(124,165,204,0.99608) 0%, rgb(207,231,254) 100%);
+        background: -webkit-linear-gradient( 90deg, rgba(124,165,204,0.99608) 0%, rgb(207,231,254) 100%);
+        background: -ms-linear-gradient( 90deg, rgba(124,165,204,0.99608) 0%, rgb(207,231,254) 100%);
+        padding: 39px 66px 0px 66px;
+        display: grid;
+        grid-template-columns: 1fr 1.74fr;
+        gap: 120px;
+
+        @media #{$xl, $lg} {
+            padding-bottom: 40px;
+        }
+        @media #{$md, $sm, $xs} {
+            grid-template-columns: 1fr;
+            gap: 0px;
+        }
+        @media #{$xs} {
+            padding: 35px 20px;
+        }
+
+        .section-title-wrap {
+            margin-top: 56px;
+            @media #{$xs} {
+                margin-top: 0;
+            }
+            .cta-title {
+                font-size: 50px;
+                font-weight: 900;
+                font-family: var(--urbanist);
+                color: rgb(0, 0, 0);
+                line-height: 1.1;
+                margin-bottom: 0;
+
+                @media #{$xl} {
+                    font-size: 45px;
+                }
+            
+                @media #{$lg} {
+                    font-size: 40px;
+                }
+            
+                @media #{$md, $sm} {
+                    font-size: 35px;
+                }
+                
+                @media #{$xs} {
+                    font-size: 30px;
+                }
+            }
+            .btn-wrap {
+                margin-top: 35px;
+            }
+        }
+        .cta-content {
+            display: flex;
+            position: relative;
+            gap: 28px;
+            align-items: center;
+
+            @media #{$sm, $xs} {
+                flex-direction: column-reverse;
+            }
+            .savings {
+                border-radius: 50%;
+                background-color: rgb(220, 179, 0);
+                box-shadow: 0px 10px 11.96px 1.04px rgba(28, 36, 104, 0.13);
+                width: 139px;
+                height: 139px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                bottom: 65px;
+                left: -65px;
+                z-index: 2;
+                animation: bounce_y_30 10s linear infinite;
+
+                @media #{$md, $sm} {
+                    left: -60px;
+                }
+
+                @media #{$xs} {
+                    display: none;
+                }
+
+                .number {
+                    font-size: 48px;
+                    font-family: var(--urbanist);
+                    font-weight: 800;
+                    color: rgb(0, 0, 0);
+                    line-height: 1;
+                    
+                    .parcent {
+                        font-weight: 400;
+                    }
+                }
+                .title {
+                    font-size: 21px;
+                    font-family: var(--urbanist);
+                    color: rgb(0, 0, 0);
+                    line-height: 1;                   
+                }
+            }
+            .main-img {
+                position: relative;
+                z-index: 2;
+                margin-top: -140px;
+
+                @media #{$xl} {
+                    margin-top: -80px;
+                }
+                @media #{$lg, $md, $sm} {
+                    margin-top: 0px;
+                }
+                @media #{$xs} {
+                    display: none;
+                }
+            }
+            .feature {
+                display: flex;
+                flex-direction: column;
+                gap: 23px;
+                max-width: 160px;
+                margin-top: 35px;
+
+                .item {
+                    display: grid;
+                    grid-template-columns: 65px auto;
+                    gap: 13px;
+                    align-items: center;
+
+                    &:nth-child(even) {
+                        .icon {
+                            background-color: rgb(251, 204, 0);                         
+                        }
+                    }
+
+                    .icon {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 65px;
+                        height: 65px;
+                        border-radius: 50%;
+                        background-color: #fff;
+                        font-size: 26px;
+                        transition: all 0.3s ease;
+
+                        &:hover {
+                            i {
+                                animation: egx_zigzag 0.4s ease;
+                            }
+                        }
+
+                    }
+
+                    .title {
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 1.111;      
+                    }
+                }
+            }
+        }
+    }
+}
+
+@-webkit-keyframes bounce_y_30 {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    50% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px)
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+
+/*
+--- Cta_1 End ---
+*/
+
+
+
+
+
+
+/*
+--- Cta_2 Start ---
+*/
+
+
+.egx-cta-2 {
+    &-area {
+        padding: 82px 0 72px 0;
+    }
+    &-wrap {
+        max-width: 610px;
+        background: var(--egx-gd-1);
+        padding: 80px 60px 60px 57px;
+        border-radius: 20px;
+
+        @media #{$xs} {
+            padding: 40px 30px;
+        }
+
+        .disc {
+            max-width: 430px;
+            line-height: 24px;
+            color: rgb(233, 233, 233);
+            margin-top: 20px;
+        }
+        .btn-wrap {
+            margin-top: 35px;
+        }
+    }
+}
+
+
+/*
+--- Cta_2 End ---
+*/

@@ -1,0 +1,1272 @@
+/*
+--- Project_1 Start ---
+*/
+
+
+.egx-project-1 {
+    &-area {
+        .section-title-wrap {
+            max-width: 690px;
+            margin: 0 auto;
+            text-align: center;
+
+            @media #{$xs} {
+                overflow: hidden;
+            }
+        }
+    }
+    &-wrap {
+        margin: 39px auto 0;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px 0;
+        max-width: 1920px;
+        position: relative;
+
+        @media #{$md, $sm} {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @media #{$xs} {
+            grid-template-columns: 1fr;
+        }
+
+        .top-content {
+            position: absolute;
+            top: 0;
+            z-index: 2;
+            background: var(--egx-gd-1);
+            height: 56px;
+            padding: 5px 35px;
+            border-radius: 0 0 20px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            left: 50%;
+            transform: translate(-50%, -15px);
+
+            @media #{$lg, $md} {
+                height: auto;
+                flex-wrap: wrap;
+                gap: 10px;
+                padding: 20px 20px;
+                text-align: center;
+            }
+
+            @media #{$sm} {
+                height: auto;
+                flex-wrap: wrap;
+                gap: 10px;
+                padding: 10px 20px;
+                text-align: center;
+            }
+
+            @media #{$xs} {
+                display: none;
+            }
+
+            span {
+                font-size: 16px;
+                font-family: var(--urbanist);
+                color: rgb(255, 255, 255);
+                font-weight: 700;
+                line-height: 1;
+            }
+        }
+    }
+    &-card {
+        position: relative;
+        overflow: hidden;
+
+        .card-content {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            padding: 20px 60px 0;
+            background-color: #fff;
+            transform: translateY(180px);
+            transition: all 0.6s ease;
+
+            @media #{$xl, $lg} {
+                padding: 20px 20px 0;
+            }
+
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 10px 20px;
+                flex-wrap: wrap;
+
+                .title {
+                    font-size: 25px;
+                    background: var(--egx-gd-1);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    transition: all 0.4s ease;
+                }
+                .icon {
+                    color: rgb(37, 151, 33);
+                    transition: all 0.4s ease;
+                }
+
+                &:hover {
+                    .title {
+                        letter-spacing: 0.2px;
+                    }
+                    .icon {
+                        transform: rotate(-45deg);
+                    }
+                }
+            }
+            .divider {
+                width: 100%;
+                height: 2px;
+                background: var(--egx-gd-1);
+                margin-top: 20px;
+            }
+        }
+
+        &:hover {
+            .card-content {
+                transform: translateY(0px);
+            }
+        }
+    }
+}
+
+
+/*
+--- Project_1 End ---
+*/
+
+
+
+
+/*
+--- Project_2 Start ---
+*/
+
+
+.egx-project-2 {
+    &-area {
+        padding-bottom: 115px;
+
+        .section-title-wrap {
+            max-width: 700px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .container {
+            max-width: 1900px;
+        }
+        .project-button-group {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 15px 10px;
+            margin-top: 24px;
+
+            .filter-button {
+                padding: 14px 34px;
+                border-radius: 50px;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 20px;
+                font-family: var(--urbanist);
+                color: rgb(32, 32, 32);
+                background-color: rgb(248, 248, 240);
+                position: relative;
+                overflow: hidden;
+                transition: all 0.2s ease;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 0%;
+                    height: 100%;
+                    background: var(--egx-gd-1);
+                    border-radius: 50px;
+                    transition: all 0.4s ease;
+                }
+
+                span {
+                    position: relative;
+                    z-index: 2;
+                }
+
+                &:hover {
+                    color: #fff;
+                    &::after {
+                        width: 100%;
+                    }
+                }
+
+                &:is(.is-checked) {
+                    background: var(--egx-gd-1);
+                    color: #fff;
+                }
+
+                &:nth-child(1) {
+                    padding: 14px 28px;
+                }
+            }
+        }
+    }
+    &-wrap {
+        margin-top: 25px;
+        gap: 40px 0;
+    }
+    &-card {
+        border-radius: 20px;
+        overflow: hidden;
+        position: relative;
+        padding: 16px 13px;
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 0%;
+            background: var(--egx-gd-1);
+            z-index: -1;
+            opacity: 0;
+            transition: all 0.5s ease;
+        }
+
+        img {
+            border-radius: 20px;
+        }
+        .card-cont {
+            position: absolute;
+            bottom: 63px;
+            left: 13px;
+            width: 275px;
+            background: var(--egx-gd-1);
+            padding: 25px 20px 25px 30px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-radius: 0 10px 10px 0;
+
+            @media #{$xs} {
+                width: 250px;
+                padding: 20px;
+            }
+
+            .icon {
+                color: #fff;
+                font-size: 50px;
+
+                @media #{$xs} {
+                    font-size: 40px;
+                }
+            }
+            .title {
+                font-size: 24px;
+                font-family: var(--urbanist);
+                font-weight: 900;
+                line-height: 30px;
+                color: #fff;
+
+                @media #{$xs} {
+                    font-size: 22px;
+                }
+            }
+        }
+
+        &:hover {
+            &::after {
+                opacity: 1;
+                height: 100%;
+            }
+        }
+    }
+}
+
+
+/*
+--- Project_2 End ---
+*/
+
+
+
+
+
+
+
+
+/*
+--- Project_3 Start ---
+*/
+
+
+
+.egx-project-3 {
+    &-area {
+        .section-title-wrap {
+            max-width: 810px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+    &-wrap {
+        max-width: 1920px;
+        margin: 50px auto 0;
+        display: flex;
+        gap: 0;
+        @media #{$sm, $xs} {
+            flex-direction: column;
+            gap: 35px;
+        }
+    }
+    &-card {
+        flex: 1;
+        transition: 0.7s var(--cube-1);
+        height: 682px;
+
+        @media #{$xl, $lg} {
+            height: 500px;
+        }
+        @media #{$md} {
+            height: 450px;
+        }
+
+        @media #{$sm, $xs} {
+            height: auto;
+        }
+
+        &:nth-child(odd) {
+            .card-content {
+                background-color: rgb(36, 36, 36);
+            }
+        }
+
+        &:is(.active) {
+            flex: 1.92;
+            .card-content {
+                &::after {
+                    opacity: 1;
+                }
+
+                .link-wrap {
+                    transform: translateX(0px);
+                }
+            }
+        }
+
+        .card-img {
+            height: 100%;
+
+            @media #{$sm, $xs} {
+                height: 300px;
+            }
+        }
+        .card-content {
+            padding: 20px 30px 15px 40px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            position: relative;
+            background-color: rgb(28, 28, 28);
+            min-height: 100px;
+            position: relative;
+            overflow: hidden;
+
+            @media #{$xxxl, $xxl, $xl} {
+                padding: 20px 20px 15px 20px;
+            }
+            @media #{$lg, $md} {
+                padding: 15px 20px 15px 20px;
+            }
+            @media #{$xxl, $xl, $lg, $md} {
+                min-height: 125px;
+            }
+            @media #{$sm, $xs} {
+                padding: 20px;
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background: var(--egx-gd-1);
+                opacity: 0;
+                transition: all 0.4s ease;
+            }
+
+            .icon {
+                color: #fff;
+                font-size: 30px;
+                position: relative;
+                z-index: 2;
+
+                @media #{$lg, $md} {
+                    display: none;
+                }
+            }
+            .title {
+                font-size: 22px;
+                color: rgb(255, 255, 255);
+                line-height: 1.364;
+                max-width: 220px;
+                position: relative;
+                z-index: 2;
+
+                @media #{$xl, $lg} {
+                    font-size: 18px;
+                }
+                @media #{$md} {
+                    font-size: 16px;
+                    max-width: 150px;
+                }
+                @media #{$xs} {
+                    font-size: 20px;
+                    max-width: 175px;
+                }
+            }
+            .link-wrap {
+                position: absolute;
+                z-index: 2;
+                right: 84px;
+                z-index: 2;
+                transition: all 0.8s ease;
+                transition-delay: 0.7s;
+                transform: translateX(140px);
+
+                @media #{$xl, $lg} {
+                    right: 40px;
+                }
+                @media #{$md, $sm, $xs} {
+                    right: 20px;
+                }
+                @media #{$sm, $xs} {
+                    transition-delay: 0s;
+                }
+                .link {
+                    width: 42px;
+                    height: 42px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    color: rgb(28, 28, 28);
+                    font-size: 18px;
+                    background-color: #fff;
+                    transition: all 0.4s;
+    
+                    &:hover {
+                        background-color: #000;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+/*
+--- Project_3 End ---
+*/
+
+
+
+
+
+
+
+
+
+/*
+--- Project_4 Start ---
+*/
+
+
+
+.egx-project-4 {
+    &-area {
+        padding: 140px 0;
+        
+        .section-title-wrap {
+            max-width: 726px;
+            margin: 0 auto;
+            text-align: center;
+
+            .egx-subtitle-2 {
+                justify-content: center;
+            }
+        }
+    }
+    &-wrap {
+        display: flex;
+        gap: 32px;
+        margin-top: 75px;
+
+        @media #{$lg, $md} {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            padding: 0 30px;
+        }
+        @media #{$sm, $xs} {
+            display: grid;
+            grid-template-columns: 1fr;
+            padding: 0 30px;
+        }
+    }
+    &-card {
+        position: relative;
+        border-radius: 16px;
+        overflow: hidden;
+        flex: 0 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #003936;
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 85%;
+            height: 87%;
+            padding: 32px;
+            background: linear-gradient(90deg, #209753 0%, #B9D32A 100%);
+            mix-blend-mode: overlay;
+            border-radius: 16px;
+            transform: translateY(600px);
+            transition: all 0.5s ease;
+            border: 9px solid #FFFFFF;
+        }
+
+        .card-img {
+            width: 100%;
+            height: 100%;
+            img {
+                mix-blend-mode: luminosity;
+                transition: all 0.4s ease;
+            }
+        }
+        .content-bottom {
+            padding: 9px;
+            position: absolute;
+            width: 85%;
+            height: 87%;
+            transform: translateY(600px);
+            transition: all 0.5s ease;
+            z-index: 2;
+
+            .content-wrap {
+                width: 100%;
+                height: 100%;
+                background-color: rgba(255, 255, 255, 0);
+                border-radius: 16px;
+                transition: all 0.4s ease;
+                position: relative;
+                z-index: 2;
+                
+                .content {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 16px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    position: relative;
+    
+                    a {
+                        margin-left: auto;
+                        position: relative;
+                        z-index: 3;
+                        border-radius: 0 8px 0 0;
+                        overflow: hidden;
+
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            background-color: #fff;
+                            clip-path: polygon(100% 0, 0 0, 100% 100%);
+                            left: 0;
+                            top: 0;
+                            opacity: 0;
+                            transition: all 0.4s ease;
+                        }
+                        img {
+                            border-radius: 0 8px 0 0;
+                            position: relative;
+                            z-index: 2;
+                        }
+
+                        &:hover {
+                            &::after {
+                                opacity: 1;
+                            }
+                        }
+                    }
+                    .title-wrap {
+                        padding: 0 0 40px 40px;
+                        position: relative;
+                        z-index: 3;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: start;
+
+                        @media #{$lg, $md, $sm, $xs} {
+                            padding: 0px 20px 20px 20px;
+                        }
+    
+                        .category {
+                            font-family: var(--urbanist);
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 25px;
+                            letter-spacing: -0.01em;
+                            text-transform: uppercase;
+                            color: #FFFFFF;
+                            background: var(--egx-gd-2);
+                            padding: 4.5px 16px;
+                            border-radius: 4px;
+                            display: inline-block;
+                        }
+                        .title {
+                            font-weight: 800;
+                            font-size: 24px;
+                            line-height: 36px;
+                            color: #FFFFFF;
+                            background-color: #003936;
+                            padding: 10.5px 28px;
+                            border-radius: 4px;
+                            display: inline-block;
+
+                            @media #{$md, $sm, $xs} {
+                                font-size: 20px;
+                                line-height: 30px;
+                                padding: 10px 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            &::after {
+                transform: translateY(0px);
+            }
+            .card-img {
+                img {
+                    mix-blend-mode: normal;
+                }
+            }
+            .content-bottom {
+                transform: translateY(0px);
+            }
+        }
+    }
+}
+
+
+/*
+--- Project_4 End ---
+*/
+
+
+
+
+
+/*
+--- Project_5 Start ---
+*/
+
+
+.egx-project-5 {
+    &-area {
+        padding: 120px 0;
+
+        .section-title-wrap {
+            max-width: 726px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+    &-wrap {
+        margin-top: 45px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        @media #{$md, $sm, $xs} {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    &-card {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        .card-img {
+            overflow: hidden;
+            border-radius: 16px;
+        }
+        .card-content {
+            position: absolute;
+            bottom: 0;
+            padding: 24.5px 20px 24.5px 32px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            background: #FFFFFF;
+            border-width: 0px 2px;
+            border-style: solid;
+            border-color: #B9D32A;
+            border-radius: 16px;
+            width: 91%;
+            transform: translateY(200px);
+            transition: all 0.8s ease;
+
+            .title {
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 32px;
+                letter-spacing: 0.02em;
+                color: #0D0D0D;
+
+                @media #{$xs} {
+                    font-size: 20px;
+                    line-height: 28px;
+                }
+            }
+            .link {
+                width: 52px;
+                height: 52px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                flex: 0 0 auto;
+                border-radius: 100px;
+                background: linear-gradient(90deg, rgba(32, 151, 83, 0.28) 0%, rgba(185, 211, 42, 0.28) 100%);
+
+                i {
+                    font-size: 24px;
+                    color: var(--egx-pr-1);
+                    position: relative;
+                    z-index: 2;
+                    transition: all 0.4s ease;
+                    transform: rotate(-45deg);
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: var(--egx-gd-2);
+                    border-radius: 100px;
+                    transform: scale(0);
+                    transition: all 0.4s ease;
+                }
+
+                &:hover {
+                    i {
+                        color: #fff;
+                        transform: rotate(0deg);
+                    }
+                    &::after {
+                        transform: scale(1);
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            .card-content {
+                transform: translateY(0px);
+            }
+        }
+    }
+}
+
+
+/*
+--- Project_5 End ---
+*/
+
+
+
+
+
+/*
+--- Project_6 Start ---
+*/
+
+
+.egx-project-6 {
+    &-area {
+        padding: 120px 0;
+
+        .section-title-wrap {
+            max-width: 730px;
+        }
+    }
+    &-wrap {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        gap: 55px;
+    }
+    &-card {
+        display: grid;
+        grid-template-columns: 1.61fr 1fr;
+        gap: 52px;
+
+        @media #{$sm, $xs} {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        &:nth-child(even) {
+            grid-template-columns: 1fr 1.61fr;
+
+            @media #{$sm, $xs} {
+                flex-direction: column-reverse;
+            }
+        }
+        .card-img {
+            overflow: hidden;
+
+            img {
+                transition: all 0.8s ease;
+            }
+
+            &:hover {
+                img {
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .card-content {
+            .title {
+                font-size: 32px;
+                line-height: 42px;
+                color: #0D0D0D;
+            }
+
+            .content-details {
+                margin-top: 45px;
+                margin-left: 52px;
+
+                @media #{$md, $sm, $xs} {
+                    margin-left: 0;
+                }
+
+                .date {
+                    font-family: var(--urbanist);
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 28px;
+                    color: #209753;
+                }
+                .divider {
+                    margin-top: 22px;
+                    width: 100%;
+                    height: 1px;
+                    background: #DFE1E5;
+                }
+                .author {
+                    margin-top: 22px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    gap: 40px;
+
+                    .client {
+                        font-family: var(--urbanist);
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 30px;
+                        color: #717171;
+                    }
+                    .name {
+                        font-family: var(--urbanist);
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 30px;
+                        color: #0D0D0D;
+                    }
+                }
+                .service {
+                    margin-top: 22px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 23px;
+                    
+                    .service-name {
+                        font-family: var(--urbanist);
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 30px;
+                        color: rgba(13, 13, 13, 0.72);
+                    }
+                    ul {
+                        li {
+                            font-family: var(--urbanist);
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 30px;
+                            color: #0D0D0D;
+                            position: relative;
+                            display: flex;
+                            align-items: center;
+                            margin-left: 14px;
+
+                            &::after {
+                                content: "";
+                                position: absolute;
+                                left: -20px;
+                                width: 6px;
+                                height: 6px;
+                                background: #209753;
+                                border-radius: 50%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*
+--- Project_6 End ---
+*/
+
+
+
+
+
+
+
+
+
+/*
+--- Project_Details Start ---
+*/
+
+
+.egx-project-details {
+    &-area {
+        padding: 260px 0 120px 0;
+        position: relative;
+        overflow: hidden;
+
+        @media #{$md, $sm, $xs} {
+            padding: 150px 0 120px 0;
+        }
+
+        .top-wrap {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 50px 60px;
+            flex-wrap: wrap;
+            padding-bottom: 80px;
+            align-items: end;
+
+            .breadcrumb-wrap {
+                max-width: 630px;
+
+                .breadcrumb {
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 8px;
+                    margin-bottom: 0;
+            
+                    .icon {
+                        font-size: 18px;
+                        color: #209753;
+                        transition: all 0.4s ease;
+                    }
+                    .text {
+                        font-family: var(--urbanist);
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 22px;
+                        letter-spacing: 0.02em;
+                        color: #209753;
+                        transition: all 0.4s ease;
+                    }
+            
+                    &:hover {
+                        .icon {
+                            color: var(--egx-pr-1);
+                        }
+                        .text {
+                            color: var(--egx-pr-1);
+                        }
+                    }
+                }
+    
+                .title-wrap {
+                    margin-top: 96px;
+    
+                    @media #{$sm} {
+                        margin-top: 50px;
+                    }
+    
+                    @media #{$xs} {
+                        margin-top: 40px;
+                    }
+    
+                    .hero-title {
+                        font-weight: 800;
+                        font-size: 80px;
+                        line-height: 88px;
+                        text-transform: capitalize;
+                        color: #0D0D0D;
+            
+                        @media #{$xxl} {
+                            font-size: 70px;
+                            line-height: 76px;
+                        }
+                        @media #{$xl} {
+                            font-size: 60px;
+                            line-height: 1.1;
+                        }
+                        @media #{$lg} {
+                            font-size: 55px;
+                            line-height: 1.1;
+                        }
+                        @media #{$md} {
+                            font-size: 50px;
+                            line-height: 1.2;
+                        }
+                        @media #{$sm} {
+                            font-size: 40px;
+                            line-height: 1.2;
+                        }
+                        @media #{$xs} {
+                            font-size: 35px;
+                            line-height: 1.2;
+                        }
+                    }
+                }
+            }
+            .project-info {
+                background: #F4F5F5;
+                border-radius: 12px;
+                padding: 40px 36px;
+                display: flex;
+                flex-direction: column;
+                gap: 14px;
+                margin-bottom: -148px;
+                position: relative;
+                z-index: 2;
+
+                @media #{$xs} {
+                    margin-bottom: 0;
+                }
+
+                .info-text {
+                    font-family: var(--urbanist);
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 28px;
+                    color: #0D0D0D;
+                    margin-bottom: 0;
+
+                    span {
+                        font-weight: 400;
+                        color: rgba(13, 13, 13, 0.72);
+                        margin-left: 4px;
+                    }
+                }
+            }
+        }
+
+        .thumb-wrap {
+            max-width: 1920px;
+            margin: 0 auto 70px;
+
+            .thumbnails-1 {
+                max-width: 1768px;
+                border-radius: 0 28px 28px 0;
+                overflow: hidden;
+
+                @media #{$lg, $md, $sm, $xs} {
+                    border-radius: 0;
+                }
+            }
+        }
+
+        .gallery-wrap {
+            max-width: 1058px;
+            margin: 55px auto 0;
+
+            .title-wrap {
+                max-width: 730px;
+                margin: 0 auto 35px;
+
+                .title {
+                    font-size: 32px;
+                    line-height: 40px;
+                    color: #0D0D0D;
+
+                    @media #{$xs} {
+                        font-size: 26px;
+                        line-height: 34px;
+                    }
+                }
+            }
+            .gallery {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 34px 32px;
+
+                .gallery-item {
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    overflow: hidden;
+        
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        left: 0;
+                        top: 0;
+                        background-color: rgba(5, 6, 8, 0.5);
+                        opacity: 0;
+                        transition: all 0.4s ease;
+                    }
+        
+                    .icon-1 {
+                        position: absolute;
+                        width: 80px;
+                        height: 80px;
+                        border-radius: 100%;
+                        background: var(--egx-gd-1);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: #fff;
+                        font-size: 32px;
+                        transform: scale(2);
+                        opacity: 0;
+                        z-index: 2;
+                        transition: all 0.4s ease;
+                        -webkit-transition: all 0.4s ease;
+        
+                        @media #{$xs} {
+                            width: 70px;
+                            height: 70px;
+                            font-size: 25px;
+                        }
+                    }
+        
+                    &:hover {
+                        &::after {
+                            opacity: 1;
+                        }
+                        .icon-1 {
+                            opacity: 1;
+                            transform: scale(1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    &-content {
+        max-width: 730px;
+        margin: 0 auto;
+
+        p {
+            font-family: var(--urbanist);
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            color: #0D0D0D;
+            margin-bottom: 0;
+        }
+        h4 {
+            font-family: var(--urbanist);
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 44px;
+            color: #0D0D0D;
+            margin: 55px 0 30px 0;
+        }
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+
+            li {
+                display: flex;
+                align-items: baseline;
+                gap: 10px;
+                font-family: var(--urbanist);
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 28px;
+                color: #313030;
+
+                img {
+                    transform: translateY(3px);
+                }
+            }
+        }
+    }
+    &-feature {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px;
+        max-width: 1058px;
+        margin: 55px auto 0;
+
+        @media #{$sm, $xs} {
+            grid-template-columns: 1fr;
+        }
+
+        .item {
+            overflow: hidden;
+            border-radius: 12px;
+            img {
+                --webkit-filter: grayscale(3);
+                filter: grayscale(3);
+                transition: all 0.4s ease;
+            }
+
+            &:hover {
+                img {
+                    --webkit-filter: grayscale(0);
+                    filter: grayscale(0);
+                }
+            }
+        }
+    }
+}
+
+
+/*
+--- Project_Details End ---
+*/

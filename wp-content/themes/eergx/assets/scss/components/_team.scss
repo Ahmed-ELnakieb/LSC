@@ -1,0 +1,946 @@
+/*
+--- Team_3 Start ---
+*/
+
+.egx-team-3 {
+    &-area {
+        padding: 105px 0 125px 0;
+        @media #{$xl} {
+            padding: 105px 0 155px 0;
+        }
+        .section-title-wrap {
+            max-width: 685px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+    &-wrap {
+        margin-top: 50px;
+        position: relative;
+    }
+    &-left {
+        max-width: 455px;
+        position: absolute;
+        border-radius: 30px;
+        background: var(--egx-gd-1);
+        padding: 4px;
+
+        @media #{$xl} {
+            width: 420px;
+        }
+        @media #{$lg, $md, $sm, $xs} {
+            position: static;
+            margin: 0 auto;
+        }
+        
+        .left-wrap {
+            background-color: #fff;
+            border-radius: 30px;
+            padding: 60px 40px;
+
+            @media #{$xs} {
+                padding: 50px 20px;
+            }
+            .experience {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 65px 70px;
+                position: relative;
+                justify-content: center;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    left: 50%;
+                    top: 5px;
+                    height: 96%;
+                    width: 1px;
+                    background: var(--egx-gd-1);
+                    transform: translateX(-50%);
+                }
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 50%;
+                    height: 1px;
+                    width: 100%;
+                    background: var(--egx-gd-1);
+                    transform: translateY(-50%);
+                }
+
+                .item {
+                    &:nth-child(2) {
+                        .number {
+                            -webkit-text-stroke-width: 1px;
+                            stroke-width: 1px;
+                            -webkit-text-stroke-color: #262524;
+                            stroke: #262524;
+                            color: #fff;
+                        }
+                    }
+                    &:nth-child(3) {
+                        .number {
+                            -webkit-text-stroke-width: 1px;
+                            stroke-width: 1px;
+                            -webkit-text-stroke-color: #262524;
+                            stroke: #262524;
+                            color: #fff;
+                        }
+                    }
+                    .number {
+                        font-size: 66px;
+                        font-family: var(--urbanist);
+                        color: rgb(38, 37, 36);
+                        text-transform: uppercase;
+                        line-height: 1;
+                        font-weight: 900;
+                        margin-bottom: 15px;
+
+                        @media #{$xl} {
+                            font-size: 58px;
+                        }
+                        @media #{$lg} {
+                            font-size: 50px;
+                        }
+                        @media #{$md} {
+                            font-size: 45px;
+                        }
+                        @media #{$sm} {
+                            font-size: 42px;
+                        }
+                        @media #{$xs} {
+                            font-size: 38px;
+                        }
+                    }
+                    .title {
+                        font-size: 16px;
+                        line-height: 22px;
+                        background: var(--egx-gd-1);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+                }
+            }
+            .disc {
+                margin-top: 45px;
+                color: rgb(38, 37, 36);
+                font-weight: 600;
+                line-height: 28px;
+            }
+        }
+    }
+    &-right {
+        max-width: 720px;
+        margin-left: auto;
+        position: relative;
+
+        @media #{$xl} {
+            width: 640px;
+        }
+        @media #{$lg, $md, $sm, $xs} {
+            margin: 80px auto 0;
+        }
+
+        .navigator {
+            position: absolute;
+            top: 30%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .egx-team-3-prev, .egx-team-3-next {
+                width: 65px;
+                height: 65px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                background-color: #fff;
+                color: #000;
+                font-size: 20px;
+                position: relative;
+                z-index: 2;
+                box-shadow: 0px 5px 29px 0px rgba(0, 0, 0, 0.12);
+                transition: all 0.5s ease;
+
+                @media #{$xs} {
+                    width: 50px;
+                    height: 50px;
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                    background: var(--egx-gd-1);
+                    transform: scale(0);
+                    transition: all 0.5s ease;
+                }
+
+                i {
+                    position: relative;
+                    z-index: 3;
+                }
+
+                &:hover {
+                    &::after {
+                        transform: scale(1);
+                    }
+                    color: #fff;
+                }
+            }
+            .egx-team-3-prev {
+                left: -35px;
+                @media #{$sm, $xs} {
+                    left: -8px;
+                }
+            }
+            .egx-team-3-next {
+                right: -35px;
+                @media #{$sm, $xs} {
+                    right: -8px;
+                }
+            }
+        }
+        .egx_team_3_active {
+            overflow: hidden;
+        }
+    }
+    &-item {
+        @media #{$sm, $xs} {
+            max-width: 350px;
+            margin: 0 auto;
+        }
+        .team-top {
+            border-radius: 172px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background: var(--egx-gd-1);
+                border-radius: 172px;
+                mask: radial-gradient(circle at 50% 40%, rgba(0, 0, 0, 0) 58%, #000 0);
+                -webkit-mask: radial-gradient(circle at 50% 40%, rgba(0, 0, 0, 0) 58%, #000 0);
+                transform: translateY(100px);
+                transition: all 0.8s ease;
+            }
+
+            .team-img {
+                img {
+                    border-radius: 172px;
+                }
+            }
+            .plus-icon {
+                position: absolute;
+                bottom: 15px;
+                width: 44px;
+                height: 44px;
+                border-radius: 20px;
+                background: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: rgb(14, 25, 30);
+                font-size: 18px;
+                transition: all 0.6s ease;
+            }
+            .social-media {
+                position: absolute;
+                bottom: 24px;
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                z-index: 2;
+                transform: translateY(100px);
+                transition: all 0.8s ease;
+                transition-delay: 0.2s;
+
+                .social-link {
+                    width: 44px;
+                    height: 44px;
+                    border-radius: 50%;
+                    background: var(--egx-gd-1);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #fff;
+                    font-size: 15px;
+                    transition: all 0.4s ease;
+
+                    &:hover {
+                        color: #000;
+                    }
+                }
+            }
+            &:hover {
+                &::after {
+                    transform: translateY(0px);
+                }
+                .social-media {
+                    transform: translateY(0px);
+                }
+                .plus-icon {
+                    transform: translateY(100px);
+                }
+            }
+        }
+        .content {
+            text-align: center;
+            margin-top: 28px;
+            .name {
+                font-size: 28px;
+                color: rgb(18, 18, 18);
+                font-weight: 800;
+                line-height: 1.25;
+            }
+            .designation {
+                font-size: 16px;
+                line-height: 1.3;
+                background: var(--egx-gd-1);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+}
+
+/*
+--- Team_3 End ---
+*/
+
+
+
+
+
+/*
+--- Team_4 Start ---
+*/
+
+.egx-team-4 {
+    &-area {
+        padding: 120px 0;
+
+        .section-title-wrap {
+            max-width: 680px;
+
+            &:is(.has-about) {
+                max-width: 580px;
+            }
+        }
+        .team-bottom {
+            padding: 35px 20px;
+            text-align: center;
+            border-top: 1px solid #E2E2E2;
+            border-bottom: 1px solid #E2E2E2;
+            margin-top: 80px;
+
+            .disc {
+                font-size: 18px;
+                line-height: 28px;
+                color: rgba(13, 13, 13, 0.88);
+            }
+            .link {
+                background: var(--egx-gd-2);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-family: var(--urbanist);
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 28px;
+                position: relative;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-image: linear-gradient(#209753, #B9D32A);
+                    background-position: 0% 105%;
+                    background-repeat: no-repeat;
+                    background-size: 100% 1.6px;
+                    transition: all 0.6s ease;
+                }
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-image: linear-gradient(#000000, #000000);
+                    background-position: 0% 105%;
+                    background-repeat: no-repeat;
+                    background-size: 0% 1.6px;
+                    transition: all 0.6s ease;
+                    z-index: 2;
+                }
+
+                &:hover {
+                    &::before {
+                        background-size: 100% 1.6px;
+                    }
+                }
+            }
+        }
+    }
+    &-wrap {
+        margin-top: 55px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 40px 32px;
+
+        @media #{$md} {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 35px 25px;
+        }
+        @media #{$sm} {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 35px 25px;
+        }
+        @media #{$xs} {
+            grid-template-columns: 1fr;
+            gap: 35px 25px;
+        }
+    }
+    &-card {
+        &:nth-child(2) {
+            margin-top: 92px;
+            @media #{$md, $sm, $xs} {
+                margin-top: 0;
+            }
+        }
+        &:nth-child(4) {
+            margin-top: 92px;
+            @media #{$md, $sm, $xs} {
+                margin-top: 0;
+            }
+        }
+        &:nth-child(5) {
+            margin-top: -92px;
+            @media #{$md, $sm, $xs} {
+                margin-top: 0;
+            }
+        }
+        &:nth-child(7) {
+            margin-top: -92px;
+            @media #{$md, $sm, $xs} {
+                margin-top: 0;
+            }
+        }
+        .card-img {
+            border-radius: 12px;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+
+            img {
+                filter: grayscale(2);
+                --webkit-filter: grayscale(2);
+                transition: all 0.4s ease;
+            }
+        }
+        .card-content {
+            margin-top: 22px;
+            .name {
+                font-weight: 600;
+                font-size: 23px;
+                line-height: 28px;
+                color: #0D0D0D;
+            }
+            .designation {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                color: #209753;
+            }
+        }
+
+        &:hover {
+            .card-img {
+                img {
+                    --webkit-filter: grayscale(0);
+                    filter: grayscale(0);
+                }
+            }
+        }
+    }
+}
+
+/*
+--- Team_4 End ---
+*/
+
+
+
+
+
+
+
+/*
+--- Team_Details Start ---
+*/
+
+
+.egx-team-details {
+    &-area {
+        padding: 260px 0 120px 0;
+
+        @media #{$md, $sm, $xs} {
+            padding: 150px 0 120px 0;
+        }
+
+        .team-details-top {
+            .breadcrumb {
+                display: inline-flex;
+                align-items: center;
+                gap: 8px;
+                margin-bottom: 0;
+        
+                .icon {
+                    font-size: 18px;
+                    color: #209753;
+                    transition: all 0.4s ease;
+                }
+                .text {
+                    font-family: var(--urbanist);
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 22px;
+                    letter-spacing: 0.02em;
+                    color: #209753;
+                    transition: all 0.4s ease;
+                }
+        
+                &:hover {
+                    .icon {
+                        color: var(--egx-pr-1);
+                    }
+                    .text {
+                        color: var(--egx-pr-1);
+                    }
+                }
+            }
+            .title-wrap {
+                max-width: 600px;
+                margin: 96px auto 0;
+                text-align: center;
+
+                @media #{$sm} {
+                    margin-top: 50px;
+                }
+
+                @media #{$xs} {
+                    margin-top: 40px;
+                }
+
+                .hero-title {
+                    font-weight: 800;
+                    font-size: 70px;
+                    line-height: 82px;
+                    text-transform: capitalize;
+                    color: #0D0D0D;
+
+                    @media #{$xl} {
+                        font-size: 60px;
+                        line-height: 1.1;
+                    }
+                    @media #{$lg} {
+                        font-size: 55px;
+                        line-height: 1.1;
+                    }
+                    @media #{$md} {
+                        font-size: 50px;
+                        line-height: 1.2;
+                    }
+                    @media #{$sm} {
+                        font-size: 40px;
+                        line-height: 1.2;
+                    }
+                    @media #{$xs} {
+                        font-size: 35px;
+                        line-height: 1.2;
+                    }
+                }
+
+                .subtitle {
+                    font-family: var(--urbanist);
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: #209753;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+    &-wrap {
+        display: grid;
+        grid-template-columns: 1fr 1.33fr;
+        gap: 50px 80px;
+        margin-top: 70px;
+
+        @media #{$md, $sm, $xs} {
+            grid-template-columns: 1fr;
+        }
+
+        .team-left {
+            .main-img {
+                display: flex;
+                justify-content: center;
+            }
+            .social-media {
+                margin: 40px auto 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .title {
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 30px;
+                    text-align: center;
+                    color: #0D0D0D;
+                }
+                .social-links {
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 0;
+                    background: #FFFFFF;
+                    border: 1px solid #EEEEEE;
+                    border-radius: 8px;
+                    margin-top: 18px;
+                    
+                    a {
+                        width: 50px;
+                        height: 50px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: #0D0D0D;
+                        transition: all 0.4s ease;
+                        &:not(:last-child) {
+                            border-right: 1px solid #EEEEEE;
+                        }
+
+                        &:hover {
+                            color: #209753;
+                        }
+                    }
+                }
+            }
+        }
+        .team-right {
+            h3 {
+                font-family: var(--urbanist);
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 52px;
+                color: #0D0D0D;
+                margin-top: 50px;
+
+                @media #{$sm} {
+                    font-size: 35px;
+                    line-height: 42px;
+                }
+                @media #{$xs} {
+                    font-size: 30px;
+                    line-height: 38px;
+                }
+            }
+            p {
+                font-family: var(--urbanist);
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+                color: #0D0D0D;
+                margin-bottom: 0;
+            }
+            .feature {
+                margin-top: 35px;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 28px;
+
+                @media #{$sm, $xs} {
+                    grid-template-columns: 1fr;
+                }
+
+                .item {
+                    background: #FFFFFF;
+                    border: 1px solid rgba(113, 113, 113, 0.12);
+                    border-radius: 8px;
+                    padding: 24px;
+
+                    .top {
+                        display: flex;
+                        align-items: center;
+                        gap: 16px;
+
+                        .icon {
+                            width: 48px;
+                            height: 48px;
+                            background: rgba(0, 57, 54, 0.12);
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border-radius: 50%;
+                            font-size: 24px;
+                            color: #003936;
+                        }
+                        .title {
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 30px;
+                            color: #0D0D0D;
+                        }
+                    }
+                    .disc {
+                        color: #717171;
+                        margin-top: 14px;
+                    }
+
+                    &:hover {
+                        .top {
+                            .icon {
+                                i {
+                                    animation: bounceIn 0.8s ease;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .skill {
+                .title {
+                    font-size: 40px;
+                    line-height: 52px;
+                    color: #0D0D0D;
+                    
+                    @media #{$sm} {
+                        font-size: 35px;
+                        line-height: 42px;
+                    }
+                    @media #{$xs} {
+                        font-size: 30px;
+                        line-height: 38px;
+                    }
+                }
+                .disc {
+                    color: #0D0D0D;
+                    margin-top: 32px;
+                }
+                .skill-progress {
+                    margin-top: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    max-width: 572px;
+
+                    .progress-item {
+                        .progress-title {
+                            font-family: var(--urbanist);
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 30px;
+                            color: #0D0D0D;
+                        }
+                        .progress {
+                            height: 20px;
+                            border-radius: 25px;
+                            position: relative;
+                            z-index: 2;
+                            overflow: visible;
+                            display: flex;
+                            align-items: center;
+                            background-color: transparent;
+                            &::after {
+                                content: "";
+                                position: absolute;
+                                width: 100%;
+                                height: 10px;
+                                background: linear-gradient(90deg, rgb(32, 151, 83, 0.12) 0%, rgb(185, 211, 42, 0.12) 100%);
+                                left: 0;
+                                border-radius: 25px;
+                            }
+
+                              
+                            .progress-bar {
+                                background-color: transparent;
+                                height: 20px;
+                                width: 0;
+                                border-radius: 25px 0 0 25px;
+                                position: relative;
+                                -webkit-transition: 1s all ease-in-out;
+                                transition: 1s all ease-in-out;
+
+                                &::after {
+                                    content: "";
+                                    position: absolute;
+                                    width: 8px;
+                                    height: 20px;
+                                    background: linear-gradient(90deg, #209753 0%, #B9D32A 100%);
+                                    border-radius: 30px;
+                                    right: 0;
+                                    z-index: 3;
+                                }
+                                &::before {
+                                    content: "";
+                                    position: absolute;
+                                    width: 100%;
+                                    height: 10px;
+                                    background: var(--egx-gd-2);
+                                    border-radius: 25px 0 0 25px;
+                                }
+                            }
+                            span {
+                                font-size: 18px;
+                                font-family: var(--urbanist);
+                                font-weight: 500;
+                                line-height: 30px;
+                                position: absolute;
+                                right: 0px;
+                                top: -26px;
+                                background: var(--egx-gd-2);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                background-clip: text;
+                                text-fill-color: transparent;
+                            }
+                            
+                        }  
+                    }
+                } 
+            }
+            .contact-wrap {
+                max-width: 572px;
+                margin-top: 65px;
+
+                .title {
+                    font-size: 44px;
+                    line-height: 48px;
+                    letter-spacing: -1px;
+                    color: #0D0D0D;
+    
+                    @media #{$xs} {
+                        font-size: 30px;
+                        line-height: 38px;
+                    }
+                }
+    
+                form {
+                    margin-top: 55px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 24px;
+        
+                    .item {
+                        position: relative;
+                &:focus-within {
+                    label {
+                        color: #209753;
+                    }
+
+                    &::after {
+                        width: 100%;
+                    }
+                }
+                &::after {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                        bottom: 0;
+                        width: 0%;
+                        height: 1px;
+                        background-color: #000;
+                        z-index: 2;
+                        transition: all 0.5s ease;
+                    }
+                    label {
+                        font-family: var(--urbanist);
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: rgba(13, 13, 13, 0.56);
+                        display: block;
+                        transition: color 0.3s ease;
+                    }
+                    input {
+                        border: none;
+                        background-color: transparent;
+                        position: relative;
+                        outline: none;
+                        border-bottom: 1px solid #CED3CA;
+                        font-family: var(--urbanist);
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #0D0D0D;
+                        width: 100%;
+                        padding-bottom: 6px;
+
+                        &::placeholder {
+                            font-weight: 400;
+                            color: rgba(13, 13, 13, 0.8);
+                        }
+                    }
+                    textarea {
+                        border: none;
+                        background-color: transparent;
+                        position: relative;
+                        outline: none;
+                        border-bottom: 1px solid #CED3CA;
+                        font-family: var(--urbanist);
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #0D0D0D;
+                        width: 100%;
+                        margin-top: 10px;
+                        height: 74px;
+
+                        &::placeholder {
+                            font-weight: 400;
+                            color: rgba(13, 13, 13, 0.8);
+                        }
+                    }
+
+                    &:nth-last-child(2) {
+                        &::after {
+                            bottom: 10px;
+                        }
+                    }
+                    }
+                    .btn {
+                        align-self: self-start;
+                        box-shadow: none;
+                        border: none;
+                        outline: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*
+--- Team_Details End ---
+*/

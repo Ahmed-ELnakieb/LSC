@@ -1,0 +1,252 @@
+/*
+--- Process_2 Start ---
+*/
+
+
+.egx-process-2 {
+    &-area {
+        padding-bottom: 125px;
+        position: relative;
+        overflow: hidden;
+
+        &:is(.active) {
+            .shape-1 {
+                transform: translateX(0px);
+            }
+        }
+
+        .shape-1 {
+            position: absolute;
+            right: 0;
+            bottom: 125px;
+            z-index: -1;
+            transform: translateX(350px);
+            transition: 0.8s var(--cube-1);
+
+            @media #{$xxxl} {
+                max-width: 240px;
+                bottom: 20px;
+            }
+            @media #{$xxl, $xl, $lg, $md, $sm, $xs} {
+                display: none;
+            }
+        }
+
+        .section-title-wrap {
+            max-width: 690px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+    &-wrap {
+        margin-top: 50px;
+
+        .step-top {
+            max-width: 750px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 50px;
+            position: relative;
+
+            @media #{$sm} {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            @media #{$xs} {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .item {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+
+                .title {
+                    margin-top: 20px;
+                    font-size: 23px;
+                    font-weight: 900;
+                }
+            }
+
+            .step-number {
+                position: absolute;
+                width: 100%;
+                bottom: -40px;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 50px;
+
+                @media #{$sm, $xs} {
+                    display: none;
+                }
+
+                .number {
+                    display: flex;
+                    justify-content: center;
+                    font-size: 15px;
+                    font-weight: 800;
+                    color: #fff;
+                    position: relative;
+
+                    &::after {
+                        content: "";
+                        width: 5px;
+                        height: 45px;
+                        position: absolute;
+                        top: 30px;
+                        background: var(--egx-gd-1);
+                        z-index: -2;
+                    }
+
+                    span {
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        background: var(--egx-gd-1);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+
+        .step-progress {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px 0;
+            position: relative;
+
+            @media #{$sm, $xs} {
+                display: none;
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 12px;
+                background: var(--egx-gd-1);
+                z-index: -1;
+            }
+
+            .start, .finish {
+                width: 103px;
+                height: 103px;
+                border-radius: 50%;
+                background: var(--egx-gd-1);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                @media #{$lg} {
+                    width: 80px;
+                    height: 80px;
+                }
+                @media #{$md} {
+                    opacity: 0;
+                    visibility: hidden;
+                }
+
+                .title {
+                    font-size: 20px;
+                    line-height: 1;
+                    font-family: var(--urbanist);
+                    font-weight: 800;
+                    color: #fff;
+                    margin-bottom: 0;
+
+                    @media #{$lg} {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+        .step-bottom {
+            max-width: 1015px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 50px;
+            position: relative;
+
+            @media #{$md} {
+                gap: 40px;
+            }
+
+            @media #{$sm} {
+                grid-template-columns: repeat(2, 1fr);
+                margin-top: 50px;
+            }
+
+            @media #{$xs} {
+                grid-template-columns: 1fr;
+                margin-top: 40px;
+            }
+
+            .item {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+
+                .title {
+                    margin-top: 20px;
+                    font-size: 23px;
+                    font-weight: 900;
+                }
+            }
+
+            .step-number {
+                position: absolute;
+                width: 100%;
+                top: -41px;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 50px;
+
+                @media #{$sm, $xs} {
+                    display: none;
+                }
+
+                .number {
+                    display: flex;
+                    justify-content: center;
+                    font-size: 15px;
+                    font-weight: 800;
+                    color: #fff;
+                    position: relative;
+
+                    &::after {
+                        content: "";
+                        width: 5px;
+                        height: 45px;
+                        position: absolute;
+                        bottom: 30px;
+                        background: var(--egx-gd-1);
+                        z-index: -2;
+                    }
+
+                    span {
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        background: var(--egx-gd-1);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*
+--- Process_2 End ---
+*/

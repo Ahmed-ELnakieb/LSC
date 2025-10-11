@@ -1,0 +1,339 @@
+/*
+--- Benefit_1 Start ---
+*/
+
+
+.egx-benefit-1 {
+    &-area {
+        position: relative;
+        padding: 109px 0 126px 0;
+
+        .shape-1 {
+            position: absolute;
+            bottom: 40px;
+            right: 6px;
+            z-index: -1;
+
+            @media #{$xl, $lg} {
+                max-width: 400px;
+            }
+            @media #{$md, $sm} {
+                max-width: 300px;
+                bottom: 0;
+            }
+            @media #{$xs} {
+                max-width: 200px;
+                bottom: 0;
+            }
+        }
+
+        .section-title-wrap {
+            max-width: 620px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+    &-wrap {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1.66fr 1fr;
+        gap: 54px;
+
+        @media #{$md, $sm, $xs} {
+            grid-template-columns: 1fr;
+        }
+
+        &:is(.benefit-1-wrap-inner) {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+
+            @media #{$lg, $md, $sm} {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            @media #{$sm, $xs} {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .benefit-left {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+
+            @media #{$sm, $xs} {
+                grid-template-columns: 1fr;
+                gap: 50px;
+            }
+        }
+
+        .benefit-right {
+            .title {
+                font-family: var(--urbanist);
+                color: rgb(13, 13, 13);
+                font-weight: 900;
+                font-size: 25px;
+                line-height: 30px;
+            }
+            .disc {
+                color: rgb(113, 113, 113);
+                margin-top: 20px;
+            }
+            .benefit-progress {
+                margin-top: 40px;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                .progress-item {
+                    .progress-title {
+                        font-family: var(--urbanist);
+                        color: rgb(4, 4, 4);
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 30px;
+                    }
+                    .progress {
+                        background-color: rgb(238, 238, 238);
+                        height: 12px;
+                        border-radius: 5px;
+                        position: relative;
+                        z-index: 2;
+                        overflow: visible;
+                          
+                        .progress-bar {
+                            background: var(--egx-gd-1);
+                            height: 12px;
+                            width: 0;
+                            border-radius: 5px;
+                            position: relative;
+                            z-index: -1;
+                            -webkit-transition: 1s all ease-in-out;
+                            transition: 1s all ease-in-out;
+                        }
+                        span {
+                            font-size: 15px;
+                            font-family: var(--urbanist);
+                            color: rgb(4, 4, 4);
+                            font-weight: 800;
+                            line-height: 1.6;
+                            position: absolute;
+                            right: 0px;
+                            top: -26px;
+                        }
+                          
+                    }  
+                }
+            }
+            .btn-wrap {
+                margin-top: 66px;
+            }
+        }
+    }
+    &-card {
+        overflow: hidden;
+        .card-top {
+            border-radius: 20px;
+            background: -moz-linear-gradient( 90deg, rgba(213,255,230,0.99608) 0%, rgb(244,255,231) 100%);
+            background: -webkit-linear-gradient( 90deg, rgba(213,255,230,0.99608) 0%, rgb(244,255,231) 100%);
+            background: -ms-linear-gradient( 90deg, rgba(213,255,230,0.99608) 0%, rgb(244,255,231) 100%);
+            padding: 30px 15px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 22px;
+            justify-content: center;
+
+            .icon {
+                transition: all 0.4s ease;
+            }
+
+            .price {
+                font-size: 45px;
+                font-family: var(--urbanist);
+                color: rgb(13, 13, 13);
+                line-height: 1;
+                font-weight: 900;
+                margin-bottom: 0;
+
+                @media #{$xs} {
+                    font-size: 35px;
+                }
+                
+                .dollar {
+                    font-size: 20px;
+                    display: inline-block;
+                    transform: translateY(-18px);
+
+                    @media #{$xs} {
+                        transform: translateY(-10px);
+                    }
+                }
+                .type {
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+            }
+            .title {
+                font-size: 32px;
+                color: rgb(13, 13, 13);
+                line-height: 1.2;
+                font-weight: 900;
+
+                @media #{$xs} {
+                    font-size: 26px;
+                }
+            }
+        }
+        .card-img {
+            margin-top: 15px;
+            border-radius: 20px;
+            overflow: hidden;
+            
+            img {
+                transition: all 0.4s ease;
+            }
+        }
+        .card-body {
+            border-radius: 20px;
+            background: -moz-linear-gradient( 90deg, rgba(213,255,230,0.99608) 0%, rgb(244,255,231) 100%);
+            background: -webkit-linear-gradient( 90deg, rgba(213,255,230,0.99608) 0%, rgb(244,255,231) 100%);
+            background: -ms-linear-gradient( 90deg, rgba(213,255,230,0.99608) 0%, rgb(244,255,231) 100%);
+            margin-top: 14px;
+            padding: 57px 30px 43px 54px;
+
+            @media #{$xl, $lg, $md, $sm, $xs} {
+                padding: 50px 30px 40px 30px;
+            }
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 17px;
+
+                li {
+                    display: grid;
+                    align-items: baseline;
+                    gap: 11px;
+                    grid-template-columns: 27px auto;
+
+                    .icon {
+                        border-radius: 50%;
+                        background: var(--egx-gd-1);
+                        width: 27px;
+                        height: 27px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 15px;
+                        color: #fff;
+                    }
+                    .list-text {
+                        font-size: 16px;
+                        font-weight: 700;
+                        font-family: var(--urbanist);
+                        color: #000;
+                    }
+                }
+            }
+            .btn-wrap {
+                margin-top: 30px;
+            }
+        }
+
+        &:hover {
+            .card-top {
+                .icon {
+                    transform: rotate(180deg);
+                }
+            }
+            .card-img {
+                img {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+
+}
+
+
+/*
+--- Benefit_1 End ---
+*/
+
+
+
+
+
+/*
+--- Benefit_2 Start ---
+*/
+
+
+.egx-benefit-2 {
+    &-area {
+        padding: 120px 0;
+
+        .section-title-wrap {
+            max-width: 695px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+    &-wrap {
+        margin-top: 55px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+
+        @media #{$lg, $md} {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @media #{$sm, $xs} {
+            grid-template-columns: 1fr;
+        }
+    }
+    &-card {
+        padding: 40px;
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 57, 54, 0.16);
+        border-radius: 8px;
+
+        @media #{$xs} {
+            padding: 30px;
+        }
+
+        .icon {
+            display: inline-block;
+        }
+        .title {
+            margin-top: 24px;
+            font-family: var(--urbanist);
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 30px;
+            color: #0D0D0D;
+        }
+        .disc {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #717171;
+            margin-top: 22px;
+        }
+
+        &:hover {
+            .icon {
+                img {
+                    animation: bounceIn 0.8s ease;
+                }
+            }
+        }
+
+    }
+}
+
+
+/*
+--- Benefit_2 End ---
+*/

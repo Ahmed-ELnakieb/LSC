@@ -1,0 +1,106 @@
+/*
+--- Story Start ---
+*/
+
+
+.egx-story-1 {
+    &-area {
+        padding: 16px;
+        position: relative;
+        overflow: hidden;
+        @media #{$xxl, $xl, $lg, $md, $sm, $xs} {
+            padding: 60px 16px;
+        }
+
+        &:is(.active) {
+            .tarbain {
+                transform: translateY(0px);
+            }
+        }
+
+        .tarbain {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            transform: translateY(750px);
+            transition: all 2.5s ease;
+
+            @media #{$xxxl} {
+                max-width: 350px;
+            }
+            @media #{$xxl, $xl} {
+                max-width: 320px;
+            }
+            @media #{$lg, $md, $sm, $xs} {
+               display: none;
+            }
+        }
+    }
+    &-wrap {
+        display: grid;
+        grid-template-columns: 1fr 1.12fr;
+        gap: 60px 72px;
+        align-items: center;
+        position: relative;
+        z-index: 2;
+
+        @media #{$md, $sm, $xs} {
+            grid-template-columns: 1fr;
+        }
+
+        .main-img {
+            overflow: hidden;
+            border-radius: 0 16px 16px 0;
+        }
+        .story-content {
+            .story-title-2 {
+                margin-left: 60px;
+                @media #{$xs} {
+                    margin-left: 0;
+                }
+            }
+            .line-wrap {
+                max-width: 580px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 50px;
+
+                .line {
+                    width: 2px;
+                    height: 92px;
+                    background: linear-gradient(180deg, rgba(32, 151, 83, 0) 0%, #6EB53E 100%);
+                }
+                .circle {
+                    width: 20px;
+                    height: 20px;
+                    background: var(--egx-gd-2);
+                    border: 3px solid #FFFFFF;
+                    border-radius: 50%;
+                }
+            }
+            .disc {
+                max-width: 468px;
+                margin-left: 60px;
+                margin-top: 50px;
+                color: #717171;
+
+                @media #{$lg, $md, $sm, $xs} {
+                    margin-left: 0;
+                }
+            }
+            .btn-wrap {
+                margin-top: 44px;
+                margin-left: 60px;
+                @media #{$lg, $md, $sm, $xs} {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}
+
+
+/*
+--- Story End ---
+*/
