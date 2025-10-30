@@ -18,7 +18,7 @@ if ( class_exists( 'CSF' ) ) {
     //
     // Create options
     CSF::createOptions( $prefix . '_theme_options', array(
-        'menu_title'         => 'Eergx Option',
+        'menu_title'         => 'Elnakieb Options',
         'menu_slug'          => 'eergx-theme-option',
         'menu_type'          => 'menu',
         'enqueue_webfont'    => true,
@@ -26,8 +26,8 @@ if ( class_exists( 'CSF' ) ) {
         'menu_icon' => 'dashicons-category',
         'menu_position' => 50,
         'theme'                   => 'dark',
-        'framework_title'    => wp_kses_post( 'Haptic Options <small>by Raziul <br/> Version: 1.0</small> ' ),
-        'footer_text'    => wp_kses_post( 'The Theme will Created By Themexriver ' ),
+        'framework_title'    => wp_kses_post( 'Elnakieb Options <small>by Elnakieb Team</small>' ),
+        'footer_text'    => wp_kses_post( 'Developed by Elnakieb' ),
     ) );
 
     // Create a top-tab
@@ -305,7 +305,7 @@ if ( class_exists( 'CSF' ) ) {
             array(
                 'id'      => 'breadcrumb_bg_img',
                 'type'    => 'media',
-                'title'   => esc_html__('Breadcrumb BG', 'artisticx-tools'),
+                'title'   => esc_html__('Breadcrumb BG', 'eergx-tools'),
             ),
             
 
@@ -369,7 +369,7 @@ if ( class_exists( 'CSF' ) ) {
                 'id'    => 'footer_copyright',
                 'type'  => 'wp_editor',
                 'title' => 'Default Footer Copyright',
-                'default' => '© 2023 eergx - IT Services. All rights reserved.',
+                'default' => '© 2025 Elnakieb - LSC. All rights reserved.',
             ),
 
         ),

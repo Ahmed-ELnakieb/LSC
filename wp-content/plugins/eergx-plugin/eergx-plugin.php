@@ -1,10 +1,8 @@
 <?php
 /*
-Plugin Name: Eergx Plugin
-Plugin URI: https://themeforest.net/user/themexriver
-Description: After install the eergx WordPress Theme, you must need to install this "eergx-plugin" first to get all functions of eergx WP Theme.
-Author: Raziul Islam
-Author URI: http://themexriver.com/
+Plugin Name: Elnakieb Theme Plugin
+Description: Required plugin for Elnakieb Solar Energy Theme functionality
+Author: Elnakieb
 Version: 1.0.0
 Text Domain: eergx-plugin
 */
