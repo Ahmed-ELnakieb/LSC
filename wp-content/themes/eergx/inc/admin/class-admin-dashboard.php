@@ -38,8 +38,8 @@ if (!class_exists('Eergx_Admin')) {
          */
         public function Eergx_Admin_dashboard(){
             add_menu_page(
-                esc_html__('Eergx', 'eergx'),
-                esc_html__('Eergx', 'eergx'),
+                esc_html__('Elnakieb', 'eergx'),
+                esc_html__('Elnakieb', 'eergx'),
                 'manage_options',
                 'eergx',
                 [$this, 'display_eergx_admin_dashboard'],
