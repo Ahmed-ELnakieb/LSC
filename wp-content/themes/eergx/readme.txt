@@ -1,13 +1,15 @@
-=== Eergx Theme ===
-Contributors: ThemeXriver
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
-Requires at least: 6.0.0
-Tested up to: 6.6.2
+=== Elnakieb ===
+Contributors: elnakieb
+Tags: solar, energy, business, corporate, clean
+Requires at least: 5.0
+Tested up to: 6.4
+Stable tag: 1.0.0
 Requires PHP: 7.4
-License: GPLv2 or later
+License: GPL v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
 == Description ==
-Eergx - Solar Energy WordPress Theme
+Elnakieb - Professional Solar Energy WordPress Theme
 
 In today's fast-paced digital world, your website is often the first interaction potential clients have with your creative agency. Make that first impression unforgettable with Eergx, a collection of premium WordPress themes designed specifically for creative agencies, freelancers, and design studios.
 
@@ -30,7 +32,7 @@ E-Commerce Ready: Launch an online store effortlessly with WooCommerce integrati
 
 Copyright
 --------------
-Eergx Guide WordPress Theme, Copyright 2023 Ricetheme.co
+Elnakieb Guide WordPress Theme, Copyright 2023 Ricetheme.co
 
 Eergx is distributed under the terms of the GNU/GPL v2 or later
 
